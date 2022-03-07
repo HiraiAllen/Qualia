@@ -29,8 +29,9 @@
     "props": {
       "marginBottom": 7
     },
-    "children": ["product-description"]
+    "children": ["product-description", "DatosProducto"]
   },
+
   "condition-layout.product#availability": {
     "props": {
       "conditions": [

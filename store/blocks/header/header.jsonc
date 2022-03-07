@@ -289,8 +289,8 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
-      "logo#mobile",
+      "image#main-logo",
+      "flex-layout.row#icons-login-wish-call",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -405,6 +405,7 @@
  "flex-layout.row#icons-login-wish-call": {
     "children": [
        "flex-layout.col#login-block",
+       "flex-layout.col#wishlist-block",
        "flex-layout.col#icon-call"
  ],
     "props": {
@@ -476,6 +477,35 @@
         "blockClass": "login-icon",
         "link": {
              "url": "/account",
+             "openNewTab": false,
+             "title": "title"
+     }
+   }
+ },
+ "flex-layout.col#wishlist-block": {
+    "children": [
+       "image#wishlist-icon"
+ ],
+    "props": {
+       "blockClass": "wishlist-block",
+       "fulwidth": true,
+       "preventHorizontalStretch": true,
+       "preventVerticalStretch": true,
+       "preserveLayoutOnMobile": true,
+       "horizontalAlign": "center",
+       "verticalAlign": "middle",
+       "paddingTop": 0,
+       "paddingBottom": 0
+   }
+ },
+ "image#wishlist-icon": {
+   "props": {
+        "src": "assets/img/wishlist.svg",
+        "alt": "Wishlist",
+        "height": "40px",
+        "blockClass": "wishlist-icon",
+        "link": {
+             "url": "/favoritos",
              "openNewTab": false,
              "title": "title"
      }

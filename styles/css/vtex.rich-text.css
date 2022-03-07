@@ -93,6 +93,23 @@
   margin-left: 10px;
 }
 
+.paragraph--TituloFooterLaTienda{
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.container--contactText{
+  height: 40px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.paragraph--contactTextTitle{
+  color: #fff;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

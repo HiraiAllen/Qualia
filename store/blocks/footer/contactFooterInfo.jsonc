@@ -1,0 +1,165 @@
+{
+    "flex-layout.row#Padre": {
+        "children": [
+           "flex-layout.col#Hijo"
+     ],
+        "props": {
+           "blockClass": "Padre"
+       }
+     },
+     
+     "flex-layout.col#Hijo": {
+        "children": [
+           "rich-text#contactTitle",
+           "rich-text#Hijo1",
+           "rich-text#Hijo2",
+           "rich-text#Hijo3",
+           "flex-layout.row#socialMediaFooterIcons"
+     ],
+        "props": {
+           "blockClass": "Hijo"
+       }
+     },
+
+     "rich-text#contactTitle": {
+       "props": {
+            "text": "QUALIA: ",
+            "blockClass": "contactTextTitle",
+            "color": "white"
+       }
+     },
+
+     "rich-text#Hijo1": {
+       "props": {
+            "text": "Dirección",
+            "blockClass": "contactText",
+            "color": "white"
+       }
+     },
+     "rich-text#Hijo2": {
+       "props": {
+            "text": "Teléfonos ",
+            "blockClass": "contactText",
+            "color": "white"
+       }
+     },
+     "rich-text#Hijo3": {
+       "props": {
+            "text": "Lorem ipsum",
+            "blockClass": "contactText",
+            "color": "white"
+       }
+     },
+
+     "flex-layout.row#socialMediaFooterIcons": {
+        "children": [
+          "flex-layout.col#instagramFooter",
+          "flex-layout.col#facebookFooter",
+          "flex-layout.col#twitterFooter"
+     ],
+        "props": {
+           "blockClass": "block",
+           "fulwidth": true,
+           "preventHorizontalStretch": true,
+           "preventVerticalStretch": true,
+           "preserveLayoutOnMobile": true,
+           "horizontalAlign": "center",
+           "verticalAlign": "middle",
+           "paddingTop": 0,
+           "paddingBottom": 0
+       }
+     },
+     //Icons
+     "flex-layout.col#instagramFooter": {
+        "children": [
+          "image#instagramFooterIcon"
+     ],
+        "props": {
+           "blockClass": "socialFooterIcon",
+           "fulwidth": true,
+           "preventHorizontalStretch": true,
+           "preventVerticalStretch": true,
+           "preserveLayoutOnMobile": true,
+           "horizontalAlign": "center",
+           "verticalAlign": "middle",
+           "paddingTop": 0,
+           "paddingBottom": 0
+       }
+     },
+
+     "image#instagramFooterIcon": {
+       "props": {
+            "src": "assets/img/instagram-footer-logo.svg",
+            "alt": "Instagram",
+            "height": "hight",
+            "blockClass": "iconFooterContact",
+            "link": {
+                 "url": "url",
+                 "openNewTab": false,
+                 "title": "title"
+         }
+       }
+     },
+
+     "flex-layout.col#facebookFooter": {
+        "children": [
+          "image#facebookFooterIcon"
+     ],
+        "props": {
+           "blockClass": "socialFooterIcon",
+           "fulwidth": true,
+           "preventHorizontalStretch": true,
+           "preventVerticalStretch": true,
+           "preserveLayoutOnMobile": true,
+           "horizontalAlign": "center",
+           "verticalAlign": "middle",
+           "paddingTop": 0,
+           "paddingBottom": 0
+       }
+     },
+
+     "image#facebookFooterIcon": {
+       "props": {
+            "src": "assets/img/facebook-footer-logo.svg",
+            "alt": "Facebook",
+            "height": "hight",
+            "blockClass": "iconFooterContact",
+            "link": {
+                 "url": "url",
+                 "openNewTab": false,
+                 "title": "title"
+         }
+       }
+     },
+
+     "flex-layout.col#twitterFooter": {
+      "children": [
+        "image#twitterFooterIcon"
+   ],
+      "props": {
+         "blockClass": "socialFooterIcon",
+         "fulwidth": true,
+         "preventHorizontalStretch": true,
+         "preventVerticalStretch": true,
+         "preserveLayoutOnMobile": true,
+         "horizontalAlign": "center",
+         "verticalAlign": "middle",
+         "paddingTop": 0,
+         "paddingBottom": 0
+     }
+   },
+
+   "image#twitterFooterIcon": {
+     "props": {
+          "src": "assets/img/twitter-footer-logo.svg",
+          "alt": "Twitter",
+          "height": "hight",
+          "blockClass": "iconFooterContact",
+          "link": {
+               "url": "url",
+               "openNewTab": false,
+               "title": "title"
+       }
+     }
+   }
+}
