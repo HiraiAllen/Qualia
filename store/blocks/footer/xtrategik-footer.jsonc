@@ -1,0 +1,79 @@
+{
+    "flex-layout.row#Footer-Xtrategik": {
+        "children": [
+          "flex-layout.row#Footer-Xtrategik-CT"
+        ],
+        "props": {
+          "blockClass": "Footer-Xtrategik",
+          "fulwidth": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "left",
+          "verticalAlign": "middle",
+          "paddingTop": 0,
+          "paddingBottom": 0
+        }
+      },
+      "flex-layout.row#Footer-Xtrategik-CT": {
+        "children": [
+          "rich-text#TextoXtrategik",
+          "image#Xtrategik",
+          "rich-text#TextoTecnologiaVTEX",
+          "image#VTEX"
+        ],
+        "props": {
+          "blockClass": "Footer-Xtrategik-CT",
+          "fulwidth": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": false,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "left",
+          "verticalAlign": "middle",
+          "paddingTop": 3,
+          "paddingBottom": 3
+        }
+      },
+      "rich-text#TextoXtrategik": {
+        "props": {
+          "text": "Xtrategik agencia ecommerce",
+          "blockClass": "TextoXtrategik",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "image#Xtrategik": {
+        "props": {
+          "src": "assets/img/xtrategik-agencia-ecommerce.svg",
+          "alt": "Xtrategik Agencia Ecommerce",
+          "width": "90px",
+          "blockClass": "XtrategiK",
+          "link": {
+            "url": "https://www.xtrategik.com",
+            "openNewTab": true,
+            "title": "Xtrategik Agencia Ecommerce"
+          }
+        }
+      },
+      "image#VTEX": {
+        "props": {
+          "src": "assets/img/vtex.svg",
+          "alt": "Tecnología VTEX",
+          "width": "60px",
+          "blockClass": "VTEX",
+          "link": {
+            "url": "https://www.vtex.com",
+            "openNewTab": true,
+            "title": "Tecnología VTEX"
+          }
+        }
+      },
+      "rich-text#TextoTecnologiaVTEX": {
+        "props": {
+          "text": "Tecnología",
+          "blockClass": "TextoTecnologiaVTEX",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      }
+}

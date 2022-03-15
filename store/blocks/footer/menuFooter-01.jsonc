@@ -1,13 +1,17 @@
 {
-    "vtex.menu@2.x:menu#LaTienda": {
+    "vtex.menu@2.x:menu#TerminosLegales": {
       "props": {
         "orientation": "vertical"
       },
       "children": [
-        "rich-text#TituloFooterLaTienda",
+        "rich-text#TituloFooterTerminosLegales",
         // "menu-item#LaTienda",
-        "menu-item#MiPerfil",
-        "menu-item#ComoComprar"
+        "menu-item#TerminosYCondiciones",
+        "menu-item#TratamientoDeDatosPersonales",
+        "menu-item#TerminosYCondicionesDeOfertas",
+        "menu-item#CondicionesYMetodosDePago",
+        "menu-item#PoliticasDeEnvio",
+        "menu-item#PoliticasDeDevolucionesYGarantias"
       ]
     },
   
@@ -17,8 +21,8 @@
       },
       "children": [
         // "menu-item#LaTienda",
-        "menu-item#MiPerfil",
-        "menu-item#ComoComprar"
+        "menu-item#TerminosYCondiciones",
+        "menu-item#TratamientoDeDatosPersonales"
       ]
     },
   
@@ -39,9 +43,9 @@
         }
       }
     },
-    "menu-item#MiPerfil": {
+    "menu-item#TerminosYCondiciones": {
       "props": {
-        "id": "menu-item-TuPerfil",
+        "id": "menu-item-TYC",
         "type": "custom",
         "blockClass": "LinkFooter",
         "iconId": null,
@@ -50,14 +54,14 @@
           "type": "internal",
           "href": "/account",
           "noFollow": false,
-          "tagTitle": "Mi Perfil",
-          "text": "Mi Perfil"
+          "tagTitle": "Términos y Condiciones",
+          "text": "Términos y Condiciones"
         }
       }
     },
-    "menu-item#ComoComprar": {
+    "menu-item#TratamientoDeDatosPersonales": {
       "props": {
-        "id": "menu-item-ComoComprar",
+        "id": "menu-item-TDDP",
         "type": "custom",
         "blockClass": "LinkFooter",
         "iconId": null,
@@ -66,15 +70,83 @@
           "type": "internal",
           "href": "/account",
           "noFollow": false,
-          "tagTitle": "Cómo Comprar",
-          "text": "Cómo Comprar"
+          "tagTitle": "Tratamiento de datos personales",
+          "text": "Tratamiento de datos personales"
         }
       }
-    }, 
+    },
 
-    "rich-text#TituloFooterLaTienda": {
+    "menu-item#TerminosYCondicionesDeOfertas": {
       "props": {
-           "text": "La Tienda:",
+        "id": "menu-item-TYCDO",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/account",
+          "noFollow": false,
+          "tagTitle": "Términos y Condiciones de ofertas",
+          "text": "Términos y Condiciones de ofertas"
+        }
+      }
+    },
+
+    "menu-item#CondicionesYMetodosDePago": {
+      "props": {
+        "id": "menu-item-CYMDP",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/account",
+          "noFollow": false,
+          "tagTitle": "Condiciones y métodos de pago",
+          "text": "Condiciones y métodos de pago"
+        }
+      }
+    },
+
+    "menu-item#PoliticasDeEnvio": {
+      "props": {
+        "id": "menu-item-PDE",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/account",
+          "noFollow": false,
+          "tagTitle": "Póliticas de envío",
+          "text": "Póliticas de envío"
+        }
+      }
+    },
+
+    "menu-item#PoliticasDeDevolucionesYGarantias": {
+      "props": {
+        "id": "menu-item-PDDYG",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/account",
+          "noFollow": false,
+          "tagTitle": "Póliticas de devoluciones y garantías",
+          "text": "Póliticas de devoluciones y garantías"
+        }
+      }
+    },
+
+    "rich-text#TituloFooterTerminosLegales": {
+      "props": {
+           "text": "TÉRMINOS LEGALES:",
            "blockClass": "TituloFooterLaTienda",
            "textAlignment": "LEFT",
            "textPosition": "LEFT",

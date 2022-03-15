@@ -1,0 +1,74 @@
+{
+    
+      "tab-layout#productos-servicios": {
+        "children": [
+          "tab-list#productos-servicios",
+          "tab-content#productos-servicios"
+        ],
+        "props": {
+          "blockClass": "home",
+          "defaultActiveTabId": "home1"
+        }
+      },
+      "tab-list#productos-servicios": {
+        "children": [
+          "tab-list.item#productos",
+          "tab-list.item#servicios"
+        ]
+      },
+      "tab-list.item#productos": {
+        "props": {
+          "tabId": "productos",
+          "label": "Productos",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#servicios": {
+        "props": {
+          "tabId": "servicios",
+          "label": "Servicios"
+        }
+      },
+    "tab-content#productos-servicios": {
+      "children": [
+        "tab-content.item#productos",
+        "tab-content.item#servicios"
+      ]
+    },
+    "tab-content.item#productos": {
+      "children": [
+        "rich-text#prueba-productos"
+      ],
+      "props": {
+        "tabId": "productos-content"
+      }
+    },
+    "tab-content.item#servicios": {
+      "children": [
+        "rich-text#prueba-servicios"
+      ],
+      "props": {
+        "tabId": "servicios-content"
+      }
+    },
+
+    "rich-text#prueba-productos": {
+        "props": {
+                 "text": "Aqui van productos",
+                 "blockClass": "class",
+                 "textAlignment": "CENTER",
+                 "textPosition": "CENTER",
+                 "color": "black"
+        }
+    },
+
+    "rich-text#prueba-servicios": {
+        "props": {
+                 "text": "Aqui van servicios",
+                 "blockClass": "class",
+                 "textAlignment": "CENTER",
+                 "textPosition": "CENTER",
+                 "color": "black"
+        }
+    }
+}

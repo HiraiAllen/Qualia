@@ -5,7 +5,9 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
+      "flex-layout.row#SliderIconos",
+      "flex-layout.row#banner-ofertas",
+      "tab-layout#productos-servicios",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
@@ -98,6 +100,54 @@
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
+    }
+  },
+
+  "flex-layout.row#banner-ofertas": {
+     "children": [
+      "flex-layout.col#banner-ofertas-col"
+  ],
+     "props": {
+        "blockClass": "block",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.col#banner-ofertas-col": {
+     "children": [
+      "image#banner-ofertas-image"
+  ],
+     "props": {
+        "blockClass": "block",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+
+  "image#banner-ofertas-image": {
+    "props": {
+         "src": "assets/img/banners/banner-ofertas.png",
+         "alt": "Ofertas",
+         "height": "400px",
+         "blockClass": "banner-ofertas",
+         "link": {
+              "url": "url",
+              "openNewTab": false,
+              "title": "title"
+      }
     }
   }
 }

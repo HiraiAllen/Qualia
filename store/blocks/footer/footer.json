@@ -6,16 +6,17 @@
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#Footer-Xtrategik"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "flex-layout.row#Padre",
-      "vtex.menu@2.x:menu#LaTienda",
+      "vtex.menu@2.x:menu#TerminosLegales",
+      "footer-spacer",
       "vtex.menu@2.x:menu#LaTienda",
       "footer-spacer",
-      "social-networks"
+      "flex-layout.row#qualia-ubuntec-logos"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -48,9 +49,9 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": ["flex-layout.row#logos-comercio"],
     "props": {
-      "blockClass": "payment-methods"
+      "blockClass": "logos-comercio"
     }
   },
   "accepted-payment-methods": {

@@ -1,0 +1,128 @@
+{
+  "vtex.menu@2.x:menu#LaTienda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#TituloFooterLaTienda",
+      "menu-item#MiPerfil",
+      "menu-item#MisPedidos",
+      "menu-item#PreguntasFrecuentes",
+      "menu-item#SoporteYPQR",
+      "menu-item#ComoCumplirMisSueños",
+      "menu-item#BlogLink"
+    ]
+  },
+
+  "menu-item#MiPerfil": {
+    "props": {
+      "id": "menu-item-MiPerfil",
+      "type": "custom",
+      "blockClass": "LinkFooterDestacado",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Mi Perfil",
+        "text": "Mi Perfil"
+      }
+    }
+  },
+  "menu-item#MisPedidos": {
+    "props": {
+      "id": "menu-item-MisPedidos",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Mis pedidos",
+        "text": "Mis pedidos"
+      }
+    }
+  },
+
+  "menu-item#PreguntasFrecuentes": {
+    "props": {
+      "id": "menu-item-PreguntasFrecuentes",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+
+  "menu-item#SoporteYPQR": {
+    "props": {
+      "id": "menu-item-SoporteYPQR",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Soporte y PQR",
+        "text": "Soporte y PQR"
+      }
+    }
+  },
+
+  "menu-item#ComoCumplirMisSueños": {
+    "props": {
+      "id": "menu-item-ComoCumplirMisSueños",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Como cumplir mis sueños",
+        "text": "Como cumplir mis sueños"
+      }
+    }
+  },
+
+  "menu-item#BlogLink": {
+    "props": {
+      "id": "menu-item-BlogLink",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+
+  "rich-text#TituloFooterLaTienda": {
+    "props": {
+         "text": "LA TIENDA:",
+         "blockClass": "TituloFooterLaTienda",
+         "textAlignment": "LEFT",
+         "textPosition": "LEFT",
+         "color": "white"
+    }
+  }
+  
+}

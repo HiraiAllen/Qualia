@@ -110,6 +110,18 @@
   color: #fff;
 }
 
+.wrapper--IconoHome{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph--IconoHome{
+  color: #14A0B0;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

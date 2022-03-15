@@ -1,0 +1,316 @@
+{
+    "flex-layout.row#SliderIconos": {
+        "children": [
+            "slider-layout#SliderIconos"
+        ],
+        "props": {
+            "fullWidth": false,
+            "blockClass": "SliderHome",
+            "paddingTop": 7,
+            "paddingBottom": 7
+        }
+    },
+    "slider-layout#SliderIconos": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 7,
+                "tablet": 3,
+                "phone": 3
+            },
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "SliderHome",
+            "showPaginationDots": "never",
+            "arrowSize": 10
+        },
+        "children": [
+            "flex-layout.col#Icono1",
+            "flex-layout.col#Icono2",
+            "flex-layout.col#Icono3",
+            "flex-layout.col#Icono4",
+            "flex-layout.col#Icono5",
+            "flex-layout.col#Icono6",
+            "flex-layout.col#Icono7",
+            "flex-layout.col#Icono1",
+            "flex-layout.col#Icono2",
+            "flex-layout.col#Icono3"
+        ]
+    },
+    "flex-layout.col#Icono1": {
+        "children": [
+            "image#Icono1",
+            "rich-text#Icono1"
+        ],
+        "props": {
+            "blockClass": "IconoHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#Icono1": {
+        "props": {
+            "src": "assets/img/educacion-logo.svg",
+            "alt": "Educación",
+            "title": "Educación",
+            "height": "90px",
+            "blockClass": "IconoHome",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Ficción"
+            }
+        }
+    },
+    "rich-text#Icono1": {
+        "props": {
+            "text": "Educación",
+            "blockClass": "IconoHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#Icono2": {
+        "children": [
+            "image#Icono2",
+            "rich-text#Icono2"
+        ],
+        "props": {
+            "blockClass": "IconoHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#Icono2": {
+        "props": {
+            "src": "assets/img/hogar-logo.svg",
+            "alt": "Hogar",
+            "title": "Hogar",
+            "height": "90px",
+            "blockClass": "IconoHome",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Hechos reales"
+            }
+        }
+    },
+    "rich-text#Icono2": {
+        "props": {
+            "text": "Hogar",
+            "blockClass": "IconoHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#Icono3": {
+        "children": [
+            "image#Icono3",
+            "rich-text#Icono3"
+        ],
+        "props": {
+            "blockClass": "IconoHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#Icono3": {
+        "props": {
+            "src": "assets/img/movilidad-logo.svg",
+            "alt": "Movilidad",
+            "title": "Movilidad",
+            "height": "90px",
+            "blockClass": "IconoHome",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Cómics"
+            }
+        }
+    },
+    "rich-text#Icono3": {
+        "props": {
+            "text": "Movilidad",
+            "blockClass": "IconoHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#Icono4": {
+        "children": [
+            "image#Icono4",
+            "rich-text#Icono4"
+        ],
+        "props": {
+            "blockClass": "IconoHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#Icono4": {
+        "props": {
+            "src": "assets/img/salud-y-bienestar-logo.svg",
+            "alt": "Salud y Bienestar",
+            "title": "Salud y Bienestar",
+            "height": "90px",
+            "blockClass": "IconoHome",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Libros de Terror y Suspenso"
+            }
+        }
+    },
+    "rich-text#Icono4": {
+        "props": {
+            "text": "Salud y Bienestar",
+            "blockClass": "IconoHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#Icono5": {
+        "children": [
+            "image#Icono5",
+            "rich-text#Icono5"
+        ],
+        "props": {
+            "blockClass": "IconoHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#Icono5": {
+        "props": {
+            "src": "assets/img/tecnologia-logo.svg",
+            "alt": "Tecnologia",
+            "title": "Tecnologia",
+            "height": "90px",
+            "blockClass": "IconoHome",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Tecnologia"
+            }
+        }
+    },
+    "rich-text#Icono5": {
+        "props": {
+            "text": "Tecnologia",
+            "blockClass": "IconoHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#Icono6": {
+        "children": [
+            "image#Icono6",
+            "rich-text#Icono6"
+        ],
+        "props": {
+            "blockClass": "IconoHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#Icono6": {
+        "props": {
+            "src": "assets/img/viajes-logo.svg",
+            "alt": "Turismo y Entretenimiento",
+            "title": "Turismo y Entretenimiento",
+            "height": "90px",
+            "blockClass": "IconoHome",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Turismo y Entretenimiento"
+            }
+        }
+    },
+    "rich-text#Icono6": {
+        "props": {
+            "text": "Turismo y Entretenimiento",
+            "blockClass": "IconoHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#Icono7": {
+        "children": [
+            "image#Icono7",
+            "rich-text#Icono7"
+        ],
+        "props": {
+            "blockClass": "IconoHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#Icono7": {
+        "props": {
+            "src": "assets/img/mujer-logo.svg",
+            "alt": "Mujer",
+            "title": "Mujer",
+            "height": "90px",
+            "blockClass": "IconoHome",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Mujer"
+            }
+        }
+    },
+    "rich-text#Icono7": {
+        "props": {
+            "text": "Mujer",
+            "blockClass": "IconoHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

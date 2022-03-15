@@ -115,3 +115,27 @@
 .imageElement--main-logo{
   margin: 0px 30px;
 }
+
+
+.imageElement--iconFooterContact{
+  margin-right: 10px;
+}
+
+.imageElement--qualia-q{
+  padding-right: 20px;
+  border-right: 2px #fff solid;
+}
+
+.imageElement--fintech-img{
+  padding: 0px 20px;
+  border-right: 2px #fff solid;
+}
+
+.imageElement--industria-camara-comercio{
+  padding: 0px 20px;
+}
+
+.imageElement--VTEX,
+.imageElement--XtrategiK {
+  padding: 0 10px;
+}

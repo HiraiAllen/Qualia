@@ -123,3 +123,28 @@
 .flexRow--menu-row{
   background-color: #F80F49;
 }
+
+.flexRowContent--socialMediaFooterIcons{
+  margin-top: 30px;
+  padding: 20px 0px;
+}
+
+.flexRow--logos-comercio{
+  background-color: #F80F49;
+}
+
+.flexRowContent--Footer-Xtrategik-CT {
+  align-items: center;
+  padding: 10px;
+}
+
+.flexRowContent--Footer-Xtrategik {
+  justify-content: center;
+}
+
+.flexCol--IconoHome{
+  background: #B8EFF5;
+  border-radius: 10px;
+  margin: 0px 25px;
+  padding: 0;
+}
