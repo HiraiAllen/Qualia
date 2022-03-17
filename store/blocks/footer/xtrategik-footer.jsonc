@@ -20,7 +20,9 @@
           "rich-text#TextoXtrategik",
           "image#Xtrategik",
           "rich-text#TextoTecnologiaVTEX",
-          "image#VTEX"
+          "image#VTEX",
+          "rich-text#TextoPagoSeguro",
+          "image#PagoSeguro"
         ],
         "props": {
           "blockClass": "Footer-Xtrategik-CT",
@@ -36,7 +38,7 @@
       },
       "rich-text#TextoXtrategik": {
         "props": {
-          "text": "Xtrategik agencia ecommerce",
+          "text": "Desarrollado por: XtrategiK",
           "blockClass": "TextoXtrategik",
           "textAlignment": "LEFT",
           "textPosition": "LEFT"
@@ -46,7 +48,7 @@
         "props": {
           "src": "assets/img/xtrategik-agencia-ecommerce.svg",
           "alt": "Xtrategik Agencia Ecommerce",
-          "width": "90px",
+          "height": "20px",
           "blockClass": "XtrategiK",
           "link": {
             "url": "https://www.xtrategik.com",
@@ -59,7 +61,7 @@
         "props": {
           "src": "assets/img/vtex.svg",
           "alt": "Tecnología VTEX",
-          "width": "60px",
+          "height": "20px",
           "blockClass": "VTEX",
           "link": {
             "url": "https://www.vtex.com",
@@ -74,6 +76,27 @@
           "blockClass": "TextoTecnologiaVTEX",
           "textAlignment": "LEFT",
           "textPosition": "LEFT"
+        }
+      },
+      "rich-text#TextoPagoSeguro": {
+        "props": {
+          "text": "Pago Seguro",
+          "blockClass": "TextoTecnologiaVTEX",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "image#PagoSeguro": {
+        "props": {
+          "src": "assets/img/iconos/CertificadoSeguridadPSI.svg",
+          "alt": "Tecnología VTEX",
+          "height": "20px",
+          "blockClass": "Sitio 100% Seguro"
+          // "link": {
+          //   "url": "https://www.vtex.com",
+          //   "openNewTab": true,
+          //   "title": "Tecnología VTEX"
+          // }
         }
       }
 }

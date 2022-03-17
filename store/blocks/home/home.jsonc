@@ -13,9 +13,11 @@
       "flex-layout.row#tag-zona-de-ofertas",
       "tab-layout#productos-servicios",
       "flex-layout.row#tag-nosotros",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "flex-layout.row#PorQueNosotros",
+      "flex-layout.row#SliderProductosSugeridosHome",
+      // "info-card#home",
+      // "rich-text#question",
+      // "rich-text#link",
       "flex-layout.row#FormularioBoletinCT"
     ]
   },

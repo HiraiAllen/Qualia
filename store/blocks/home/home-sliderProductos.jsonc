@@ -5,7 +5,8 @@
         ],
         "props": {
             "paddingTop": 4,
-            "paddingButtom": 4
+            "paddingButtom": 4,
+            "blockClass": "SliderProductosSugeridosHome"
         }
     },
     "list-context.product-list#VitrinaSugeridosHome": {
