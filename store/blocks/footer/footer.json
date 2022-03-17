@@ -13,9 +13,7 @@
     "children": [
       "flex-layout.row#Padre",
       "vtex.menu@2.x:menu#TerminosLegales",
-      "footer-spacer",
       "vtex.menu@2.x:menu#LaTienda",
-      "footer-spacer",
       "flex-layout.row#qualia-ubuntec-logos"
     ],
     "props": {

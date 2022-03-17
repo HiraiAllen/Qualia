@@ -2,3 +2,25 @@
     color: #fff;
     margin-bottom: 10px;
 }
+
+.menuItem--LinkFooter{
+    padding: 0;
+    margin: 0;
+}
+.menuItem--LinkFooter--isOpen{
+    padding: 0;
+    margin: 0;
+}
+.menuItem--LinkFooter--isClosed{
+    padding: 0;
+    margin: 0;
+}
+
+.styledLinkContent--LinkFooter{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.styledLinkContainer--LinkFooterDestacado{
+    margin: 0 0 0 10px;
+}

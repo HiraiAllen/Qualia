@@ -9,10 +9,11 @@
   },
   "flex-layout.col#Hijo": {
     "children": [
-      "rich-text#contactTitle",
-      "rich-text#Hijo1",
-      "rich-text#Hijo2",
-      "rich-text#Hijo3",
+      "vtex.menu@2.x:menu#Qualia",
+      // "rich-text#contactTitle",
+      // "rich-text#Hijo1",
+      // "rich-text#Hijo2",
+      // "rich-text#Hijo3",
       "flex-layout.row#socialMediaFooterIcons"
     ],
     "props": {

@@ -5,7 +5,7 @@
             "flex-layout.col#qualia-container"
     ],
          "props": {
-              "blockClass": "block",
+              "blockClass": "qualia-ubuntec-logos",
               "fulwidth": true,
               "preventHorizontalStretch": true,
               "preventVerticalStretch": true,
@@ -36,9 +36,9 @@
 
     "image#ubuntec-footer-logo": {
         "props": {
-                 "src": "assets/img/ubuntec-footer-logo.svg",
+                 "src": "assets/img/logos/logo-Qualia.svg",
                  "alt": "Ubuntec",
-                 "height": "64px",
+                 "height": "30px",
                  "blockClass": "qualia-ubuntec-footer-logo",
                  "link": {
                           "url": "url",
@@ -50,7 +50,7 @@
 
     "flex-layout.col#qualia-container": {
          "children": [
-            "image#qualia-footer-logo"
+            // "image#qualia-footer-logo"
     ],
          "props": {
               "blockClass": "qualia-ubuntec-footer-container",

@@ -1,121 +1,27 @@
 {
     "flex-layout.row#logos-comercio": {
-         "children": [
+        "children": [
             "flex-layout.col#qualia-q-footer",
             "flex-layout.col#colombia-fintech-footer",
             "flex-layout.col#camara-comercio-footer",
             "flex-layout.col#industria-comercio-footer"
-    ],
-         "props": {
-              "blockClass": "block",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 5
+        ],
+        "props": {
+            "blockClass": "block",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 5
         }
     },
-
     "flex-layout.col#qualia-q-footer": {
-         "children": [
+        "children": [
             "image#qualia-q-footer-logo"
-    ],
-         "props": {
-              "blockClass": "block",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "image#qualia-q-footer-logo": {
-        "props": {
-                 "src": "assets/img/qualia-q-footer-logo.svg",
-                 "alt": "Qualia",
-                 "height": "90px",
-                 "blockClass": "qualia-q",
-                 "link": {
-                          "url": "url",
-                          "openNewTab": false,
-                          "title": "title"
-            }
-        }
-    },
-
-    "flex-layout.col#colombia-fintech-footer": {
-         "children": [
-            "image#colombia-fintech-logo"
-    ],
-         "props": {
-              "blockClass": "block",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "image#colombia-fintech-logo": {
-        "props": {
-                 "src": "assets/img/LogoColombiaFintech.png",
-                 "alt": "Colombia Fintech",
-                 "height": "90px",
-                 "blockClass": "fintech-img",
-                 "link": {
-                          "url": "url",
-                          "openNewTab": false,
-                          "title": "title"
-            }
-        }
-    },
-
-    "flex-layout.col#camara-comercio-footer": {
-        "children": [
-           "image#camara-comercio-logo"
-   ],
-        "props": {
-             "blockClass": "block",
-             "fulwidth": true,
-             "preventHorizontalStretch": true,
-             "preventVerticalStretch": true,
-             "preserveLayoutOnMobile": true,
-             "horizontalAlign": "center",
-             "verticalAlign": "middle",
-             "paddingTop": 0,
-             "paddingBottom": 0
-       }
-   },
-
-   "image#camara-comercio-logo": {
-       "props": {
-                "src": "assets/img/camara-comercio.png",
-                "alt": "Colombia Fintech",
-                "height": "60px",
-                "blockClass": "industria-camara-comercio",
-                "link": {
-                         "url": "url",
-                         "openNewTab": false,
-                         "title": "title"
-           }
-       }
-   },
-
-   "flex-layout.col#industria-comercio-footer": {
-        "children": [
-        "image#industria-comercio-logo"
-    ],
+        ],
         "props": {
             "blockClass": "block",
             "fulwidth": true,
@@ -126,20 +32,106 @@
             "verticalAlign": "middle",
             "paddingTop": 0,
             "paddingBottom": 0
-    }
-    },
-
-    "image#industria-comercio-logo": {
-    "props": {
-                "src": "assets/img/industria-comercio.png",
-                "alt": "Colombia Fintech",
-                "height": "45px",
-                "blockClass": "industria-camara-comercio",
-                "link": {
-                        "url": "url",
-                        "openNewTab": false,
-                        "title": "title"
         }
-    }
+    },
+    "image#qualia-q-footer-logo": {
+        "props": {
+            "src": "assets/img/qualia-q-footer-logo.svg",
+            "alt": "Qualia",
+            "height": "90px",
+            "blockClass": "qualia-q",
+            "link": {
+                "url": "url",
+                "openNewTab": false,
+                "title": "title"
+            }
+        }
+    },
+    "flex-layout.col#colombia-fintech-footer": {
+        "children": [
+            "image#colombia-fintech-logo"
+        ],
+        "props": {
+            "blockClass": "block",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#colombia-fintech-logo": {
+        "props": {
+            "src": "assets/img/LogoColombiaFintech.png",
+            "alt": "Colombia Fintech",
+            "height": "90px",
+            "blockClass": "fintech-img",
+            "link": {
+                "url": "url",
+                "openNewTab": false,
+                "title": "title"
+            }
+        }
+    },
+    "flex-layout.col#camara-comercio-footer": {
+        "children": [
+            "image#camara-comercio-logo"
+        ],
+        "props": {
+            "blockClass": "block",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#camara-comercio-logo": {
+        "props": {
+            "src": "assets/img/camara-comercio.png",
+            "alt": "Colombia Fintech",
+            "height": "60px",
+            "blockClass": "industria-camara-comercio",
+            "link": {
+                "url": "url",
+                "openNewTab": false,
+                "title": "title"
+            }
+        }
+    },
+    "flex-layout.col#industria-comercio-footer": {
+        "children": [
+            "image#industria-comercio-logo"
+        ],
+        "props": {
+            "blockClass": "block",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#industria-comercio-logo": {
+        "props": {
+            "src": "assets/img/industria-comercio.png",
+            "alt": "Colombia Fintech",
+            "height": "45px",
+            "blockClass": "industria-camara-comercio",
+            "link": {
+                "url": "url",
+                "openNewTab": false,
+                "title": "title"
+            }
+        }
     }
 }

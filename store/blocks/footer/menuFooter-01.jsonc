@@ -1,156 +1,148 @@
 {
-    "vtex.menu@2.x:menu#TerminosLegales": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "rich-text#TituloFooterTerminosLegales",
-        // "menu-item#LaTienda",
-        "menu-item#TerminosYCondiciones",
-        "menu-item#TratamientoDeDatosPersonales",
-        "menu-item#TerminosYCondicionesDeOfertas",
-        "menu-item#CondicionesYMetodosDePago",
-        "menu-item#PoliticasDeEnvio",
-        "menu-item#PoliticasDeDevolucionesYGarantias"
-      ]
+  "vtex.menu@2.x:menu#TerminosLegales": {
+    "props": {
+      "orientation": "vertical"
     },
-  
-    "vtex.menu@2.x:menu#FooterMiniLaTienda": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        // "menu-item#LaTienda",
-        "menu-item#TerminosYCondiciones",
-        "menu-item#TratamientoDeDatosPersonales"
-      ]
+    "children": [
+      "rich-text#TituloFooterTerminosLegales",
+      // "menu-item#LaTienda",
+      "menu-item#TerminosYCondiciones",
+      "menu-item#TratamientoDeDatosPersonales",
+      "menu-item#TerminosYCondicionesDeOfertas",
+      "menu-item#CondicionesYMetodosDePago",
+      "menu-item#PoliticasDeEnvio",
+      "menu-item#PoliticasDeDevolucionesYGarantias"
+    ]
+  },
+  "vtex.menu@2.x:menu#FooterMiniLaTienda": {
+    "props": {
+      "orientation": "vertical"
     },
-  
-  
-    "menu-item#LaTienda": {
-      "props": {
-        "id": "menu-item-LaTienda",
-        "type": "custom",
-        "blockClass": "LinkFooterDestacado",
-        "iconId": null,
-        "highlight": true,
-        "itemProps": {
-          "type": "internal",
-          "href": "/account",
-          "noFollow": false,
-          "tagTitle": "La Tienda",
-          "text": "La Tienda"
-        }
-      }
-    },
-    "menu-item#TerminosYCondiciones": {
-      "props": {
-        "id": "menu-item-TYC",
-        "type": "custom",
-        "blockClass": "LinkFooter",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/account",
-          "noFollow": false,
-          "tagTitle": "Términos y Condiciones",
-          "text": "Términos y Condiciones"
-        }
-      }
-    },
-    "menu-item#TratamientoDeDatosPersonales": {
-      "props": {
-        "id": "menu-item-TDDP",
-        "type": "custom",
-        "blockClass": "LinkFooter",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/account",
-          "noFollow": false,
-          "tagTitle": "Tratamiento de datos personales",
-          "text": "Tratamiento de datos personales"
-        }
-      }
-    },
-
-    "menu-item#TerminosYCondicionesDeOfertas": {
-      "props": {
-        "id": "menu-item-TYCDO",
-        "type": "custom",
-        "blockClass": "LinkFooter",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/account",
-          "noFollow": false,
-          "tagTitle": "Términos y Condiciones de ofertas",
-          "text": "Términos y Condiciones de ofertas"
-        }
-      }
-    },
-
-    "menu-item#CondicionesYMetodosDePago": {
-      "props": {
-        "id": "menu-item-CYMDP",
-        "type": "custom",
-        "blockClass": "LinkFooter",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/account",
-          "noFollow": false,
-          "tagTitle": "Condiciones y métodos de pago",
-          "text": "Condiciones y métodos de pago"
-        }
-      }
-    },
-
-    "menu-item#PoliticasDeEnvio": {
-      "props": {
-        "id": "menu-item-PDE",
-        "type": "custom",
-        "blockClass": "LinkFooter",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/account",
-          "noFollow": false,
-          "tagTitle": "Póliticas de envío",
-          "text": "Póliticas de envío"
-        }
-      }
-    },
-
-    "menu-item#PoliticasDeDevolucionesYGarantias": {
-      "props": {
-        "id": "menu-item-PDDYG",
-        "type": "custom",
-        "blockClass": "LinkFooter",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/account",
-          "noFollow": false,
-          "tagTitle": "Póliticas de devoluciones y garantías",
-          "text": "Póliticas de devoluciones y garantías"
-        }
-      }
-    },
-
-    "rich-text#TituloFooterTerminosLegales": {
-      "props": {
-           "text": "TÉRMINOS LEGALES:",
-           "blockClass": "TituloFooterLaTienda",
-           "textAlignment": "LEFT",
-           "textPosition": "LEFT",
-           "color": "white"
+    "children": [
+      // "menu-item#LaTienda",
+      "menu-item#TerminosYCondiciones",
+      "menu-item#TratamientoDeDatosPersonales"
+    ]
+  },
+  "menu-item#LaTienda": {
+    "props": {
+      "id": "menu-item-LaTienda",
+      "type": "custom",
+      "blockClass": "LinkFooterDestacado",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "La Tienda",
+        "text": "La Tienda"
       }
     }
+  },
+  "menu-item#TerminosYCondiciones": {
+    "props": {
+      "id": "menu-item-TYC",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#TratamientoDeDatosPersonales": {
+    "props": {
+      "id": "menu-item-TDDP",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Tratamiento de datos personales",
+        "text": "Tratamiento de datos personales"
+      }
+    }
+  },
+  "menu-item#TerminosYCondicionesDeOfertas": {
+    "props": {
+      "id": "menu-item-TYCDO",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones de ofertas",
+        "text": "Términos y condiciones de ofertas"
+      }
+    }
+  },
+  "menu-item#CondicionesYMetodosDePago": {
+    "props": {
+      "id": "menu-item-CYMDP",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Condiciones y métodos de pago",
+        "text": "Condiciones y métodos de pago"
+      }
+    }
+  },
+  "menu-item#PoliticasDeEnvio": {
+    "props": {
+      "id": "menu-item-PDE",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Póliticas de envío",
+        "text": "Póliticas de envío"
+      }
+    }
+  },
+  "menu-item#PoliticasDeDevolucionesYGarantias": {
+    "props": {
+      "id": "menu-item-PDDYG",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Póliticas de devoluciones y garantías",
+        "text": "Póliticas de devoluciones y garantías"
+      }
+    }
+  },
+  "rich-text#TituloFooterTerminosLegales": {
+    "props": {
+      "text": "TÉRMINOS LEGALES:",
+      "blockClass": "TituloFooterLaTienda",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "color": "white"
+    }
   }
+}

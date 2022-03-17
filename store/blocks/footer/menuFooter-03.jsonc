@@ -1,0 +1,69 @@
+{
+  "vtex.menu@2.x:menu#Qualia": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#TituloFooterQualia",
+      "menu-item#Direccion",
+      "menu-item#Telefonos",
+      "menu-item#Lorem"
+    ]
+  },
+  "menu-item#Direccion": {
+    "props": {
+      "id": "menu-item-MiPerfil",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Dirección",
+        "text": "Dirección"
+      }
+    }
+  },
+  "menu-item#Telefonos": {
+    "props": {
+      "id": "menu-item-MisPedidos",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Teléfonos",
+        "text": "Teléfonos"
+      }
+    }
+  },
+  "menu-item#Lorem": {
+    "props": {
+      "id": "menu-item-PreguntasFrecuentes",
+      "type": "custom",
+      "blockClass": "LinkFooter",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Lorem ipsum",
+        "text": "Lorem ipsum"
+      }
+    }
+  },
+  "rich-text#TituloFooterQualia": {
+    "props": {
+      "text": "QUALIA:",
+      "blockClass": "TituloFooterLaTienda",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  }
+}

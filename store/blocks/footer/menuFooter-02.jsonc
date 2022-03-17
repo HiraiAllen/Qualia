@@ -18,15 +18,15 @@
     "props": {
       "id": "menu-item-MiPerfil",
       "type": "custom",
-      "blockClass": "LinkFooterDestacado",
+      "blockClass": "LinkFooter",
       "iconId": null,
       "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/account",
         "noFollow": false,
-        "tagTitle": "Mi Perfil",
-        "text": "Mi Perfil"
+        "tagTitle": "Mi perfil",
+        "text": "Mi perfil"
       }
     }
   },
@@ -92,8 +92,8 @@
         "type": "internal",
         "href": "/account",
         "noFollow": false,
-        "tagTitle": "Como cumplir mis sueños",
-        "text": "Como cumplir mis sueños"
+        "tagTitle": "¿Cómo cumplir mis sueños?",
+        "text": "¿Cómo cumplir mis sueños?"
       }
     }
   },
