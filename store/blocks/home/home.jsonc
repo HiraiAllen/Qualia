@@ -170,7 +170,7 @@
   },
   "rich-text#ValoresHome": {
     "props": {
-      "text": "¡El marketplace en donde haces REALIDAD tus SUEÑOS! • Despachos el mismo día • Crédito digital  AL INSTANTE • Si sueñas con un producto y no lo consigues, ¡LO BUSCAMOS PARA TI! :)",
+      "text": "¡El marketplace en donde haces REALIDAD tus SUEÑOS! ![Separador](assets/img/iconos/puntoSeparador.png) Despachos el mismo día ![Separador](assets/img/iconos/puntoSeparador.png)  Crédito digital  AL INSTANTE ![Separador](assets/img/iconos/puntoSeparador.png)  Si sueñas con un producto y no lo consigues, ¡LO BUSCAMOS PARA TI! :)",
       "blockClass": "ValoresHome",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"

@@ -1,0 +1,8 @@
+{
+    "responsive-layout.mobile#VitrinaMobile": {
+        "children": [],
+        "props": {
+            "blockClass": "VitrinaDesktop"
+        }
+    }
+}

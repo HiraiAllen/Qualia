@@ -122,6 +122,22 @@
   font-weight: bold;
 }
 
+.container--ValoresHome{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--ValoresHome{
+  padding: 15px 10px;
+  margin: 0;
+}
+.paragraph--ValoresHome{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: #fff;
+  font-size: .95em;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -143,3 +159,4 @@
     line-height: 1.3em;
   }
 }
+

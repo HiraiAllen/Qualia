@@ -1,0 +1,11 @@
+{
+    "product-summary.shelf#Vitrina": {
+        "children": [
+            "responsive-layout.desktop#VitrinaDesktop",
+            "responsive-layout.mobile#VitrinaMobile"
+        ],
+        "props": {
+            "blockClass": "VitrinaPrincipal"
+        }
+    }
+}
