@@ -1,0 +1,98 @@
+{
+    //ofertas
+    "flex-layout.row#tag-zona-de-ofertas": {
+        "children": [
+            "flex-layout.col#zona-de-ofertas-img-container"
+   ],
+        "props": {
+             "blockClass": "block",
+             "fulwidth": true,
+             "preventHorizontalStretch": true,
+             "preventVerticalStretch": true,
+             "preserveLayoutOnMobile": true,
+             "horizontalAlign": "left",
+             "verticalAlign": "middle",
+             "paddingTop": 0,
+             "paddingBottom": 0
+       }
+   },
+
+   "flex-layout.col#zona-de-ofertas-img-container": {
+        "children": [
+            "image#zona-de-ofertas-img"
+   ],
+        "props": {
+             "blockClass": "block",
+             "fulwidth": true,
+             "preventHorizontalStretch": true,
+             "preventVerticalStretch": true,
+             "preserveLayoutOnMobile": true,
+             "horizontalAlign": "center",
+             "verticalAlign": "middle",
+             "paddingTop": 0,
+             "paddingBottom": 0
+       }
+   },
+
+   "image#zona-de-ofertas-img": {
+       "props": {
+                "src": "assets/img/ofertas-tag.svg",
+                "alt": "alt",
+                "width": "200px",
+                "blockClass": "class",
+                "link": {
+                         "url": "url",
+                         "openNewTab": false,
+                         "title": "title"
+           }
+       }
+   },
+   //nosotros
+    "flex-layout.row#tag-nosotros": {
+        "children": [
+            "flex-layout.col#nosotros-img-container"
+    ],
+        "props": {
+            "blockClass": "block",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+    }
+    },
+
+    "flex-layout.col#nosotros-img-container": {
+        "children": [
+            "image#nosotros-img"
+    ],
+        "props": {
+            "blockClass": "block",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+    }
+    },
+
+    "image#nosotros-img": {
+    "props": {
+                "src": "assets/img/nosotros-tag.svg",
+                "alt": "alt",
+                "width": "230px",
+                "blockClass": "class",
+                "link": {
+                        "url": "url",
+                        "openNewTab": false,
+                        "title": "title"
+        }
+    }
+    }   
+}

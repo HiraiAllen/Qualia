@@ -37,18 +37,18 @@
     },
     "tab-content.item#productos": {
       "children": [
-        "rich-text#prueba-productos"
+        "flex-layout.row#shelf"
       ],
       "props": {
-        "tabId": "productos-content"
+        "tabId": "productos"
       }
     },
     "tab-content.item#servicios": {
       "children": [
-        "rich-text#prueba-servicios"
+        "flex-layout.row#shelf"
       ],
       "props": {
-        "tabId": "servicios-content"
+        "tabId": "servicios"
       }
     },
 
