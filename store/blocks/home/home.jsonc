@@ -1,7 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "flex-layout.row#ValoresHome",
+      "list-context.image-list#SliderPpal",
+      // "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
@@ -16,9 +18,10 @@
       "newsletter"
     ]
   },
-
   "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "height": 720,
       "images": [
@@ -45,7 +48,6 @@
       "blockClass": "carousel"
     }
   },
-
   "rich-text#shelf-title": {
     "props": {
       "text": "## Summer",
@@ -53,11 +55,17 @@
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -74,7 +82,6 @@
       "blockClass": "shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -88,66 +95,85 @@
       "textAlignment": "center"
     }
   },
-
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
     }
   },
-
   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
   },
-
   "flex-layout.row#banner-ofertas": {
-     "children": [
+    "children": [
       "flex-layout.col#banner-ofertas-col"
-  ],
-     "props": {
-        "blockClass": "block",
-        "fulwidth": true,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "horizontalAlign": "center",
-        "verticalAlign": "middle",
-        "paddingTop": 0,
-        "paddingBottom": 0
+    ],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
     }
   },
-
   "flex-layout.col#banner-ofertas-col": {
-     "children": [
+    "children": [
       "image#banner-ofertas-image"
-  ],
-     "props": {
-        "blockClass": "block",
-        "fulwidth": true,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "horizontalAlign": "center",
-        "verticalAlign": "middle",
-        "paddingTop": 0,
-        "paddingBottom": 0
+    ],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
     }
   },
-
   "image#banner-ofertas-image": {
     "props": {
-         "src": "assets/img/banners/banner-ofertas.png",
-         "alt": "Ofertas",
-         "height": "400px",
-         "blockClass": "banner-ofertas",
-         "link": {
-              "url": "url",
-              "openNewTab": false,
-              "title": "title"
+      "src": "assets/img/banners/banner-ofertas.png",
+      "alt": "Ofertas",
+      "height": "400px",
+      "blockClass": "banner-ofertas",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
       }
+    }
+  },
+  "flex-layout.row#ValoresHome": {
+    "children": [
+      "rich-text#ValoresHome"
+    ],
+    "props": {
+      "blockClass": "ValoresHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "rich-text#ValoresHome": {
+    "props": {
+      "text": "¡El marketplace en donde haces REALIDAD tus SUEÑOS! • Despachos el mismo día • Crédito digital  AL INSTANTE • Si sueñas con un producto y no lo consigues, ¡LO BUSCAMOS PARA TI! :)",
+      "blockClass": "ValoresHome",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   }
 }
