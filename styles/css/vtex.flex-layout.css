@@ -146,7 +146,7 @@
   background: #B8EFF5;
   border-radius: 10px;
   margin: 0px 25px;
-  padding: 0;
+  padding: 10px;
 }
 
 .flexRow--ValoresHome{
@@ -231,4 +231,24 @@
 
 .flexCol--summaryUpDetailsListMobile {
   margin-bottom: 0.25rem
+}
+
+.flexRowContent--NombreProducto{
+  /* justify-content: center;   */
+}
+
+.flexRowContent--FormularioBoletinCT {
+  background-color: #151E3F;
+  margin: 20px auto;
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 20px;
+  max-width: 1100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexRow--FormularioBoletinCT {
+  background-color: rgba(0,0,0,0.03);
+  padding: 20px 0;
 }

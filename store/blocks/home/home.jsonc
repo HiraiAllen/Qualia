@@ -3,6 +3,7 @@
     "blocks": [
       "flex-layout.row#ValoresHome",
       "list-context.image-list#SliderPpal",
+      "flex-layout.row#SliderProductosSugeridosHome",
       // "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -15,7 +16,7 @@
       "info-card#home",
       "rich-text#question",
       "rich-text#link",
-      "newsletter"
+      "flex-layout.row#FormularioBoletinCT"
     ]
   },
   "list-context.image-list#demo": {

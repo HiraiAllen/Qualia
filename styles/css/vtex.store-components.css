@@ -109,7 +109,7 @@
 .productNameContainer {
   color: #3f3f40;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 10px;
 }
 
 .imageElement--main-logo{
@@ -138,4 +138,13 @@
 .imageElement--VTEX,
 .imageElement--XtrategiK {
   padding: 0 10px;
+}
+
+.discountInsideContainer {
+  top: 10px;
+  left: 10px;
+  width: fit-content;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 1.05em;
 }

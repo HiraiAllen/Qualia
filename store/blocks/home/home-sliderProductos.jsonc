@@ -4,7 +4,7 @@
             "list-context.product-list#VitrinaSugeridosHome"
         ],
         "props": {
-            "paddingTop": 2,
+            "paddingTop": 4,
             "paddingButtom": 4
         }
     },

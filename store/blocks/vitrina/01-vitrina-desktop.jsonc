@@ -4,7 +4,7 @@
             "stack-layout#Vitrina",
             "flex-layout.row#NombreProducto",
             "product-summary-space",
-            "flex-layout.row#Precio",
+            "flex-layout.row#Precios",
             "flex-layout.row#Boton"
         ],
         "props": {
@@ -23,16 +23,33 @@
             "showBadge": true,
             "showCollections": false,
             "aspectRatio": "1:1",
-            "maxHeight": 270,
+            "maxHeight": 240,
             "blockClass": "VitrinaPrincipal"
         }
     },
-    "flex-layout.row#NombreProducto": {
+    "flex-layout.row#Precios": {
         "children": [
-            "rich-text#NombreProducto"
+            "flex-layout.col#Precios"
         ],
         "props": {
-            "blockClass": "NombreProducto",
+            "blockClass": "Precios",
+            "fulwidth": false,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": false,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "CENTER",
+            "verticalAlign": "middle",
+            "paddingTop": 2,
+            "paddingBottom": 2
+        }
+    },
+    "flex-layout.col#Precios": {
+        "children": [
+            "product-list-price#Vitrina",
+            "product-selling-price#Vitrina"
+        ],
+        "props": {
+            "blockClass": "Precios",
             "fulwidth": true,
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
@@ -43,64 +60,14 @@
             "paddingBottom": 0
         }
     },
-    "flex-layout.row#Precio": {
-        "children": [
-            "flex-layout.row#Precios",
-            "add-to-cart-button#Vitrina"
-        ],
-        "props": {
-            "blockClass": "Precio",
-            "fulwidth": true,
-            "preventHorizontalStretch": false,
-            "preventVerticalStretch": false,
-            "preserveLayoutOnMobile": false,
-            "horizontalAlign": "center",
-            "verticalAlign": "middle",
-            "paddingTop": 0,
-            "paddingBottom": 0
-        }
-    },
-    "flex-layout.row#Precios": {
-        "children": [
-            "flex-layout.col#Precios"
-        ],
-        "props": {
-            "blockClass": "Precios",
-            "fulwidth": true,
-            "preventHorizontalStretch": false,
-            "preventVerticalStretch": false,
-            "preserveLayoutOnMobile": true,
-            "horizontalAlign": "left",
-            "verticalAlign": "middle",
-            "paddingTop": 0,
-            "paddingBottom": 0
-        }
-    },
-    "flex-layout.col#Precios": {
-        "children": [
-            "product-list-price#Vitrina",
-            "product-selling-price#Vitrina"
-        ],
-        "props": {
-            "blockClass": "Precios",
-            "fulwidth": false,
-            "preventHorizontalStretch": false,
-            "preventVerticalStretch": false,
-            "preserveLayoutOnMobile": true,
-            "horizontalAlign": "left",
-            "verticalAlign": "middle",
-            "paddingTop": 0,
-            "paddingBottom": 0
-        }
-    },
     "product-list-price#Vitrina": {
         "props": {
-            "blockClass": "summary"
+            "blockClass": "PrecioLista"
         }
     },
     "product-selling-price#Vitrina": {
         "props": {
-            "blockClass": "summary"
+            "blockClass": "PrecioVenta"
         }
     },
     "product-price-savings#Vitrina": {
@@ -123,13 +90,13 @@
             "preserveLayoutOnMobile": true,
             "horizontalAlign": "center",
             "verticalAlign": "middle",
-            "paddingTop": 0,
-            "paddingBottom": 0
+            "paddingTop": 2,
+            "paddingBottom": 2
         }
     },
     "add-to-cart-button#Vitrina": {
         "props": {
-            "text": "AGREGAR",
+            "text": "Comprar",
             "blockClass": "AgregarVitrina",
             "addToCartFeedback": "customEvent",
             "customPixelEventId": "add-to-cart-button", //Abre el carrito 
@@ -144,6 +111,31 @@
             "blockClass": "NombreProducto",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#NombreProducto": {
+        "children": [
+            "product-summary-name"
+        ],
+        "props": {
+            "blockClass": "NombreProducto",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "CENTER",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "product-summary-name": {
+        "props": {
+            "blockClass": "NombreProducto",
+            "tag": "h2",
+            "showFieldsProps": {
+                "showSku": false
+            }
         }
     }
 }

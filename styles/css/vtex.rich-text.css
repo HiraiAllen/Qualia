@@ -111,7 +111,7 @@
 }
 
 .wrapper--IconoHome{
-  height: 60px;
+  /* height: 60px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,6 +120,9 @@
 .paragraph--IconoHome{
   color: #14A0B0;
   font-weight: bold;
+  padding: 0;
+  margin: 2px auto;
+  line-height: 1;
 }
 
 .container--ValoresHome{
@@ -136,6 +139,16 @@
   font-weight: bold;
   color: #fff;
   font-size: .95em;
+}
+.wrapper--TextoSuscribete{
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.paragraph--TextoSuscribete{
+  color: #fff;
+  line-height: 1.4;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 640px) {

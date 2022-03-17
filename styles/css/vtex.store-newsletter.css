@@ -1,0 +1,71 @@
+.confirmationCheckboxContainer--BoletinConfirmacion{
+    font-size: .7em;
+    padding-top: 10px;
+}
+
+.confirmationCheckboxContainer--BoletinConfirmacion :global(.vtex-checkbox__label){
+    color: #fff;
+    padding-top: 2px;
+}
+
+.emailInputContainer--CampoEmail{
+    padding-right: 10px;
+    min-width: 450px;
+}
+.emailInputContainer--CampoEmail :global(.vtex-input-prefix__group){
+    border: none;
+    border-radius: 10px !important;
+}
+.formSubmitContainer--BoletinFooterEnviar :global(.vtex-button){
+    border-radius: 10px !important;
+    text-transform: capitalize;
+    border-color: #4ED7E5;
+    font-weight: bold;
+    background-color: #4ED7E5;
+}
+.formSubmitContainer--BoletinFooterEnviar:hover :global(.vtex-button){
+    border-color: #16A1B3;
+    background-color: #16A1B3;
+}
+
+@media (max-width: 1100px) {
+
+    .emailInputContainer--CampoEmail{
+        padding-right: 10px;
+        min-width: initial;
+    }
+
+    .newsletterForm--BoletinFooter {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0 0 0;
+    }
+    .confirmationCheckboxContainer--BoletinConfirmacion :global(.vtex-checkbox__label){
+        font-size: .76em;
+    }
+
+}
+
+
+:global(.vtex-checkbox__box-wrapper)
+{
+    border: solid 1px #fff !important;
+    border-radius: 50%;
+}
+:global(.vtex-checkbox__inner-container)
+{
+    border: none!important;
+    border-radius: 5px;
+    background-color: transparent;
+}
+:global(.vtex-checkbox__box)
+{
+    border: none !important;
+    border-radius: 5px;
+}
+:global(.vtex__icon-check)
+{
+    color: #fff;
+}
