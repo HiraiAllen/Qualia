@@ -76,8 +76,8 @@
     "image#IconoValores2": {
         "props": {
             "src": "assets/img/iconos/IconoValores_MultiplesProductos.svg",
-            "alt": "Más de 400 productos",
-            "title": "Más de 400 de productos",
+            "alt": "Más de 4000 productos",
+            "title": "Más de 4000 de productos",
             "height": "90px",
             "blockClass": "IconoValoresHome"
             // "link": {
@@ -89,7 +89,7 @@
     },
     "rich-text#IconoValores2": {
         "props": {
-            "text": "**Más de 400** \n Productos y servicios al alcance \n de tu mano.",
+            "text": "**Más de 4000** \n Productos y servicios al alcance \n de tu mano.",
             "blockClass": "IconoValoresHome",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"

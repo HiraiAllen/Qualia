@@ -1,7 +1,8 @@
 {
   "vtex.menu@2.x:menu#LaTienda": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "width": "20%"
     },
     "children": [
       "rich-text#TituloFooterLaTienda",

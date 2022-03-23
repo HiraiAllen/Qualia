@@ -37,7 +37,7 @@
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "blockClass": "carousel",
-            "arrowSize": 12
+            "arrowSize": 20
         }
     }
 }

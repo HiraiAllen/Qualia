@@ -3,28 +3,30 @@
     "blocks": [
       "flex-layout.row#ValoresHome",
       "list-context.image-list#SliderPpal",
-      "flex-layout.row#SliderProductosSugeridosHome",
       // "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#SliderIconos",
       "flex-layout.row#banner-ofertas",
-      "flex-layout.row#tag-zona-de-ofertas",
-      "tab-layout#productos-servicios",
-      "flex-layout.row#tag-nosotros",
+      "flex-layout.row#btnZonaOfertas",
+      "flex-layout.row#SliderProductosSugeridosHome",
+      // "flex-layout.row#tag-zona-de-ofertas",
+      // "tab-layout#productos-servicios",
+      "flex-layout.row#btnNosotros",
       "flex-layout.row#PorQueNosotros",
+      "flex-layout.row#btnDecidiste",
       "flex-layout.row#SliderProductosSugeridosHome",
       // "info-card#home",
       // "rich-text#question",
       // "rich-text#link",
-      "flex-layout.row#FormularioBoletinCT"
+      "flex-layout.row#FormularioBoletinCT",
+      "flex-layout.row#btnConfian",
+      "flex-layout.row#SliderIconosAliados"
     ]
   },
   "list-context.image-list#demo": {
-    "children": [
-      "slider-layout#demo-images"
-    ],
+    "children": ["slider-layout#demo-images"],
     "props": {
       "height": 720,
       "images": [
@@ -58,17 +60,11 @@
     }
   },
   "flex-layout.row#shelf": {
-    "children": [
-      "list-context.product-list#demo1"
-    ]
+    "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#demo-products"
-    ],
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -111,9 +107,7 @@
     }
   },
   "flex-layout.row#banner-ofertas": {
-    "children": [
-      "flex-layout.col#banner-ofertas-col"
-    ],
+    "children": ["flex-layout.col#banner-ofertas-col"],
     "props": {
       "blockClass": "block",
       "fulwidth": true,
@@ -127,9 +121,7 @@
     }
   },
   "flex-layout.col#banner-ofertas-col": {
-    "children": [
-      "image#banner-ofertas-image"
-    ],
+    "children": ["image#banner-ofertas-image"],
     "props": {
       "blockClass": "block",
       "fulwidth": true,
@@ -144,21 +136,19 @@
   },
   "image#banner-ofertas-image": {
     "props": {
-      "src": "assets/img/banners/banner-ofertas.png",
+      "src": "assets/img/banners/bannerOfertas.png",
       "alt": "Ofertas",
-      "height": "400px",
+      // "height": "400px",
       "blockClass": "banner-ofertas",
       "link": {
-        "url": "url",
+        "url": "",
         "openNewTab": false,
-        "title": "title"
+        "title": "Ofertas"
       }
     }
   },
   "flex-layout.row#ValoresHome": {
-    "children": [
-      "rich-text#ValoresHome"
-    ],
+    "children": ["rich-text#ValoresHome"],
     "props": {
       "blockClass": "ValoresHome",
       "fulwidth": true,
@@ -173,10 +163,140 @@
   },
   "rich-text#ValoresHome": {
     "props": {
-      "text": "¡El marketplace en donde haces REALIDAD tus SUEÑOS! ![Separador](assets/img/iconos/puntoSeparador.png) Despachos el mismo día ![Separador](assets/img/iconos/puntoSeparador.png)  Crédito digital  AL INSTANTE ![Separador](assets/img/iconos/puntoSeparador.png)  Si sueñas con un producto y no lo consigues, ¡LO BUSCAMOS PARA TI! :)",
+      "text": "¡El marketplace en donde **haces REALIDAD tus SUEÑOS!** ![Separador](assets/img/iconos/puntoSeparador.png) Despachos **EL MISMO DÍA** ![Separador](assets/img/iconos/puntoSeparador.png)  Crédito digital **AL INSTANTE** ![Separador](assets/img/iconos/puntoSeparador.png)  Si sueñas con un producto y no lo consigues, **¡LO BUSCAMOS PARA TI!** :)",
       "blockClass": "ValoresHome",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#btnZonaOfertas": {
+    "children": ["image#btnZonaOfertas"],
+    "props": {
+      "blockClass": "btnHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#btnZonaOfertas": {
+    "props": {
+      "src": "assets/img/btn/boton_ZonaOfertas.svg",
+      "alt": "Zona de Ofertas",
+      "height": "40px",
+      "blockClass": "btnHome",
+      "link": {
+        "url": "",
+        "openNewTab": false,
+        "title": "Zona de Ofertas"
+      }
+    }
+  },
+  "flex-layout.row#btnNosotros": {
+    "children": ["image#btnNosotros"],
+    "props": {
+      "blockClass": "btnHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#btnNosotros": {
+    "props": {
+      "src": "assets/img/btn/boton_PorQueNosotros.svg",
+      "alt": "¿Por qué nosotros?",
+      "height": "40px",
+      "blockClass": "btnHome",
+      "link": {
+        "url": "",
+        "openNewTab": false,
+        "title": "¿Por qué nosotros?"
+      }
+    }
+  },
+  "flex-layout.row#btnDecidiste": {
+    "children": ["flex-layout.col#Decidiste"],
+    "props": {
+      "blockClass": "btnHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#btnDecidiste": {
+    "props": {
+      "src": "assets/img/btn/boton_YaloDecidiste.svg",
+      "alt": "Ya lo decidiste",
+      "height": "40px",
+      "blockClass": "btnHome",
+      "link": {
+        "url": "",
+        "openNewTab": false,
+        "title": "Ya lo decidiste"
+      }
+    }
+  },
+  "rich-text#Decidiste": {
+    "props": {
+      "text": "Estos son algunos de los productos que viste recientemente.",
+      "blockClass": "Decidiste",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.col#Decidiste": {
+    "children": ["image#btnDecidiste", "rich-text#Decidiste"],
+    "props": {
+      "blockClass": "Decidiste",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "flex-layout.row#btnConfian": {
+    "children": ["image#btnConfian"],
+    "props": {
+      "blockClass": "btnHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#btnConfian": {
+    "props": {
+      "src": "assets/img/btn/boton_EllosYaConfiaron.svg",
+      "alt": "Ellos confían en nosotros",
+      "height": "40px",
+      "blockClass": "btnHome",
+      "link": {
+        "url": "",
+        "openNewTab": false,
+        "title": "Ellos confían en nosotros"
+      }
     }
   }
 }

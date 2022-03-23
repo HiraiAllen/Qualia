@@ -25,7 +25,7 @@
             "showNavigationArrows": "always",
             "blockClass": "SliderHome",
             "showPaginationDots": "never",
-            "arrowSize": 10
+            "arrowSize": 16
         },
         "children": [
             "flex-layout.col#Icono1",
@@ -254,7 +254,7 @@
     },
     "image#Icono6": {
         "props": {
-            "src": "assets/img/viajes-logo.svg",
+            "src": "assets/img/iconos/viajes.svg",
             "alt": "Turismo y Entretenimiento",
             "title": "Turismo y Entretenimiento",
             "height": "90px",

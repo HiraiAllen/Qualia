@@ -1,7 +1,8 @@
 {
   "vtex.menu@2.x:menu#TerminosLegales": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "width": "20%"
     },
     "children": [
       "rich-text#TituloFooterTerminosLegales",

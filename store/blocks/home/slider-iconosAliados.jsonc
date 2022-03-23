@@ -1,0 +1,197 @@
+{
+    "flex-layout.row#SliderIconosAliados": {
+        "children": [
+            "slider-layout#SliderIconosAliados"
+        ],
+        "props": {
+            "fullWidth": false,
+            "blockClass": "SliderHome",
+            "paddingTop": 2,
+            "paddingBottom": 2
+        }
+    },
+    "slider-layout#SliderIconosAliados": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "SliderHome",
+            "showPaginationDots": "always",
+            "arrowSize": 16
+        },
+        "children": [
+            "flex-layout.col#IconoAliado-1",
+            "flex-layout.col#IconoAliado-2",
+            "flex-layout.col#IconoAliado-3",
+            "flex-layout.col#IconoAliado-4",
+            "flex-layout.col#IconoAliado-1",
+            "flex-layout.col#IconoAliado-2",
+            "flex-layout.col#IconoAliado-3",
+            "flex-layout.col#IconoAliado-4"
+        ]
+    },
+    "flex-layout.col#IconoAliado-1": {
+        "children": [
+            "image#IconoAliado-1"
+            // "rich-text#IconoAliado-1"
+        ],
+        "props": {
+            "blockClass": "IconoHomeAliado",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#IconoAliado-1": {
+        "props": {
+            "src": "assets/img/logos/LogoJuriscoop.png",
+            "alt": "Juriscoop",
+            "title": "Juriscoop",
+            "height": "200px",
+            "blockClass": "IconoHomeAliado",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Ficción"
+            }
+        }
+    },
+    "rich-text#IconoAliado-1": {
+        "props": {
+            "text": "Juriscoop",
+            "blockClass": "IconoHomeAliado",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#IconoAliado-2": {
+        "children": [
+            "image#IconoAliado-2"
+            // "rich-text#IconoAliado-2"
+        ],
+        "props": {
+            "blockClass": "IconoHomeAliado",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#IconoAliado-2": {
+        "props": {
+            "src": "assets/img/logos/LogoCoovitel.png",
+            "alt": "Coovitel",
+            "title": "Coovitel",
+            "height": "200px",
+            "blockClass": "IconoHomeAliado",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Hechos reales"
+            }
+        }
+    },
+    "rich-text#IconoAliado-2": {
+        "props": {
+            "text": "Coovitel",
+            "blockClass": "IconoHomeAliado",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#IconoAliado-3": {
+        "children": [
+            "image#IconoAliado-3"
+            // "rich-text#IconoAliado-3"
+        ],
+        "props": {
+            "blockClass": "IconoHomeAliado",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#IconoAliado-3": {
+        "props": {
+            "src": "assets/img/logos/LogoConfiar.png",
+            "alt": "Confiar",
+            "title": "Confiar",
+            "height": "200px",
+            "blockClass": "IconoHomeAliado",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Confiar"
+            }
+        }
+    },
+    "rich-text#IconoAliado-3": {
+        "props": {
+            "text": "Confiar",
+            "blockClass": "IconoHomeAliado",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#IconoAliado-4": {
+        "children": [
+            "image#IconoAliado-4"
+            // "rich-text#IconoAliado-4"
+        ],
+        "props": {
+            "blockClass": "IconoHomeAliado",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#IconoAliado-4": {
+        "props": {
+            "src": "assets/img/logos/LogoComultrasan.png",
+            "alt": "Comultrasan",
+            "title": "Comultrasan",
+            "height": "200px",
+            "blockClass": "IconoHomeAliado",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Comultrasan"
+            }
+        }
+    },
+    "rich-text#IconoAliado-4": {
+        "props": {
+            "text": "Comultrasan",
+            "blockClass": "IconoHomeAliado",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

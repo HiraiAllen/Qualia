@@ -1,81 +1,78 @@
 {
-    "flex-layout.row#qualia-ubuntec-logos": {
-         "children": [
-            "flex-layout.col#ubuntec-container",
-            "flex-layout.col#qualia-container"
+  "flex-layout.row#qualia-ubuntec-logos": {
+    "children": [
+      "flex-layout.col#ubuntec-container",
+      "flex-layout.col#qualia-container"
     ],
-         "props": {
-              "blockClass": "qualia-ubuntec-logos",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "flex-layout.col#ubuntec-container": {
-         "children": [
-            "image#ubuntec-footer-logo"
-    ],
-         "props": {
-              "blockClass": "qualia-ubuntec-footer-container",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "image#ubuntec-footer-logo": {
-        "props": {
-                 "src": "assets/img/logos/logo-Qualia.svg",
-                 "alt": "Ubuntec",
-                 "height": "30px",
-                 "blockClass": "qualia-ubuntec-footer-logo",
-                 "link": {
-                          "url": "url",
-                          "openNewTab": false,
-                          "title": "title"
-            }
-        }
-    },
-
-    "flex-layout.col#qualia-container": {
-         "children": [
-            // "image#qualia-footer-logo"
-    ],
-         "props": {
-              "blockClass": "qualia-ubuntec-footer-container",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "image#qualia-footer-logo": {
-        "props": {
-                 "src": "assets/img/qualia-footer-logo.svg",
-                 "alt": "Qualia",
-                 "height": "64px",
-                 "blockClass": "qualia-ubuntec-footer-logo",
-                 "link": {
-                          "url": "url",
-                          "openNewTab": false,
-                          "title": "title"
-            }
-        }
+    "props": {
+      "blockClass": "qualia-ubuntec-logos",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "width": "40%"
     }
+  },
+
+  "flex-layout.col#ubuntec-container": {
+    "children": ["image#ubuntec-footer-logo"],
+    "props": {
+      "blockClass": "qualia-ubuntec-footer-container",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "image#ubuntec-footer-logo": {
+    "props": {
+      "src": "assets/img/logos/logosFooter.png",
+      "alt": "Ubuntec",
+      "width": "300px",
+      "blockClass": "qualia-ubuntec-footer-logo",
+      "link": {
+        "url": "/",
+        "openNewTab": false,
+        "title": "Operado por Ubuntec"
+      }
+    }
+  },
+
+  "flex-layout.col#qualia-container": {
+    "children": ["image#qualia-footer-logo"],
+    "props": {
+      "blockClass": "qualia-footer-container",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "image#qualia-footer-logo": {
+    "props": {
+      "src": "assets/img/logos/logo-Qualia.svg",
+      "alt": "Qualia",
+      "width": "150px",
+      "blockClass": "qualia-ubuntec-footer-logo",
+      "link": {
+        "url": "/",
+        "openNewTab": false,
+        "title": "Qualia"
+      }
+    }
+  }
 }

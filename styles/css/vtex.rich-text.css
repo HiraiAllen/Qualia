@@ -89,14 +89,16 @@
 }
 
 .paragraph--phone-info{
-  background: #FAD3D6;
-  margin-left: 10px;
+  /* background: #FAD3D6; */
+  margin: 0 10px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
 }
 
 .paragraph--TituloFooterLaTienda{
   color: #fff;
   text-transform: uppercase;
-  padding-left: 20px;
+  padding-left: 0px;
   font-weight: bold;
 }
 
@@ -139,10 +141,10 @@
   margin: 0;
   font-weight: bold;
   color: #fff;
-  font-size: .95em;
+  font-size: .8em;
 }
 .wrapper--TextoSuscribete{
-  padding: 0 0 0 20px;
+  padding: 0 20px 0 0;
   margin: 0;
 }
 
@@ -150,6 +152,7 @@
   color: #fff;
   line-height: 1.4;
   font-weight: bold;
+  cursor: pointer;
 }
 
 
@@ -177,12 +180,99 @@
   color: #333333;
   padding: 0;
   margin: 0;
-  font-size: .8em;
+  font-size: .7em;
   letter-spacing: -0.5px;
   font-weight: bold;
 }
 
+.container--InfoCredito{
+  align-self: center;
+  padding: 0;
+  background-image: url(assets/img/backgrounds/fondoMensaje.png);
+  border-radius: 10px;
+}
+.wrapper--InfoCredito{
+  padding: 0;
+  margin: 0;
+}
+.paragraph--InfoCredito{
+  margin: 0;
+  color: #fff;
+  line-height: 1.2;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+.strong--InfoCredito{
+  font-size: 1.2em;
+}
+.link--InfoCredito{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+.headingLevel1--InfoCredito{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+.headingLevel2--InfoCredito{
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9em;
+}
 
+.container--Decidiste{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--Decidiste{
+  padding: 0;
+  margin: 0;
+}
+.paragraph--Decidiste{
+  padding: 10px 20px;
+  margin: 0;
+  color: #9C9AA0;
+}
+.strong--Decidiste{
+  font-size: 1em;
+}
+
+.container--LinksHeader{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--LinksHeader{
+  padding: 0;
+  margin: 0;
+}
+.paragraph--LinksHeader{
+  padding: 5px 0;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strong--LinksHeader{
+  font-size: 1.2em;
+}
+.link--LinksHeader{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+.image--LinksHeader{
+  padding: 0 10px;
+}
+
+.link--textoSeguirComprando{
+  color: #4fd7e5;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {

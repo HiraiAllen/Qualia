@@ -1,141 +1,153 @@
 {
-    "responsive-layout.desktop#VitrinaDesktop": {
-        "children": [
-            "stack-layout#Vitrina",
-            "flex-layout.row#NombreProducto",
-            "product-summary-space",
-            "flex-layout.row#Precios",
-            "flex-layout.row#Boton"
-        ],
-        "props": {
-            "blockClass": "VitrinaDesktop"
-        }
-    },
-    "stack-layout#Vitrina": {
-        "children": [
-            "product-summary-image#Vitrina",
-            "vtex.product-highlights@2.x:product-highlights#collection"
-            // "modal-trigger#quickview" // Check quickview.jsonc
-        ]
-    },
-    "product-summary-image#Vitrina": {
-        "props": {
-            "showBadge": true,
-            "showCollections": false,
-            "aspectRatio": "1:1",
-            "maxHeight": 240,
-            "blockClass": "VitrinaPrincipal"
-        }
-    },
-    "flex-layout.row#Precios": {
-        "children": [
-            "flex-layout.col#Precios"
-        ],
-        "props": {
-            "blockClass": "Precios",
-            "fulwidth": false,
-            "preventHorizontalStretch": false,
-            "preventVerticalStretch": false,
-            "preserveLayoutOnMobile": true,
-            "horizontalAlign": "CENTER",
-            "verticalAlign": "middle",
-            "paddingTop": 2,
-            "paddingBottom": 2
-        }
-    },
-    "flex-layout.col#Precios": {
-        "children": [
-            "product-list-price#Vitrina",
-            "product-selling-price#Vitrina"
-        ],
-        "props": {
-            "blockClass": "Precios",
-            "fulwidth": true,
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "preserveLayoutOnMobile": true,
-            "horizontalAlign": "center",
-            "verticalAlign": "middle",
-            "paddingTop": 0,
-            "paddingBottom": 0
-        }
-    },
-    "product-list-price#Vitrina": {
-        "props": {
-            "blockClass": "PrecioLista"
-        }
-    },
-    "product-selling-price#Vitrina": {
-        "props": {
-            "blockClass": "PrecioVenta"
-        }
-    },
-    "product-price-savings#Vitrina": {
-        "props": {
-            "markers": [
-                "discount"
-            ],
-            "blockClass": "summary"
-        }
-    },
-    "flex-layout.row#Boton": {
-        "children": [
-            "add-to-cart-button#Vitrina"
-        ],
-        "props": {
-            "blockClass": "Boton",
-            "fulwidth": true,
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "preserveLayoutOnMobile": true,
-            "horizontalAlign": "center",
-            "verticalAlign": "middle",
-            "paddingTop": 2,
-            "paddingBottom": 2
-        }
-    },
-    "add-to-cart-button#Vitrina": {
-        "props": {
-            "text": "Comprar",
-            "blockClass": "AgregarVitrina",
-            "addToCartFeedback": "customEvent",
-            "customPixelEventId": "add-to-cart-button", //Abre el carrito 
-            "onClickBehavior": "add-to-cart-button",
-            "isOneClickBuy": false,
-            "unavailableText": "Producto agotado"
-        }
-    },
-    "rich-text#NombreProducto": {
-        "props": {
-            "text": "Nombre Producto",
-            "blockClass": "NombreProducto",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-        }
-    },
-    "flex-layout.row#NombreProducto": {
-        "children": [
-            "product-summary-name"
-        ],
-        "props": {
-            "blockClass": "NombreProducto",
-            "fulwidth": true,
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "preserveLayoutOnMobile": true,
-            "horizontalAlign": "CENTER",
-            "verticalAlign": "middle",
-            "paddingTop": 0,
-            "paddingBottom": 0
-        }
-    },
-    "product-summary-name": {
-        "props": {
-            "blockClass": "NombreProducto",
-            "tag": "h2",
-            "showFieldsProps": {
-                "showSku": false
-            }
-        }
+  "responsive-layout.desktop#VitrinaDesktop": {
+    "children": [
+      "stack-layout#Vitrina",
+      "flex-layout.row#botonVerMas",
+      "flex-layout.row#NombreProducto",
+      "product-summary-space",
+      "flex-layout.row#Precios",
+      "flex-layout.row#Boton"
+    ],
+    "props": {
+      "blockClass": "VitrinaDesktop"
     }
+  },
+  "stack-layout#Vitrina": {
+    "children": [
+      "product-summary-image#Vitrina",
+      "vtex.product-highlights@2.x:product-highlights#collection"
+      // "modal-trigger#quickview" // Check quickview.jsonc
+    ]
+  },
+  "product-summary-image#Vitrina": {
+    "props": {
+      "showBadge": true,
+      "showCollections": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 240,
+      "blockClass": "VitrinaPrincipal"
+    }
+  },
+  "flex-layout.row#Precios": {
+    "children": ["flex-layout.col#Precios"],
+    "props": {
+      "blockClass": "Precios",
+      "fulwidth": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "CENTER",
+      "verticalAlign": "middle",
+      "paddingTop": 2,
+      "paddingBottom": 2
+    }
+  },
+  "flex-layout.col#Precios": {
+    "children": ["product-list-price#Vitrina", "product-selling-price#Vitrina"],
+    "props": {
+      "blockClass": "Precios",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "product-list-price#Vitrina": {
+    "props": {
+      "blockClass": "PrecioLista"
+    }
+  },
+  "product-selling-price#Vitrina": {
+    "props": {
+      "blockClass": "PrecioVenta"
+    }
+  },
+  "product-price-savings#Vitrina": {
+    "props": {
+      "markers": ["discount"],
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#Boton": {
+    "children": ["add-to-cart-button#Vitrina"],
+    "props": {
+      "blockClass": "Boton",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 2,
+      "paddingBottom": 2
+    }
+  },
+  "add-to-cart-button#Vitrina": {
+    "props": {
+      "text": "Comprar",
+      "blockClass": "AgregarVitrina",
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button", //Abre el carrito
+      "onClickBehavior": "add-to-cart-button",
+      "isOneClickBuy": false,
+      "unavailableText": "Producto agotado"
+    }
+  },
+  "rich-text#NombreProducto": {
+    "props": {
+      "text": "Nombre Producto",
+      "blockClass": "NombreProducto",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#NombreProducto": {
+    "children": ["product-summary-name"],
+    "props": {
+      "blockClass": "NombreProducto",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "CENTER",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "product-summary-name": {
+    "props": {
+      "blockClass": "NombreProducto",
+      "tag": "h2",
+      "showFieldsProps": {
+        "showSku": false
+      }
+    }
+  },
+  "flex-layout.row#botonVerMas": {
+    "children": ["image#botonVerMas"],
+    "props": {
+      "blockClass": "botonVerMas",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "RIGHT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#botonVerMas": {
+    "props": {
+      "src": "assets/img/btn/boton_verMas.svg",
+      "alt": "Ver más",
+      "width": "30px",
+      "blockClass": "botonVerMas"
+    }
+  }
 }

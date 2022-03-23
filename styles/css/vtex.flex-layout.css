@@ -143,10 +143,15 @@
 }
 
 .flexCol--IconoHome{
-  background: #B8EFF5;
+  background-color: #B8EFF5;
   border-radius: 10px;
   margin: 0px 25px;
   padding: 10px;
+  transition: .5s all ease;
+}
+
+.flexCol--IconoHome:hover{
+  background-color: #66cccc;
 }
 
 .flexRow--ValoresHome{
@@ -249,7 +254,7 @@
 }
 
 .flexRow--FormularioBoletinCT {
-  background-color: rgba(0,0,0,0.03);
+  /* background-color: rgba(0,0,0,0.03); */
   padding: 20px 0;
 }
 
@@ -270,4 +275,81 @@
   display: flex;
   border-left: 1px solid #fff;
   padding-left: 30px;
+}
+
+.flexRowContent--CantidadAgregar{
+  align-items: center;
+}
+
+.flexRowContent--CantidadAgregar :global(.vtex-button) {
+  border: 2px solid #F80F49;
+  background-color: #F80F49;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 0 !important;
+  height: 40px;
+  border-radius: 10px;
+  transition: 0.5s all ease;
+  margin-left: 5px;
+  color: #fff;
+}
+.flexRowContent--CantidadAgregar :global(.vtex-button):hover {
+  border: 2px solid #F80F49;
+  background-color: #F80F49;
+}
+
+/* add-to-cart-button#PDP */
+.flexRowContent--btnComprarProd :global(.vtex-button) {
+  background: #4ed7e5;
+  border-radius: 10px;
+  color: #fff;
+  padding: 0;
+  min-height: initial;
+  transition: .5s all ease;
+  border: none;
+  font-weight: bold;
+  height: 40px;
+  text-transform: inherit;
+}
+.flexRowContent--btnComprarProd :global(.vtex-button):hover {
+  color: #fff;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: #F80F49;
+}
+
+.flexRow--btnHome{
+  padding: 10px 20px;
+}
+
+.flexRow--LinksHeader{
+  background-color: #F80F49;
+  padding: 0 20px;
+}
+.flexRow--HeaderLogo{
+  background-color: #fff;
+}
+.flexRow--LinksNovedades{
+  padding: 0 20px;
+}
+.flexRow--LinksFavoritos{
+  padding: 0 20px 0 10px;
+}
+
+.flexRow--footerDesktop{
+  background-color: #F80F49;
+  padding: 30px;
+}
+.flexCol--qualia-footer-container{
+  padding: 0 0 0 30px;
+}
+
+.flexRowContent--botonVerMas {
+  text-align: right;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -20px;
+  padding: 0 5px;
 }

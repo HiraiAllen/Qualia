@@ -1,0 +1,58 @@
+.quantitySelectorContainer{
+    margin: auto;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button){
+    color: #4D4D4D;
+    /* background-color: #F80F49; */
+    border: 2px solid #F80F49;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: none;
+    font-weight: bold;
+    width: 28px !important;
+    /* background-image: url(assets/backgrounds/fondo_SubirCantidad.svg);
+    background-repeat: no-repeat; */
+    color: #F80F49;
+    background-position: center center;
+    background-color: transparent;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
+    color: #4D4D4D;
+    /* background-color: #F80F49; */
+    border: 2px solid #F80F49;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+    font-weight: bold;
+    width: 28px !important;
+    /* background-image: url(assets/backgrounds/fondo_BajarCantidad.svg);
+    background-repeat: no-repeat; */
+    color: #F80F49;
+    background-position: center center;
+    background-color: transparent;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+    color: #F80F49;
+    background-color: white;
+    width: 34px;
+    border-top: 2px solid #F80F49;
+    border-bottom: 2px solid #F80F49;
+    border-right: none;
+    border-left: none;
+    font-weight: bold;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper-wrapper){
+    border: none;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container){
+    border: none;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button-container){
+    border: none;
+}
+/* .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button__text){
+    color: transparent !important;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button__text){
+    color: transparent !important;
+} */

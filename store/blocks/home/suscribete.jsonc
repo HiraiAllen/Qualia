@@ -53,7 +53,7 @@
     },
     "rich-text#TextoSuscribete": {
         "props": {
-            "text": "![AltImagen](assets/img/suscribete.png) \n Y podrás enterarte de las promociones \n y novedades que tenemos para ti",
+            "text": "![AltImagen](assets/img/suscribeteTitulo.png) \n Y podrás enterarte de las promociones \n y novedades que tenemos para ti",
             "blockClass": "TextoSuscribete",
             "textAlignment": "LEFT",
             "textPosition": "LEFT",

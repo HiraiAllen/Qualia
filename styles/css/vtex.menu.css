@@ -19,8 +19,14 @@
 .styledLinkContent--LinkFooter{
     padding: 0;
     margin: 0;
-    font-weight: bold;
+}
+.styledLinkContainer--LinkFooter{
+    padding: 0;
+    margin: 2px 0;
+}
+.styledLink--LinkFooter{
+    font-size: .8em;
 }
 .styledLinkContainer--LinkFooterDestacado{
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0px;
 }
