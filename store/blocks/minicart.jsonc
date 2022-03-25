@@ -18,6 +18,24 @@
       "minicart-base-content"
     ]
   },
+
+  "minicart.v2#mobile": {
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon-mobile",
+      "customPixelEventId": "add-to-cart-button"
+    },
+    "children": [
+      "minicart-base-content"
+    ]
+  },
+  "icon-cart#minicart-icon-mobile": {
+    "props": {
+      "size": 35,
+      "id": "hpa-cart",
+      "blockClass": "BolsaCompras"
+    }
+  },
+  
   "icon-cart#minicart-icon": {
     "props": {
       "size": 40,

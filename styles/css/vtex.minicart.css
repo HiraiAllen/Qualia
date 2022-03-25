@@ -157,3 +157,9 @@
     }
   }
   
+  @media (max-width: 500px) {
+  
+    .cartIcon--BolsaCompras{
+      max-width: 35px !important;
+    }
+  }

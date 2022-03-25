@@ -1,0 +1,106 @@
+{
+    "drawer": {
+        "children": [
+          "menu#drawer"
+        ]
+    },
+    "menu#drawer": {
+        "children": [
+           "flex-layout.row#LogoMobile",
+           "flex-layout.col#LinksMenuDespMobile"
+        //    "flex-layout.row#RedesSocialesMenuMobile",
+        //    "rich-text#TelefonoContacto"
+        ],
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "drawerMobile"
+        }
+    },
+
+    "flex-layout.row#LogoMobile": {
+        "children": [
+          "logo#mobile"
+        ],
+        "props": {
+          "blockClass": "LogoMobile",
+          "fulwidth": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "LEFT",
+          "verticalAlign": "middle",
+          "paddingTop": 0,
+          "paddingBottom": 6
+        }
+      },
+    //   "image#LogoBlanco": {
+    //     "props": {
+    //       "src": "assets/logo/logo-LibreriadelaU.svg",
+    //       "alt": "Molto Medical",
+    //       "width": "200px",
+    //       "blockClass": "LogoBlanco"
+    //     }
+    //   },
+      "logo#mobile": {
+        "props": {
+          "title": "Libreria de la U",
+          "href": "/",
+          "url": "assets/img/qualia-logo.svg",
+          "width": "180"
+        }
+      },
+      
+      "menu-item#Categorias": {
+        "props": {
+          "blockClass": "menuItemBlockClass",
+          "id": "Categorias",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "onMountBehavior": "close",
+          "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": true,
+            "tagTitle": "Temas de Interés",
+            "text": "Categorias"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu.accordion#CategoriasDetalle"
+        ]
+      },
+      "vtex.menu@2.x:submenu.accordion#CategoriasDetalle": {
+        "children": [
+            "vtex.menu@2.x:menu#CategoriasMobile"
+        ],
+        "props": {
+          "blockClass": "AcordionInterno"
+        }
+      },
+      "vtex.menu@2.x:menu#CategoriasMobile": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-apparel"
+        ]
+      },
+
+      "flex-layout.col#LinksMenuDespMobile": {
+        "children": [
+          "menu-item#Categorias"
+        ],
+        "props": {
+          "blockClass": "LinksMenuDespMobile",
+          "fulwidth": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "LEFT",
+          "verticalAlign": "middle",
+          "paddingTop": 2,
+          "paddingBottom": 2
+        }
+      }
+}

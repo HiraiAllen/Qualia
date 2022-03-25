@@ -117,6 +117,19 @@
   margin: 0px 30px;
 }
 
+@media (max-width: 500px) {
+  .imageElement--main-logo{
+    max-width: 120px;
+  }
+
+  .imageElement--login-icon, .imageElement--wishlist-icon, .imageElement--call-icon{
+    max-width: 35px;
+  }
+
+  .cartIcon--BolsaCompras{
+    width: 35px;
+  }
+}
 
 .imageElement--iconFooterContact{
   margin-right: 10px;
