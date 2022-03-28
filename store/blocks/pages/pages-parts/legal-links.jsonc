@@ -1,0 +1,38 @@
+{
+   "flex-layout.col#legal-links": {
+        "children": [
+            "rich-text#terminos-condiciones-link",
+            "rich-text#tratamiento-datos-personales-link"
+   ],
+        "props": {
+             "blockClass": "block",
+             "fulwidth": true,
+             "preventHorizontalStretch": true,
+             "preventVerticalStretch": true,
+             "preserveLayoutOnMobile": true,
+             "horizontalAlign": "left",
+             "verticalAlign": "middle",
+             "paddingTop": 0,
+             "paddingBottom": 0,
+             "width": "50%"
+       }
+   },
+
+   "rich-text#terminos-condiciones-link": {
+       "props": {
+                "text": "[Términos y Condiciones](/terminos-condiciones?target=_blank)",
+                "blockClass": "legal-link",
+                "textAlignment": "LEFT",
+                "textPosition": "LEFT"
+       }
+   },
+
+   "rich-text#tratamiento-datos-personales-link": {
+    "props": {
+             "text": "[Tratamiento de datos personales](/?target=_blank)",
+             "blockClass": "legal-link",
+             "textAlignment": "LEFT",
+             "textPosition": "LEFT"
+    }
+}
+}

@@ -353,3 +353,10 @@
   top: -20px;
   padding: 0 5px;
 }
+
+.flexCol--LinksMenuDespMobile{
+  border-top: 2px salmon solid;
+  border-bottom: 2px salmon solid;
+  margin-bottom: 15px;
+  padding: 10px 0px;
+}

@@ -19,28 +19,115 @@
             "flex-layout.row#terminos-condiciones"
         ]
     },
+
     "flex-layout.row#terminos-condiciones": {
-        "children": [
-            "rich-text#terminos-condiciones"
-        ],
-        "props": {
-            "blockClass": "Pruebas",
-            "fulwidth": true,
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "preserveLayoutOnMobile": true,
-            "horizontalAlign": "center",
-            "verticalAlign": "middle",
-            "paddingTop": 0,
-            "paddingBottom": 0
+         "children": [
+            "flex-layout.col#terminos-condiciones-content"
+    ],
+         "props": {
+              "blockClass": "terminos-condiciones",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
         }
     },
-    "rich-text#terminos-condiciones": {
+
+    "flex-layout.col#terminos-condiciones-content": {
+         "children": [
+            "flex-layout.row#banner-terminos-condiciones",
+            "flex-layout.row#content-and-links"
+    ],
+         "props": {
+              "blockClass": "block",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+    
+    "flex-layout.row#banner-terminos-condiciones": {
+         "children": [
+            "image#img-terminos-condiciones"
+    ],
+         "props": {
+              "blockClass": "banner-terminos-condiciones",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+
+    "image#img-terminos-condiciones": {
         "props": {
-            "text": "# Terminos Condiciones \n Segunda linea",
-            "blockClass": "Pruebas",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+                 "src": "assets/img/banners/bannerTerminosCondiciones-min.png",
+                 "alt": "alt",
+                 "height": "hight",
+                 "blockClass": "img-terminos-condiciones",
+                 "link": {
+                          "url": "url",
+                          "openNewTab": false,
+                          "title": "title"
+            }
+        }
+    },
+
+    "flex-layout.row#content-and-links": {
+         "children": [
+            "flex-layout.col#legal-links",
+            "flex-layout.col#terminos-condiciones-text-container"
+    ],
+         "props": {
+              "blockClass": "block",
+              "fulwidth": false,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+
+    "flex-layout.col#terminos-condiciones-text-container": {
+         "children": [
+            "rich-text#terminos-condiciones-content-text"
+    ],
+         "props": {
+              "blockClass": "terminos-condiciones-text-container",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "width": "50%"
+        }
+    },
+
+    "rich-text#terminos-condiciones-content-text": {
+        "props": {
+                 "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
         }
     }
+    
 }
