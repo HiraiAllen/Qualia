@@ -1,0 +1,46 @@
+{
+    "store.custom#terminos-condiciones": {
+        "blocks": [
+            "responsive-layout.desktop#terminos-condiciones",
+            "responsive-layout.mobile#terminos-condiciones"
+        ],
+
+        "parent": {
+            "footer": "footer#mini"
+        }
+    },
+    "responsive-layout.desktop#terminos-condiciones": {
+        "children": [
+            "flex-layout.row#terminos-condiciones"
+        ]
+    },
+    "responsive-layout.mobile#terminos-condiciones": {
+        "children": [
+            "flex-layout.row#terminos-condiciones"
+        ]
+    },
+    "flex-layout.row#terminos-condiciones": {
+        "children": [
+            "rich-text#terminos-condiciones"
+        ],
+        "props": {
+            "blockClass": "Pruebas",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "rich-text#terminos-condiciones": {
+        "props": {
+            "text": "# Terminos Condiciones \n Segunda linea",
+            "blockClass": "Pruebas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

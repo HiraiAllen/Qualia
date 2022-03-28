@@ -52,3 +52,9 @@
   overflow: hidden;
   border-radius: 5px;
 }
+
+@media (max-width: 500px){
+  .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    width: 100%;
+  }
+}

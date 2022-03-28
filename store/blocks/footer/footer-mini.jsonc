@@ -1,0 +1,29 @@
+{
+  "footer#mini": {
+    "blocks": ["footer-layout.desktop#mini", "footer-layout.mobile#mini"]
+  },
+  "footer-layout.desktop#mini": {
+    "children": [
+      "flex-layout.row#Footer-Xtrategik"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop#mini": {
+    "children": [
+      "flex-layout.row#Padre",
+      "vtex.menu@2.x:menu#TerminosLegales",
+      "vtex.menu@2.x:menu#LaTienda",
+      "flex-layout.row#qualia-ubuntec-logos"
+    ],
+    "props": {
+      "blockClass": "footerDesktop"
+    }
+  },
+
+
+  "footer-layout.mobile#mini": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  }
+}

@@ -361,36 +361,107 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#1-mobile", "flex-layout.row#BuscadorMobile"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
-      "image#main-logo",
-      "flex-layout.row#icons-login-call-mobile",
-      "minicart.v2#mobile"
+      "flex-layout.col#menu",
+      "flex-layout.col#logo-header-mobile",
+      "flex-layout.col#botones"
     ],
     "props": {
       "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
+      "preventHorizontalStretch": false,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
-  "drawer": {
-    "children": ["menu#drawer"]
-  },
 
-  "menu#drawer": {
-    "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
-    ],
-    "props": {
-      "orientation": "vertical"
+    "flex-layout.row#BuscadorMobile": {
+      "children": [
+        "search-bar"
+      ],
+      "props": {
+        "blockClass": "BuscadorMobile",
+        "fulwidth": true,
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+  "flex-layout.col#menu": {
+     "children": [
+      "drawer"
+  ],
+     "props": {
+        "blockClass": "menu",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "width": "25%"
     }
   },
+
+  "flex-layout.col#logo-header-mobile": {
+    "children": [
+      "image#main-logo"
+ ],
+    "props": {
+       "blockClass": "logo-header-mobile",
+       "fulwidth": true,
+       "preventHorizontalStretch": true,
+       "preventVerticalStretch": true,
+       "preserveLayoutOnMobile": true,
+       "horizontalAlign": "center",
+       "verticalAlign": "middle",
+       "paddingTop": 0,
+       "paddingBottom": 0,
+       "width": "25%"
+   }
+ },
+
+ "flex-layout.col#botones": {
+  "children": [
+    "flex-layout.row#icons-login-call-mobile"
+    
+],
+  "props": {
+     "blockClass": "botones",
+     "fulwidth": true,
+     "preventHorizontalStretch": true,
+     "preventVerticalStretch": true,
+     "preserveLayoutOnMobile": true,
+     "horizontalAlign": "center",
+     "verticalAlign": "middle",
+     "paddingTop": 0,
+     "paddingBottom": 0,
+     "width": "50%"
+ }
+},
+
+  // "drawer": {
+  //   "children": ["menu#drawer"]
+  // },
+
+  // "menu#drawer": {
+  //   "children": [
+  //     "menu-item#category-apparel",
+  //     "menu-item#category-home",
+  //     "menu-item#more"
+  //   ],
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // },
 
   "logo#mobile": {
     "props": {
@@ -495,7 +566,8 @@
   "flex-layout.row#icons-login-call-mobile": {
     "children": [
       "flex-layout.col#login-block",
-      "flex-layout.col#icon-call"
+      "flex-layout.col#icon-call",
+      "minicart.v2#mobile"
     ],
     "props": {
       "blockClass": "icons-login-wish-call",
