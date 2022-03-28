@@ -19,7 +19,7 @@
 
     "flex-layout.row#LogoMobile": {
         "children": [
-          "logo#mobile"
+          "logo#mobile-qualia"
         ],
         "props": {
           "blockClass": "LogoMobile",
@@ -27,7 +27,7 @@
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
           "preserveLayoutOnMobile": true,
-          "horizontalAlign": "LEFT",
+          "horizontalAlign": "CENTER",
           "verticalAlign": "middle",
           "paddingTop": 0,
           "paddingBottom": 6
@@ -41,15 +41,15 @@
     //       "blockClass": "LogoBlanco"
     //     }
     //   },
-      "logo#mobile": {
+      "logo#mobile-qualia": {
         "props": {
           "title": "Libreria de la U",
           "href": "/",
           "url": "assets/img/qualia-logo.svg",
-          "width": "180"
+          "width": "150"
         }
       },
-      
+      //Menu categorias
       "menu-item#Categorias": {
         "props": {
           "blockClass": "menuItemBlockClass",
@@ -87,9 +87,86 @@
         ]
       },
 
+      //Menu 2
+      "menu-item#Categorias2": {
+        "props": {
+          "blockClass": "menuItemBlockClass",
+          "id": "Categorias",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "onMountBehavior": "close",
+          "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": true,
+            "tagTitle": "Temas de Interés",
+            "text": "Categorias 2"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu.accordion#CategoriasDetalle2"
+        ]
+      },
+      "vtex.menu@2.x:submenu.accordion#CategoriasDetalle2": {
+        "children": [
+            "vtex.menu@2.x:menu#CategoriasMobile2"
+        ],
+        "props": {
+          "blockClass": "AcordionInterno"
+        }
+      },
+      "vtex.menu@2.x:menu#CategoriasMobile2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-apparel"
+        ]
+      },
+      //Menu 3
+      "menu-item#Categorias3": {
+        "props": {
+          "blockClass": "menuItemBlockClass",
+          "id": "Categorias",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "onMountBehavior": "close",
+          "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": true,
+            "tagTitle": "Temas de Interés",
+            "text": "Categorias 3"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu.accordion#CategoriasDetalle3"
+        ]
+      },
+      "vtex.menu@2.x:submenu.accordion#CategoriasDetalle3": {
+        "children": [
+            "vtex.menu@2.x:menu#CategoriasMobile3"
+        ],
+        "props": {
+          "blockClass": "AcordionInterno"
+        }
+      },
+      "vtex.menu@2.x:menu#CategoriasMobile3": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-apparel"
+        ]
+      },
+
       "flex-layout.col#LinksMenuDespMobile": {
         "children": [
-          "menu-item#Categorias"
+          "menu-item#Categorias",
+          "menu-item#Categorias2",
+          "menu-item#Categorias3"
         ],
         "props": {
           "blockClass": "LinksMenuDespMobile",
