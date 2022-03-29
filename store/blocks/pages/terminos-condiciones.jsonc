@@ -40,7 +40,8 @@
     "flex-layout.col#terminos-condiciones-content": {
          "children": [
             "flex-layout.row#banner-terminos-condiciones",
-            "flex-layout.row#content-and-links"
+            "flex-layout.row#content-and-links",
+            "flex-layout.row#solicitar-credito"
     ],
          "props": {
               "blockClass": "block",
@@ -94,7 +95,7 @@
          "props": {
               "blockClass": "block",
               "fulwidth": false,
-              "preventHorizontalStretch": true,
+              "preventHorizontalStretch": false,
               "preventVerticalStretch": true,
               "preserveLayoutOnMobile": true,
               "horizontalAlign": "center",
@@ -106,6 +107,8 @@
 
     "flex-layout.col#terminos-condiciones-text-container": {
          "children": [
+            "rich-text#terminos-condiciones-content-title",
+            "rich-text#terminos-condiciones-content-subtitle",
             "rich-text#terminos-condiciones-content-text"
     ],
          "props": {
@@ -114,11 +117,29 @@
               "preventHorizontalStretch": true,
               "preventVerticalStretch": true,
               "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
+              "horizontalAlign": "left",
+              "verticalAlign": "top",
               "paddingTop": 0,
               "paddingBottom": 0,
-              "width": "50%"
+              "width": "75%"
+        }
+    },
+
+    "rich-text#terminos-condiciones-content-title": {
+        "props": {
+                 "text": "# Términos y Condiciones",
+                 "blockClass": "terminos-condiciones-content-title",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
+        }
+    },
+
+    "rich-text#terminos-condiciones-content-subtitle": {
+        "props": {
+                 "text": "lorem ipsum",
+                 "blockClass": "terminos-condiciones-content-subtitle",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
         }
     },
 
@@ -128,6 +149,32 @@
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
         }
-    }
+    },
+
+
+    "flex-layout.row#solicitar-credito": {
+         "children": [
+            "rich-text#solicitar-credito-text"
+    ],
+         "props": {
+              "blockClass": "solicitar-credito",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
     
+    "rich-text#solicitar-credito-text": {
+        "props": {
+                 "text": "¡Solicita tu crédito dígital y haz realidad tus sueños!",
+                 "blockClass": "solicitar-credito-text",
+                 "textAlignment": "CENTER",
+                 "textPosition": "CENTER"
+        }
+    }
 }

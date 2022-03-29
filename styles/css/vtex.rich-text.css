@@ -274,6 +274,41 @@
   text-decoration: none;
 }
 
+.paragraph--legal-link{
+  width: 305px;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.link--legal-link{
+  text-decoration: none;
+  color:#4ED7E5;
+  font-weight: bold;
+}
+
+.paragraph--legal-link:hover{
+  background-color: #4ED7E5;
+}
+
+.paragraph--legal-link:hover .link--legal-link{
+  color: #fff;
+}
+
+.heading--terminos-condiciones-content-title{
+  color:#4ED7E5;
+  text-align: left;
+  margin: 10px 0px 5px 0px;
+}
+
+.paragraph--terminos-condiciones-content-subtitle{
+  color: #000;
+  font-weight: bold;
+  margin: 0px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
