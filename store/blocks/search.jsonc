@@ -218,12 +218,6 @@
       "verticalAlign": "middle"
     }
   },
-  "flex-layout.row#notfound": {
-    "children": ["not-found"],
-    "props": {
-      "fullWidth": true
-    }
-  },
 
   "breadcrumb": {
     "props": {
@@ -305,5 +299,9 @@
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }
+  },
+
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
   }
 }

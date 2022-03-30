@@ -22,7 +22,7 @@
 
   "rich-text#BusquedaVacia": {
     "props": {
-      "text": "BusquedaVacia",
+      "text": "Busqueda Vacia",
       "blockClass": "Busquedavacia",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
