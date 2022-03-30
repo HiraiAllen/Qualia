@@ -1,15 +1,15 @@
 {
   "store.not-found#search": {
-    "blocks": ["flex-layout.row#notfound"]
+    "blocks": [
+        "image#bannerError404", 
+        "rich-text#Error404"
+    ]
   },
   "store.not-found#product": {
-    "blocks": ["flex-layout.row#notfound"]
-  },
-  "flex-layout.row#notfound": {
-    "children": ["image#bannerError404", "rich-text#Error404"],
-    "props": {
-      "fullWidth": true
-    }
+    "blocks": [
+        "image#bannerError404", 
+        "rich-text#Error404"
+    ]
   },
   "image#bannerError404": {
     "props": {

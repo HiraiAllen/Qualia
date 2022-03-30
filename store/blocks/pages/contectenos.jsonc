@@ -1,0 +1,43 @@
+{
+  "store.custom#Contactenos": {
+    "blocks": [
+      "responsive-layout.desktop#Contactenos",
+      "responsive-layout.tablet#Contactenos",
+      "responsive-layout.mobile#Contactenos"
+    ]
+  },
+  "responsive-layout.desktop#Contactenos": {
+    "children": [
+        "image#bannerContactenos",
+        "rich-text#Contactenos"
+    ]
+  },
+  "responsive-layout.tablet#Contactenos": {
+    "children": [
+        "image#bannerContactenos",
+        "rich-text#Contactenos"
+    ]
+  },
+  "responsive-layout.mobile#Contactenos": {
+    "children": [
+        "image#bannerContactenos",
+        "rich-text#Contactenos"
+    ]
+  },
+  "image#bannerContactenos": {
+    "props": {
+      "src": "assets/img/banners/bannerContactenos.png",
+      "alt": "Contáctenos",
+      "width": "100%",
+      "blockClass": "bannerContactenos"
+    }
+  },
+  "rich-text#Contactenos": {
+    "props": {
+      "text": "Contactenos",
+      "blockClass": "Contactenos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
