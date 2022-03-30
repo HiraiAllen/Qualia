@@ -22,16 +22,6 @@
     }
   },
 
-  "store.search#department": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-
   "store.search#category": {
     "blocks": ["search-result-layout"],
     "props": {
@@ -63,6 +53,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
+      "condition-layout.product#DeptoTecno",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -72,6 +63,11 @@
       "defaultGalleryLayout": "grid"
     }
   },
+
+
+
+
+
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],
     "props": {
@@ -108,10 +104,32 @@
     }
   },
   "flex-layout.row#searchinfo": {
-    "children": ["flex-layout.col#productCount", "flex-layout.row#orderByAndSwitcher"]
+    "children": ["flex-layout.col#productCount", "flex-layout.row#Orden"]
   },
+
+  "flex-layout.row#Orden": {
+    "children": [
+        "order-by.v2"
+  ],
+    "props": {
+        "blockClass": "Orden",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "right",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+
+
   "flex-layout.row#orderByAndSwitcher": {
-    "children": ["order-by.v2", "gallery-layout-switcher"],
+    "children": [
+      "order-by.v2", 
+      "gallery-layout-switcher"
+    ],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,
@@ -182,8 +200,8 @@
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
+      // "flex-layout.col#switcherMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
@@ -244,8 +262,8 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf#listLayout",
-      "GridSummary": "product-summary.shelf"
+      "ListSummary": "product-summary.shelf#Vitrina",
+      "GridSummary": "product-summary.shelf#Vitrina"
     }
   },
   "gallery-layout-switcher": {

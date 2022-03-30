@@ -700,7 +700,7 @@
   },
   "rich-text#LinksHeader-a": {
     "props": {
-      "text": "Educación ![Separador](assets/img/iconos/SeparadorLinkHome.png) Hogar ![Separador](assets/img/iconos/SeparadorLinkHome.png) Movilidad ![Separador](assets/img/iconos/SeparadorLinkHome.png) Salud y Bienestar ![Separador](assets/img/iconos/SeparadorLinkHome.png) Tecnología ![Separador](assets/img/iconos/SeparadorLinkHome.png) Turismo y entretenimiento",
+      "text": "Educación ![Separador](assets/img/iconos/SeparadorLinkHome.png) Hogar ![Separador](assets/img/iconos/SeparadorLinkHome.png) Movilidad ![Separador](assets/img/iconos/SeparadorLinkHome.png) Salud y Bienestar ![Separador](assets/img/iconos/SeparadorLinkHome.png) [Tecnología](/tecnologia) ![Separador](assets/img/iconos/SeparadorLinkHome.png) Turismo y entretenimiento",
       "blockClass": "LinksHeader",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
