@@ -1,0 +1,31 @@
+{
+  "search-not-found-layout": {
+    "children": [
+        "image#bannerBusquedaVacia", 
+        "rich-text#BusquedaVacia"
+    ]
+  },
+
+  "image#bannerBusquedaVacia": {
+    "props": {
+      "src": "assets/img/banners/bannerBusquedaVacia.png",
+      "alt": "no hemos encontrado ese producto",
+      "width": "100%",
+      "blockClass": "bannerBusquedaVacia",
+      "link": {
+        "url": "/",
+        "openNewTab": false,
+        "title": "Volver al home"
+      }
+    }
+  },
+
+  "rich-text#BusquedaVacia": {
+    "props": {
+      "text": "Busqueda Vacia",
+      "blockClass": "Busquedavacia",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

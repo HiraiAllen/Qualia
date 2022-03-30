@@ -51,7 +51,7 @@
 
 :global(.vtex-checkbox__box-wrapper)
 {
-    border: solid 1px #fff !important;
+    border: solid 1px #fff;
     border-radius: 50%;
 }
 :global(.vtex-checkbox__inner-container)

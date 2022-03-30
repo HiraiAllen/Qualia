@@ -1,0 +1,65 @@
+{
+  "store.search#department": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "orderByField": "OrderByNameASC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 30,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop": {
+    "children": [
+      "image#bannerDpto",
+      "flex-layout.row#ResultadoContenido"
+    ],
+    "props": {
+      "fullWidth": false,
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid",
+      "blockClass": "ResultLayoutDesktop"
+    }
+  },
+  "image#bannerDpto": {
+    "props": {
+      "src": "assets/img/banners/bannerTecnologia.png",
+      "alt": "Productos de Tecnología",
+      "width": "100%",
+      "blockClass": "bannerDpto"
+    }
+  },
+  "flex-layout.row#ResultadoContenido": {
+     "children": [
+        "flex-layout.col#ResultadoContenido"
+  ],
+     "props": {
+        "blockClass": "ResultadoContenido",
+        "fulwidth": false,
+        "paddingBottom": 6
+    }
+  },
+  "flex-layout.col#ResultadoContenido": {
+     "children": [
+      "flex-layout.row#searchbread",
+      // "condition-layout.product#DeptoTecno",
+      // "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
+  ],
+     "props": {
+        "blockClass": "ResultadoContenido",
+        "fulwidth": false
+    }
+  }
+}

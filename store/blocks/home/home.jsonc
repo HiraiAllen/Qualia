@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "rich-text#Desarrollo",
       "flex-layout.row#ValoresHome",
       "list-context.image-list#SliderPpal",
       // "list-context.image-list#demo",
@@ -297,6 +298,14 @@
         "openNewTab": false,
         "title": "Ellos confían en nosotros"
       }
+    }
+  },
+  "rich-text#Desarrollo": {
+    "props": {
+         "text": "Desarrollo",
+         "blockClass": "Desarrollo",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER"
     }
   }
 }

@@ -321,6 +321,56 @@
 .container--links-mini-footer-text{
   height: 30px;
 }
+.container--Desarrollo{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--Desarrollo{
+  padding: 0;
+  margin: 0;
+  background-color: yellow;
+  width: 100%;
+}
+.paragraph--Desarrollo{
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+.strong--Desarrollo{
+  font-size: 1.2em;
+}
+.link--Desarrollo{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+.headingLevel1--Desarrollo{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+.headingLevel2--Desarrollo{
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9em;
+}
+
+.container--layout-option {
+  margin-left: 0.3em;
+}
+
+.paragraph--layout-option {
+  margin: 0;
+}
+
+.paragraph--summarySpecificationBullet {
+  margin: 0;
+  line-height: initial;
+  font-size: 1.25rem;
+  line-height: 1.15rem;
+}
+
 
 .paragraph--numero-mini-footer{
   color: #fff;
