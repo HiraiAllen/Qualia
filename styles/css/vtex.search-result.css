@@ -86,3 +86,11 @@
   font-weight: bold;
   color: #89878c;
 }
+.orderByButton {
+  border: 1px solid #4ed7e5;
+  padding: 8px 10px 8px 20px;
+  border-radius: 8px;
+}
+.totalProducts--layout {
+  padding: 8px 10px;
+}

@@ -97,6 +97,11 @@
       "paddingBottom": 0
     }
   },
+  "order-by.v2":{
+    "props":{
+      "blockClass": "Orden"
+    }
+  },
 
   "flex-layout.row#orderByAndSwitcher": {
     "children": ["order-by.v2", "gallery-layout-switcher"],
