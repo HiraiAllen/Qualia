@@ -391,8 +391,14 @@
   max-width: 1280px;
 }
 
+
+.flexCol--numero-mini-footer{
+  margin: 0px 30px;
+}
+
 .flexRow--ResultadoContenido {
   padding: 10px 20px;
+
 
 @media (max-width: 1600px) {
     

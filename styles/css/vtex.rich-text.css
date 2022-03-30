@@ -372,6 +372,10 @@
 }
 
 
+.paragraph--numero-mini-footer{
+  color: #fff;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

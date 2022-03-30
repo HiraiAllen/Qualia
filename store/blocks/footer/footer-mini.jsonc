@@ -28,7 +28,9 @@
       "flex-layout.row#fintech-mini-footer-logo",
       "flex-layout.row#camara-comercio-mini-footer-logo",
       "flex-layout.row#dinsutria-mini-footer-logo",
-      "flex-layout.col#links-mini-footer"
+      "flex-layout.col#links-mini-footer",
+      "flex-layout.col#numero-mini-footer",
+      "flex-layout.col#mini-footer-whatsapp-logo"
   ],
     "props": {
         "blockClass": "mini-footer-logos",
@@ -250,6 +252,63 @@
        "textAlignment": "LEFT",
        "textPosition": "LEFT"
   }
-}
+}, 
+
+ "flex-layout.col#numero-mini-footer": {
+    "children": [
+      "rich-text#numero-mini-footer"
+ ],
+    "props": {
+       "blockClass": "numero-mini-footer",
+       "fulwidth": true,
+       "preventHorizontalStretch": true,
+       "preventVerticalStretch": true,
+       "preserveLayoutOnMobile": true,
+       "horizontalAlign": "center",
+       "verticalAlign": "middle",
+       "paddingTop": 0,
+       "paddingBottom": 0
+   }
+ },
+
+  "rich-text#numero-mini-footer": {
+    "props": {
+         "text": "+00 00000000",
+         "blockClass": "numero-mini-footer",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.col#mini-footer-whatsapp-logo": {
+     "children": [
+      "image#mini-footer-whatsapp-logo"
+  ],
+     "props": {
+        "blockClass": "mini-footer-whatsapp-logo",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+
+  "image#mini-footer-whatsapp-logo": {
+    "props": {
+         "src": "assets/img/whatsapp-footer-logo.svg",
+         "alt": "alt",
+         "height": "40px",
+         "blockClass": "mini-footer-whatsapp-logo",
+         "link": {
+              "url": "url",
+              "openNewTab": false,
+              "title": "title"
+      }
+    }
+  }
   
 }
