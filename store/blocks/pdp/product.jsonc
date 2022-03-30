@@ -11,12 +11,52 @@
       "product-questions-and-answers"
     ]
   },
+  "responsive-layout.desktop#VP": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "condition-layout.product#availability",
+      "flex-layout.row#description",
+      "flex-layout.row#specifications-title",
+      "product-specification-group#table",
+      "shelf.relatedProducts",
+      "product-reviews",
+      "product-questions-and-answers"
+    ]
+  },
+  "responsive-layout.tablet#VP": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "condition-layout.product#availability",
+      "flex-layout.row#description",
+      "flex-layout.row#specifications-title",
+      "product-specification-group#table",
+      "shelf.relatedProducts",
+      "product-reviews",
+      "product-questions-and-answers"
+    ]
+  },
+  "responsive-layout.mobile#VP": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "condition-layout.product#availability",
+      "flex-layout.row#description",
+      "flex-layout.row#specifications-title",
+      "product-specification-group#table",
+      "shelf.relatedProducts",
+      "product-reviews",
+      "product-questions-and-answers"
+    ]
+  },
   "flex-layout.row#specifications-title": {
-    "children": ["rich-text#specifications"]
+    "children": ["rich-text#specifications"],
+    "props": {
+      "marginTop": 3,
+      "marginBottom": 3
+    }
   },
   "rich-text#specifications": {
     "props": {
-      "text": "##### Product Specifications"
+      "text": "##### Especificaciones del producto"
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -29,9 +69,41 @@
     "props": {
       "marginBottom": 7
     },
-    "children": ["product-description", "DatosProducto"]
+    "children": ["product-description"]
   },
-
+  "condition-layout.product#LineaProceso": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#InfoCredito",
+      "Else": "flex-layout.row#InfoCredito"
+    }
+  },
+  "flex-layout.row#InfoCredito": {
+    "children": ["rich-text#InfoCredito"],
+    "props": {
+      "blockClass": "InfoCredito",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "rich-text#InfoCredito": {
+    "props": {
+      "text": "¡Puedes financiar este producto, seleccionando CRÉDITO DIGITAL como método de pago, cuando llegues al checkout!",
+      "blockClass": "InfoCredito",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
   "condition-layout.product#availability": {
     "props": {
       "conditions": [
@@ -52,9 +124,8 @@
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+    "children": ["flex-layout.col#stack", "flex-layout.col#DetalleProducto"]
   },
-
   "stack-layout": {
     "props": {
       "blockClass": "product"
@@ -65,7 +136,6 @@
       "product-specification-badges"
     ]
   },
-
   "product-specification-badges": {
     "props": {
       "specificationGroupName": "Group",
@@ -74,7 +144,6 @@
       "displayValue": "SPECIFICATION_NAME"
     }
   },
-
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
@@ -91,55 +160,52 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": false,
+      "thumbnailAspectRatio": "auto",
+      "blockClass": "imagenProducto"
     }
   },
-  "flex-layout.col#right-col": {
+
+  "flex-layout.col#DetalleProducto": {
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 0
     },
     "children": [
+      "flex-layout.row#MarcaReferencia",
       "flex-layout.row#product-name",
       "product-rating-summary",
+      "condition-layout.product#DeptoTecno",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
-      "product-installments",
-      "product-separator",
-      "product-identifier.product",
+      // "product-installments",
+      // "product-separator",
       "sku-selector",
-      "product-quantity",
+      // "product-quantity",
       "product-assembly-options",
       "product-gifts",
-      "flex-layout.row#buy-button",
+      "flex-layout.row#CantidadAgregar",
+      // "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
+      // "shipping-simulator",
+      // "share#default",
+      "condition-layout.product#LineaProceso",
+      "image#MediosPagoVP"
     ]
   },
-
   "flex-layout.row#product-name": {
     "props": {
-      "marginBottom": 3
+      "marginBottom": 3,
+      "blockClass": "NombreProducto"
     },
     "children": ["vtex.store-components:product-name"]
   },
-
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
     }
   },
-
-  "flex-layout.row#buy-button": {
-    "props": {
-      "marginTop": 4,
-      "marginBottom": 7
-    },
-    "children": ["add-to-cart-button"]
-  },
-
   "flex-layout.row#product-availability": {
     "props": {
       "colGap": 7,
@@ -171,7 +237,6 @@
     },
     "children": ["availability-subscriber"]
   },
-
   "share#default": {
     "props": {
       "social": {
@@ -180,6 +245,94 @@
         "Twitter": false,
         "Pinterest": true
       }
+    }
+  },
+  "flex-layout.row#CantidadAgregar": {
+    "children": [
+      "flex-layout.row#producto-cantidad",
+      "flex-layout.row#buy-button"
+    ],
+    "props": {
+      "blockClass": "CantidadAgregar",
+      "fulwidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": false,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 6,
+      "paddingBottom": 6,
+      "rowGap": 2
+    }
+  },
+  "flex-layout.row#producto-cantidad": {
+    "props": {
+      "blockClass": "producto-cantidad"
+    },
+    "children": ["product-quantity"]
+  },
+  "product-quantity": {
+    "props": {
+      "showLabel": false,
+      "size": "100px"
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 0,
+      "marginBottom": 0,
+      "blockClass": "btnComprarProd"
+    },
+    "children": ["add-to-cart-button#PDP"]
+  },
+  "add-to-cart-button#PDP": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button",
+      "blockClass": "AgregarVitrina",
+      "text": "Agrégalo a la bolsa"
+    }
+  },
+  "flex-layout.row#MarcaReferencia": {
+    "children": [
+      // "product-summary-brand"
+      "vtex.store-components:product-brand",
+      "product-identifier.product"
+      // "product-identifier.product"
+    ],
+    "props": {
+      "blockClass": "MarcaReferencia",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#MediosPagoVP": {
+    "props": {
+      "src": "assets/img/iconos/MediosPagoVp.png",
+      "alt": "Medios de Pago",
+      "height": "hight",
+      "blockClass": "class",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
+      }
+    }
+  },
+  "rich-text#ContactaAsesor": {
+    "props": {
+         "text": "ContactaAsesor",
+         "text": "![AltImagen](urlImagen)",
+         "text": "[Texto del hipervinculo](urlHipervinculo?target=_blank)",
+         "blockClass": "ContactaAsesor",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER"
     }
   }
 }

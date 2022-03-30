@@ -1,204 +1,79 @@
 {
-    "flex-layout.row#Padre": {
-        "children": [
-           "flex-layout.col#Hijo"
-     ],
-        "props": {
-           "blockClass": "Padre"
-       }
-     },
-     
-     "flex-layout.col#Hijo": {
-        "children": [
-           "rich-text#contactTitle",
-           "rich-text#Hijo1",
-           "rich-text#Hijo2",
-           "rich-text#Hijo3",
-           "flex-layout.row#socialMediaFooterIcons"
-     ],
-        "props": {
-           "blockClass": "Hijo"
-       }
-     },
-
-     "rich-text#contactTitle": {
-       "props": {
-            "text": "QUALIA: ",
-            "blockClass": "contactTextTitle",
-            "color": "white"
-       }
-     },
-
-     "rich-text#Hijo1": {
-       "props": {
-            "text": "Dirección",
-            "blockClass": "contactText",
-            "color": "white"
-       }
-     },
-     "rich-text#Hijo2": {
-       "props": {
-            "text": "Teléfonos ",
-            "blockClass": "contactText",
-            "color": "white"
-       }
-     },
-     "rich-text#Hijo3": {
-       "props": {
-            "text": "Lorem ipsum",
-            "blockClass": "contactText",
-            "color": "white"
-       }
-     },
-
-     "flex-layout.row#socialMediaFooterIcons": {
-        "children": [
-          "flex-layout.col#instagramFooter",
-          "flex-layout.col#facebookFooter",
-          "flex-layout.col#twitterFooter",
-          "flex-layout.col#youtubeFooter",
-          "flex-layout.col#whatsappFooter"
-     ],
-        "props": {
-           "blockClass": "socialMediaFooterIcons",
-           "fulwidth": true,
-           "preventHorizontalStretch": true,
-           "preventVerticalStretch": true,
-           "preserveLayoutOnMobile": true,
-           "horizontalAlign": "left",
-           "verticalAlign": "middle",
-           "paddingTop": 0,
-           "paddingBottom": 0
-       }
-     },
-     //Icons
-     "flex-layout.col#instagramFooter": {
-        "children": [
-          "image#instagramFooterIcon"
-     ],
-        "props": {
-           "blockClass": "socialFooterIcon",
-           "fulwidth": true,
-           "preventHorizontalStretch": true,
-           "preventVerticalStretch": true,
-           "preserveLayoutOnMobile": true,
-           "horizontalAlign": "center",
-           "verticalAlign": "middle",
-           "paddingTop": 0,
-           "paddingBottom": 0
-       }
-     },
-
-     "image#instagramFooterIcon": {
-       "props": {
-            "src": "assets/img/instagram-footer-logo.svg",
-            "alt": "Instagram",
-            "height": "32px",
-            "blockClass": "iconFooterContact",
-            "link": {
-                 "url": "url",
-                 "openNewTab": false,
-                 "title": "title"
-         }
-       }
-     },
-
-     "flex-layout.col#facebookFooter": {
-        "children": [
-          "image#facebookFooterIcon"
-     ],
-        "props": {
-           "blockClass": "socialFooterIcon",
-           "fulwidth": true,
-           "preventHorizontalStretch": true,
-           "preventVerticalStretch": true,
-           "preserveLayoutOnMobile": true,
-           "horizontalAlign": "center",
-           "verticalAlign": "middle",
-           "paddingTop": 0,
-           "paddingBottom": 0
-       }
-     },
-
-     "image#facebookFooterIcon": {
-       "props": {
-            "src": "assets/img/facebook-footer-logo.svg",
-            "alt": "Facebook",
-            "height": "32px",
-            "blockClass": "iconFooterContact",
-            "link": {
-                 "url": "url",
-                 "openNewTab": false,
-                 "title": "title"
-         }
-       }
-     },
-
-     "flex-layout.col#twitterFooter": {
-      "children": [
-        "image#twitterFooterIcon"
-   ],
-      "props": {
-         "blockClass": "socialFooterIcon",
-         "fulwidth": true,
-         "preventHorizontalStretch": true,
-         "preventVerticalStretch": true,
-         "preserveLayoutOnMobile": true,
-         "horizontalAlign": "center",
-         "verticalAlign": "middle",
-         "paddingTop": 0,
-         "paddingBottom": 0
-     }
-   },
-
-   "image#twitterFooterIcon": {
-     "props": {
-          "src": "assets/img/twitter-footer-logo.svg",
-          "alt": "Twitter",
-          "height": "32px",
-          "blockClass": "iconFooterContact",
-          "link": {
-               "url": "url",
-               "openNewTab": false,
-               "title": "title"
-       }
-     }
-   },
-   "flex-layout.col#youtubeFooter": {
+  "flex-layout.row#Padre": {
     "children": [
-      "image#youtubeFooterIcon"
- ],
+      "flex-layout.col#Hijo"
+    ],
     "props": {
-       "blockClass": "socialFooterIcon",
-       "fulwidth": true,
-       "preventHorizontalStretch": true,
-       "preventVerticalStretch": true,
-       "preserveLayoutOnMobile": true,
-       "horizontalAlign": "center",
-       "verticalAlign": "middle",
-       "paddingTop": 0,
-       "paddingBottom": 0
-   }
- },
-
- "image#youtubeFooterIcon": {
-   "props": {
-        "src": "assets/img/youtube-footer-logo.svg",
-        "alt": "Youtube",
-        "height": "32px",
-        "blockClass": "iconFooterContact",
-        "link": {
-             "url": "url",
-             "openNewTab": false,
-             "title": "title"
-     }
-   }
- },
-
-  "flex-layout.col#whatsappFooter": {
+      "blockClass": "Padre",
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#Hijo": {
     "children": [
-      "image#whatsappFooterIcon"
-  ],
+      "vtex.menu@2.x:menu#Qualia",
+      // "rich-text#contactTitle",
+      // "rich-text#Hijo1",
+      // "rich-text#Hijo2",
+      // "rich-text#Hijo3",
+      "flex-layout.row#socialMediaFooterIcons"
+    ],
+    "props": {
+      "blockClass": "Hijo"
+    }
+  },
+  "rich-text#contactTitle": {
+    "props": {
+      "text": "QUALIA: ",
+      "blockClass": "contactTextTitle",
+      "color": "white"
+    }
+  },
+  "rich-text#Hijo1": {
+    "props": {
+      "text": "Dirección",
+      "blockClass": "contactText",
+      "color": "white"
+    }
+  },
+  "rich-text#Hijo2": {
+    "props": {
+      "text": "Teléfonos ",
+      "blockClass": "contactText",
+      "color": "white"
+    }
+  },
+  "rich-text#Hijo3": {
+    "props": {
+      "text": "Lorem ipsum",
+      "blockClass": "contactText",
+      "color": "white"
+    }
+  },
+  "flex-layout.row#socialMediaFooterIcons": {
+    "children": [
+      "flex-layout.col#instagramFooter",
+      "flex-layout.col#facebookFooter",
+      "flex-layout.col#twitterFooter",
+      "flex-layout.col#youtubeFooter",
+      "flex-layout.col#whatsappFooter"
+    ],
+    "props": {
+      "blockClass": "socialMediaFooterIcons",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "left",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  //Icons
+  "flex-layout.col#instagramFooter": {
+    "children": [
+      "image#instagramFooterIcon"
+    ],
     "props": {
       "blockClass": "socialFooterIcon",
       "fulwidth": true,
@@ -209,19 +84,134 @@
       "verticalAlign": "middle",
       "paddingTop": 0,
       "paddingBottom": 0
-  }
+    }
   },
-
+  "image#instagramFooterIcon": {
+    "props": {
+      "src": "assets/img/instagram-footer-logo.svg",
+      "alt": "Instagram",
+      "height": "32px",
+      "blockClass": "iconFooterContact",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
+      }
+    }
+  },
+  "flex-layout.col#facebookFooter": {
+    "children": [
+      "image#facebookFooterIcon"
+    ],
+    "props": {
+      "blockClass": "socialFooterIcon",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#facebookFooterIcon": {
+    "props": {
+      "src": "assets/img/facebook-footer-logo.svg",
+      "alt": "Facebook",
+      "height": "32px",
+      "blockClass": "iconFooterContact",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
+      }
+    }
+  },
+  "flex-layout.col#twitterFooter": {
+    "children": [
+      "image#twitterFooterIcon"
+    ],
+    "props": {
+      "blockClass": "socialFooterIcon",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#twitterFooterIcon": {
+    "props": {
+      "src": "assets/img/twitter-footer-logo.svg",
+      "alt": "Twitter",
+      "height": "32px",
+      "blockClass": "iconFooterContact",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
+      }
+    }
+  },
+  "flex-layout.col#youtubeFooter": {
+    "children": [
+      "image#youtubeFooterIcon"
+    ],
+    "props": {
+      "blockClass": "socialFooterIcon",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#youtubeFooterIcon": {
+    "props": {
+      "src": "assets/img/youtube-footer-logo.svg",
+      "alt": "Youtube",
+      "height": "32px",
+      "blockClass": "iconFooterContact",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
+      }
+    }
+  },
+  "flex-layout.col#whatsappFooter": {
+    "children": [
+      "image#whatsappFooterIcon"
+    ],
+    "props": {
+      "blockClass": "socialFooterIcon",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
   "image#whatsappFooterIcon": {
     "props": {
-          "src": "assets/img/whatsapp-footer-logo.svg",
-          "alt": "Whatsapp",
-          "height": "32px",
-          "blockClass": "iconFooterContact",
-          "link": {
-              "url": "url",
-              "openNewTab": false,
-              "title": "title"
+      "src": "assets/img/whatsapp-footer-logo.svg",
+      "alt": "Whatsapp",
+      "height": "32px",
+      "blockClass": "iconFooterContact",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
       }
     }
   }

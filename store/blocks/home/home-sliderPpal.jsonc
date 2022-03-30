@@ -1,0 +1,43 @@
+{
+    "list-context.image-list#SliderPpal": {
+        "children": [
+            "slider-layout#SliderPpal"
+        ],
+        "props": {
+            "height": "100%",
+            "images": [
+                {
+                    "image": "assets/img/banners/BannerPrincipal-min.png",
+                    "mobileImage": "assets/img/banners/BannerPrincipal-min.png",
+                    "link": {
+                        "url": "/",
+                        "openNewTab": false,
+                        "title": "Banner Principal Qualia"
+                    }
+                },
+                {
+                    "image": "assets/img/banners/BannerPrincipal-min.png",
+                    "mobileImage": "assets/img/banners/BannerPrincipal-min.png",
+                    "link": {
+                        "url": "/",
+                        "openNewTab": false,
+                        "title": "Banner Principal Qualia"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#SliderPpal": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel",
+            "arrowSize": 20
+        }
+    }
+}

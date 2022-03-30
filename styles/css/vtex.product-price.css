@@ -77,3 +77,22 @@
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
+
+.sellingPriceValue--PrecioLista {
+  font-size: 14px;
+  font-weight: 600;
+  color: #16A1B3;
+}
+.sellingPriceValue--PrecioVenta {
+  font-size: 20px;
+  font-weight: bold;
+  color: #16A1B3;
+}
+.sellingPrice--PrecioVenta--hasListPrice{
+  color: #16A1B3;
+}
+.listPrice--PrecioLista{
+  color: #B0AFB5;  
+  font-size: 12px;
+  font-weight: bold;
+}

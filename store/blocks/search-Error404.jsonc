@@ -1,0 +1,35 @@
+{
+  "store.not-found#search": {
+    "blocks": [
+        "image#bannerError404", 
+        "rich-text#Error404"
+    ]
+  },
+  "store.not-found#product": {
+    "blocks": [
+        "image#bannerError404", 
+        "rich-text#Error404"
+    ]
+  },
+  "image#bannerError404": {
+    "props": {
+      "src": "assets/img/banners/bannerError404.png",
+      "alt": "no hemos encontrado esa página",
+      "width": "100%",
+      "blockClass": "bannerBusquedaVacia",
+      "link": {
+        "url": "/",
+        "openNewTab": false,
+        "title": "Volver al home"
+      }
+    }
+  },
+  "rich-text#Error404": {
+    "props": {
+      "text": "Error 404",
+      "blockClass": "Error404",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

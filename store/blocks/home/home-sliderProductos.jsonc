@@ -1,0 +1,76 @@
+{
+    "flex-layout.row#SliderProductosSugeridosHome": {
+        "children": [
+            "list-context.product-list#VitrinaSugeridosHome"
+        ],
+        "props": {
+            "paddingTop": 4,
+            "paddingButtom": 4,
+            "blockClass": "SliderProductosSugeridosHome"
+        }
+    },
+    "list-context.product-list#VitrinaSugeridosHome": {
+        "blocks": [
+            "product-summary.shelf#Vitrina"
+        ],
+        "children": [
+            "slider-layout#SliderProductosSugeridosHome"
+        ],
+        "props": {
+            //   "orderBy": "OrderByTopSaleDESC",
+            "hideUnavailableItems": false,
+            //   "category": "1/4",
+            "collection": "137",
+            "maxItems": 16,
+            "marginBottom": 2,
+            "autoplay": {
+                "timeout": 4000,
+                "stopOnHover": true
+            }
+        }
+    },
+    "slider-layout#SliderProductosSugeridosHome": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 3,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 4000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "preventVerticalStretch": "auto",
+            "showNavigationArrows": "always",
+            "blockClass": "SliderProductosHome",
+            "showPaginationDots": "never",
+            "arrowSize": 15,
+            "fullWidth": false
+        }
+    },
+    "flex-layout.row#NombreVitrinaSugeridosHome": {
+        "children": [
+            "rich-text#ProductosSugeridosHome"
+        ],
+        "props": {
+            "blockClass": "NombreVitrina",
+            "fulwidth": false,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "LEFT",
+            "verticalAlign": "middle",
+            "paddingTop": 7,
+            "paddingBottom": 0
+        }
+    },
+    "rich-text#ProductosSugeridosHome": {
+        "props": {
+            "text": "## Novedades",
+            "blockClass": "NombreVitrina",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    }
+}

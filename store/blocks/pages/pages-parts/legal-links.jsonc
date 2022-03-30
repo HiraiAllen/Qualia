@@ -1,0 +1,78 @@
+{
+   "flex-layout.col#legal-links": {
+        "children": [
+            "rich-text#terminos-condiciones-link",
+            "rich-text#tratamiento-datos-personales-link",
+            "rich-text#terminos-condiciones-ofertas-link",
+            "rich-text#condiciones-metodos-pago-link",
+            "rich-text#politicas-envio-link",
+            "rich-text#politicas-devoluciones-garantias-link"
+   ],
+        "props": {
+             "blockClass": "legal-links",
+             "fulwidth": true,
+             "preventHorizontalStretch": true,
+             "preventVerticalStretch": false,
+             "preserveLayoutOnMobile": true,
+             "horizontalAlign": "left",
+             "verticalAlign": "TOP",
+             "paddingTop": 0,
+             "paddingBottom": 0,
+             "width": "25%"
+       }
+   },
+
+   "rich-text#terminos-condiciones-link": {
+       "props": {
+                "text": "[Términos y Condiciones](/terminos-condiciones)",
+                "blockClass": "legal-link",
+                "textAlignment": "LEFT",
+                "textPosition": "LEFT"
+       }
+   },
+
+   "rich-text#tratamiento-datos-personales-link": {
+    "props": {
+             "text": "[Tratamiento de datos personales](/?target=_blank)",
+             "blockClass": "legal-link",
+             "textAlignment": "LEFT",
+             "textPosition": "LEFT"
+        }
+    }, 
+
+    "rich-text#terminos-condiciones-ofertas-link": {
+        "props": {
+                 "text": "[Términos y Condiciones de Ofertas](/?target=_blank)",
+                 "blockClass": "legal-link",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
+            }
+    },
+
+    "rich-text#condiciones-metodos-pago-link": {
+        "props": {
+                 "text": "[Condiciones y Métodos de Pago](/?target=_blank)",
+                 "blockClass": "legal-link",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
+            }
+    },
+
+    "rich-text#politicas-envio-link": {
+        "props": {
+                 "text": "[Políticas de Envío](/?target=_blank)",
+                 "blockClass": "legal-link",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
+            }
+    },
+
+    "rich-text#politicas-devoluciones-garantias-link": {
+        "props": {
+                 "text": "[Políticas de Devoluciones y Garantías](/?target=_blank)",
+                 "blockClass": "legal-link",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
+            }
+    }
+}

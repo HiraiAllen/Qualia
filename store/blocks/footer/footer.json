@@ -5,7 +5,6 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
       "flex-layout.row#Footer-Xtrategik"
     ]
   },
@@ -13,15 +12,11 @@
     "children": [
       "flex-layout.row#Padre",
       "vtex.menu@2.x:menu#TerminosLegales",
-      "footer-spacer",
       "vtex.menu@2.x:menu#LaTienda",
-      "footer-spacer",
       "flex-layout.row#qualia-ubuntec-logos"
     ],
     "props": {
-      "blockClass": "menu-row",
-      "paddingTop": 6,
-      "paddingBottom": 3
+      "blockClass": "footerDesktop"
     }
   },
 

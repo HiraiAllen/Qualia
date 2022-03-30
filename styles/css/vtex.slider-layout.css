@@ -2,11 +2,11 @@
   justify-content: center;
 }
 .sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
+  /* background-color: #F0F0F0; */
 }
 
 .sliderTrackContainer {
-  max-width: 1520px;
+  /* max-width: 1520px; */
 }
 
 .paginationDotsContainer {
@@ -24,4 +24,8 @@
   margin-bottom: 25px;
   padding-left: .5rem;
   padding-right: .5rem;
+}
+
+.slideChildrenContainer--SliderProductosHome {
+  padding: 20px 0;
 }

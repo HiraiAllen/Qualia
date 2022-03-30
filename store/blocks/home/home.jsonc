@@ -1,22 +1,31 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "rich-text#Desarrollo",
+      "flex-layout.row#ValoresHome",
+      "list-context.image-list#SliderPpal",
+      // "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#SliderIconos",
       "flex-layout.row#banner-ofertas",
-      "flex-layout.row#tag-zona-de-ofertas",
-      "tab-layout#productos-servicios",
-      "flex-layout.row#tag-nosotros",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "flex-layout.row#btnZonaOfertas",
+      "flex-layout.row#SliderProductosSugeridosHome",
+      // "flex-layout.row#tag-zona-de-ofertas",
+      // "tab-layout#productos-servicios",
+      "flex-layout.row#btnNosotros",
+      "flex-layout.row#PorQueNosotros",
+      "flex-layout.row#btnDecidiste",
+      "flex-layout.row#SliderProductosSugeridosHome",
+      // "info-card#home",
+      // "rich-text#question",
+      // "rich-text#link",
+      "flex-layout.row#FormularioBoletinCT",
+      "flex-layout.row#btnConfian",
+      "flex-layout.row#SliderIconosAliados"
     ]
   },
-
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
@@ -45,7 +54,6 @@
       "blockClass": "carousel"
     }
   },
-
   "rich-text#shelf-title": {
     "props": {
       "text": "## Summer",
@@ -74,7 +82,6 @@
       "blockClass": "shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -88,66 +95,217 @@
       "textAlignment": "center"
     }
   },
-
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
     }
   },
-
   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
   },
-
   "flex-layout.row#banner-ofertas": {
-     "children": [
-      "flex-layout.col#banner-ofertas-col"
-  ],
-     "props": {
-        "blockClass": "block",
-        "fulwidth": true,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "horizontalAlign": "center",
-        "verticalAlign": "middle",
-        "paddingTop": 0,
-        "paddingBottom": 0
+    "children": ["flex-layout.col#banner-ofertas-col"],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
     }
   },
-
   "flex-layout.col#banner-ofertas-col": {
-     "children": [
-      "image#banner-ofertas-image"
-  ],
-     "props": {
-        "blockClass": "block",
-        "fulwidth": true,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "horizontalAlign": "center",
-        "verticalAlign": "middle",
-        "paddingTop": 0,
-        "paddingBottom": 0
+    "children": ["image#banner-ofertas-image"],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
     }
   },
-
   "image#banner-ofertas-image": {
     "props": {
-         "src": "assets/img/banners/banner-ofertas.png",
-         "alt": "Ofertas",
-         "height": "400px",
-         "blockClass": "banner-ofertas",
-         "link": {
-              "url": "url",
-              "openNewTab": false,
-              "title": "title"
+      "src": "assets/img/banners/bannerOfertas.png",
+      "alt": "Ofertas",
+      // "height": "400px",
+      "blockClass": "banner-ofertas",
+      "link": {
+        "url": "",
+        "openNewTab": false,
+        "title": "Ofertas"
       }
+    }
+  },
+  "flex-layout.row#ValoresHome": {
+    "children": ["rich-text#ValoresHome"],
+    "props": {
+      "blockClass": "ValoresHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "rich-text#ValoresHome": {
+    "props": {
+      "text": "¡El marketplace en donde **haces REALIDAD tus SUEÑOS!** ![Separador](assets/img/iconos/puntoSeparador.png) Despachos **EL MISMO DÍA** ![Separador](assets/img/iconos/puntoSeparador.png)  Crédito digital **AL INSTANTE** ![Separador](assets/img/iconos/puntoSeparador.png)  Si sueñas con un producto y no lo consigues, **¡LO BUSCAMOS PARA TI!** :)",
+      "blockClass": "ValoresHome",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#btnZonaOfertas": {
+    "children": ["image#btnZonaOfertas"],
+    "props": {
+      "blockClass": "btnHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#btnZonaOfertas": {
+    "props": {
+      "src": "assets/img/btn/boton_ZonaOfertas.svg",
+      "alt": "Zona de Ofertas",
+      "height": "40px",
+      "blockClass": "btnHome",
+      "link": {
+        "url": "",
+        "openNewTab": false,
+        "title": "Zona de Ofertas"
+      }
+    }
+  },
+  "flex-layout.row#btnNosotros": {
+    "children": ["image#btnNosotros"],
+    "props": {
+      "blockClass": "btnHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#btnNosotros": {
+    "props": {
+      "src": "assets/img/btn/boton_PorQueNosotros.svg",
+      "alt": "¿Por qué nosotros?",
+      "height": "40px",
+      "blockClass": "btnHome",
+      "link": {
+        "url": "",
+        "openNewTab": false,
+        "title": "¿Por qué nosotros?"
+      }
+    }
+  },
+  "flex-layout.row#btnDecidiste": {
+    "children": ["flex-layout.col#Decidiste"],
+    "props": {
+      "blockClass": "btnHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#btnDecidiste": {
+    "props": {
+      "src": "assets/img/btn/boton_YaloDecidiste.svg",
+      "alt": "Ya lo decidiste",
+      "height": "40px",
+      "blockClass": "btnHome",
+      "link": {
+        "url": "",
+        "openNewTab": false,
+        "title": "Ya lo decidiste"
+      }
+    }
+  },
+  "rich-text#Decidiste": {
+    "props": {
+      "text": "Estos son algunos de los productos que viste recientemente.",
+      "blockClass": "Decidiste",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.col#Decidiste": {
+    "children": ["image#btnDecidiste", "rich-text#Decidiste"],
+    "props": {
+      "blockClass": "Decidiste",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "flex-layout.row#btnConfian": {
+    "children": ["image#btnConfian"],
+    "props": {
+      "blockClass": "btnHome",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "image#btnConfian": {
+    "props": {
+      "src": "assets/img/btn/boton_EllosYaConfiaron.svg",
+      "alt": "Ellos confían en nosotros",
+      "height": "40px",
+      "blockClass": "btnHome",
+      "link": {
+        "url": "",
+        "openNewTab": false,
+        "title": "Ellos confían en nosotros"
+      }
+    }
+  },
+  "rich-text#Desarrollo": {
+    "props": {
+         "text": "Desarrollo",
+         "blockClass": "Desarrollo",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER"
     }
   }
 }

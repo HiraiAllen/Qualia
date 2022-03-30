@@ -1,0 +1,34 @@
+{
+    "condition-layout.product#DeptoTecno":{
+        "props": {
+          "conditions": [
+            {
+              "subject": "categoryTree",
+              "arguments": 
+                {
+                  "id": "1"
+                }          
+            }
+          ],
+          "matchType": "any",
+          "Then": "rich-text#CondicionVerdadera",
+          "Else": "rich-text#CondicionFalsa"
+        }
+      },
+      "rich-text#CondicionVerdadera": {
+          "props": {
+                   "text": "lorem ipsum... (v)",
+                   "blockClass": "CondicionVerdadera",
+                   "textAlignment": "LEFT",
+                   "textPosition": "LEFT"
+          }
+      },
+      "rich-text#CondicionFalsa": {
+          "props": {
+                   "text": "lorem ipsum... (f)",
+                   "blockClass": "CondicionFalsa",
+                   "textAlignment": "LEFT",
+                   "textPosition": "LEFT"
+          }
+      }
+}

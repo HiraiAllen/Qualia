@@ -89,14 +89,17 @@
 }
 
 .paragraph--phone-info{
-  background: #FAD3D6;
-  margin-left: 10px;
+  /* background: #FAD3D6; */
+  margin: 0 10px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
 }
 
 .paragraph--TituloFooterLaTienda{
   color: #fff;
   text-transform: uppercase;
-  padding-left: 20px;
+  padding-left: 0px;
+  font-weight: bold;
 }
 
 .container--contactText{
@@ -111,7 +114,7 @@
 }
 
 .wrapper--IconoHome{
-  height: 60px;
+  /* height: 60px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,7 +123,242 @@
 .paragraph--IconoHome{
   color: #14A0B0;
   font-weight: bold;
+  padding: 0;
+  margin: 2px auto;
+  line-height: 1;
 }
+
+.container--ValoresHome{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--ValoresHome{
+  padding: 15px 10px;
+  margin: 0;
+}
+.paragraph--ValoresHome{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: #fff;
+  font-size: .8em;
+}
+.wrapper--TextoSuscribete{
+  padding: 0 20px 0 0;
+  margin: 0;
+}
+
+.paragraph--TextoSuscribete{
+  color: #fff;
+  line-height: 1.4;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.container--IconoValoreshome{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--IconoValoreshome{
+  padding: 0;
+  margin: 0;
+}
+.paragraph--IconoValoreshome{
+  padding: 10px 0 0 0;
+  margin: 0;
+  color: #04143B;
+  line-height: 1.3;
+  font-size: 14px;
+}
+.strong--IconoValoresHome{
+  font-size: 16px;
+}
+
+.paragraph--TextoXtrategik,
+.paragraph--TextoTecnologiaVTEX{
+  color: #333333;
+  padding: 0;
+  margin: 0;
+  font-size: .7em;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+}
+
+.container--InfoCredito{
+  align-self: center;
+  padding: 0;
+  background-image: url(assets/img/backgrounds/fondoMensaje.png);
+  border-radius: 10px;
+}
+.wrapper--InfoCredito{
+  padding: 0;
+  margin: 0;
+}
+.paragraph--InfoCredito{
+  margin: 0;
+  color: #fff;
+  line-height: 1.2;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+.strong--InfoCredito{
+  font-size: 1.2em;
+}
+.link--InfoCredito{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+.headingLevel1--InfoCredito{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+.headingLevel2--InfoCredito{
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9em;
+}
+
+.container--Decidiste{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--Decidiste{
+  padding: 0;
+  margin: 0;
+}
+.paragraph--Decidiste{
+  padding: 10px 20px;
+  margin: 0;
+  color: #9C9AA0;
+}
+.strong--Decidiste{
+  font-size: 1em;
+}
+
+.container--LinksHeader{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--LinksHeader{
+  padding: 0;
+  margin: 0;
+}
+.paragraph--LinksHeader{
+  padding: 5px 0;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strong--LinksHeader{
+  font-size: 1.2em;
+}
+.link--LinksHeader{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+.image--LinksHeader{
+  padding: 0 10px;
+}
+
+.link--textoSeguirComprando{
+  color: #4fd7e5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.paragraph--legal-link{
+  width: 305px;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.link--legal-link{
+  text-decoration: none;
+  color:#4ED7E5;
+  font-weight: bold;
+}
+
+.paragraph--legal-link:hover{
+  background-color: #4ED7E5;
+}
+
+.paragraph--legal-link:hover .link--legal-link{
+  color: #fff;
+}
+
+.heading--terminos-condiciones-content-title{
+  color:#4ED7E5;
+  text-align: left;
+  margin: 10px 0px 5px 0px;
+}
+
+.paragraph--terminos-condiciones-content-subtitle{
+  color: #000;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.container--Desarrollo{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--Desarrollo{
+  padding: 0;
+  margin: 0;
+  background-color: yellow;
+  width: 100%;
+}
+.paragraph--Desarrollo{
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+.strong--Desarrollo{
+  font-size: 1.2em;
+}
+.link--Desarrollo{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+.headingLevel1--Desarrollo{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+.headingLevel2--Desarrollo{
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9em;
+}
+
+.container--layout-option {
+  margin-left: 0.3em;
+}
+
+.paragraph--layout-option {
+  margin: 0;
+}
+
+.paragraph--summarySpecificationBullet {
+  margin: 0;
+  line-height: initial;
+  font-size: 1.25rem;
+  line-height: 1.15rem;
+}
+
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {
@@ -143,3 +381,4 @@
     line-height: 1.3em;
   }
 }
+

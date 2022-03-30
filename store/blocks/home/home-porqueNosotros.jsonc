@@ -1,0 +1,137 @@
+{
+    "flex-layout.row#PorQueNosotros": {
+        "children": [
+            "flex-layout.col#IconoValores1",
+            "flex-layout.col#IconoValores2",
+            "flex-layout.col#IconoValores3"
+        ],
+        "props": {
+            "blockClass": "Valores",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 8,
+            "paddingBottom": 8
+        }
+    },
+    "flex-layout.col#IconoValores1": {
+        "children": [
+            "image#IconoValores1",
+            "rich-text#IconoValores1"
+        ],
+        "props": {
+            "blockClass": "IconoValoresHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#IconoValores1": {
+        "props": {
+            "src": "assets/img/iconos/IconoValores_EnviosNacionales.svg",
+            "alt": "Envíos nacionales",
+            "title": "Envíos nacionales",
+            "height": "90px",
+            "blockClass": "IconoValoresHome"
+            // "link": {
+            //     "url": "/",
+            //     "openNewTab": false,
+            //     "title": "Ficción"
+            // }
+        }
+    },
+    "rich-text#IconoValores1": {
+        "props": {
+            "text": "**Envíos Nacionales** \n Y adquisición de servicios en 35 ciudades.",
+            "blockClass": "IconoValoresHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#IconoValores2": {
+        "children": [
+            "image#IconoValores2",
+            "rich-text#IconoValores2"
+        ],
+        "props": {
+            "blockClass": "IconoValoresHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#IconoValores2": {
+        "props": {
+            "src": "assets/img/iconos/IconoValores_MultiplesProductos.svg",
+            "alt": "Más de 4000 productos",
+            "title": "Más de 4000 de productos",
+            "height": "90px",
+            "blockClass": "IconoValoresHome"
+            // "link": {
+            //     "url": "/",
+            //     "openNewTab": false,
+            //     "title": "Ficción"
+            // }
+        }
+    },
+    "rich-text#IconoValores2": {
+        "props": {
+            "text": "**Más de 4000** \n Productos y servicios al alcance \n de tu mano.",
+            "blockClass": "IconoValoresHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#IconoValores3": {
+        "children": [
+            "image#IconoValores3",
+            "rich-text#IconoValores3"
+        ],
+        "props": {
+            "blockClass": "IconoValoresHome",
+            "fulwidth": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "image#IconoValores3": {
+        "props": {
+            "src": "assets/img/iconos/IconoValores_Financiamiento.svg",
+            "alt": "Financiamiento",
+            "title": "Financiamiento",
+            "height": "90px",
+            "blockClass": "IconoValoresHome"
+            // "link": {
+            //     "url": "/",
+            //     "openNewTab": false,
+            //     "title": "Ficción"
+            // }
+        }
+    },
+    "rich-text#IconoValores3": {
+        "props": {
+            "text": "**Financia** \n Cualquier compra dentro de la \n tienda.",
+            "blockClass": "IconoValoresHome",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

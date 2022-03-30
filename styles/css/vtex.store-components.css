@@ -109,13 +109,27 @@
 .productNameContainer {
   color: #3f3f40;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2em;
+  padding: 10px 0 0;
 }
 
 .imageElement--main-logo{
   margin: 0px 30px;
 }
 
+@media (max-width: 500px) {
+  .imageElement--main-logo{
+    max-width: 120px;
+  }
+
+  .imageElement--login-icon, .imageElement--wishlist-icon, .imageElement--call-icon{
+    max-width: 35px;
+  }
+
+  .cartIcon--BolsaCompras{
+    width: 35px;
+  }
+}
 
 .imageElement--iconFooterContact{
   margin-right: 10px;
@@ -138,4 +152,95 @@
 .imageElement--VTEX,
 .imageElement--XtrategiK {
   padding: 0 10px;
+}
+
+.discountInsideContainer {
+  top: 10px;
+  left: 10px;
+  width: fit-content;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+.productImagesGallerySwiperContainer--imagenProducto {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+.productImagesThumbActive--imagenProducto {
+  border: 2px solid #4ed7e5 !important;
+  border-radius: 10px;
+}
+.productImagesThumb--imagenProducto {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.productImageTag--imagenProducto {
+  max-height: unset !important;
+}
+
+.imageElementLink--btnHeader{
+  padding: 0 10px;
+}
+
+.productBrandName--summaryListDesktop {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+.productBrandName--summaryListMobile {
+  text-decoration: none;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+.autoCompleteOuterContainer--searchBar {
+  border: none;
+  /* border-radius: 40px; */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.autoCompleteOuterContainer--searchBar :global(.vtex-input__suffix) {
+  background-color: #4ED7E5;
+  padding: 0;
+  border-radius: 30px;
+}
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+  width: 450px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 30px !important;
+  height: 40px;
+  border-color: #4ED7E5;
+  /* width: 100% !important; */
+}
+.searchBarContainer {
+  /* width: 300px; */
+  margin-right: 0px;
+}
+.searchIcon--searchBar {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+.searchBar--searchBar--search {
+  padding: 0;
+}
+.searchBarIcon--searchBar--search {
+  padding: 0 10px;
+}
+.suffixWrapper--searchBar {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px){
+  .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    width: 100%;
+  }
 }

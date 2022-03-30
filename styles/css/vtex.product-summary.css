@@ -40,3 +40,89 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.nameContainer--summaryListDesktop {
+  padding-top: 0.25rem;
+  padding-bottom: 0.75rem;
+  justify-content: start;
+}
+
+.nameContainer--summaryListMobile {
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  justify-content: start;
+}
+
+.brandName--summaryListMobile {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: black;
+}
+
+.container--listLayout {
+  max-width: none !important;
+}
+
+.image--summaryListDesktop {
+  width: 180px !important;
+}
+
+.image--summaryListMobile {
+  width: 140px !important;
+  min-width: 140px;
+  height: inherit !important;
+}
+
+
+.containerNormal--VitrinaPrincipal{
+  border-radius: 20px;
+  max-width: 240px !important;
+  box-shadow: 0 0 10px 0 lightgray;
+  padding: 0 0 10px;
+}
+.imageWrapper--VitrinaPrincipal{
+}
+.element--VitrinaPrincipal{
+  padding: 0;  
+}
+.productNameContainer--NombreProducto {
+  /* text-align: center; */
+}
+
+.nameContainer--NombreProducto {
+  padding: 10px 15px 5px;
+  margin: auto;
+  min-height: 40px;
+}
+.brandName--NombreProducto{
+  font-size: 15px;
+  color: #04143B;
+}
+
+/* add-to-cart-button */
+.element :global(.vtex-button) {
+  background: #4ED7E5;
+  border-radius: 10px;
+  padding: 5px 20px;
+  min-height: initial;
+  transition: .5s all ease;
+  border: none;
+  /* height: 40px;
+  width: 40px; */
+  text-transform: initial;
+  min-width: 200px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.element :global(.vtex-button):hover {
+  color: #fff;
+  background-color: #F80F49;
+}
+.element :global(.vtex-button):focus {
+  background-color: #16A1B3;
+}
+.element :global(.vtex-button__label) {
+  min-height: 20px;
+  padding: 0 12px !important;
+}

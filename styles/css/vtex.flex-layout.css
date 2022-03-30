@@ -139,12 +139,228 @@
 }
 
 .flexRowContent--Footer-Xtrategik {
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .flexCol--IconoHome{
-  background: #B8EFF5;
+  background-color: #B8EFF5;
   border-radius: 10px;
   margin: 0px 25px;
+  padding: 10px;
+  transition: .5s all ease;
+}
+
+.flexCol--IconoHome:hover{
+  background-color: #66cccc;
+}
+
+.flexRow--ValoresHome{
+  background-image: url(assets/img/backgrounds/fondoValoresQualia.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.flexRow--productSpecificationGroup:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.flexRow--productSpecificationGroupName {
+  background-color: #eaeaea;
+  padding: 0.5rem 1rem;
+}
+
+.flexCol--productSpecificationName {
+  padding: 1rem;
+}
+
+.flexCol--productSpecificationValue {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.flexRow--productSpecification:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.flexRowContent--faq {
+  max-width: 700px;
+  margin: auto;
+}
+
+.flexRowContent--contact {
+  max-width: 700px;
+  margin: auto;
+}
+
+.flexRowContent--contact :global(.vtex-input__label),
+.flexRowContent--contact :global(.vtex-textarea__label) {
+  font-size: 1rem;
+  color: #3f3f40;
+}
+
+.flexRowContent--contact :global(.vtex-input),
+.flexRowContent--contact :global(.vtex-textarea) {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.flexRow--orderByAndSwitcher {
+  padding-right: 1.5em;
+}
+
+.flexRowContent--savingsSummaryListDesktop {
+  justify-content: flex-start;
+}
+
+.flexCol--summaryRightListDesktop {
+  justify-content: space-around;
+}
+
+.flexRow--buyNowButton :global(.vtex-button) {
+  background: #eef3f7;
+  border-color:#eef3f7;
+  color: #0f3e99;
+}
+
+.flexRow--buyNowButton:hover :global(.vtex-button) {
+  background: #dbe9fd;
+  border-color:#dbe9fd;
+}
+
+.flexCol--productRating {
+  margin-bottom: 3rem;
+}
+
+.flexCol--summaryDetailsListMobile {
+  justify-content: space-between;
+}
+
+.flexCol--summaryUpDetailsListMobile {
+  margin-bottom: 0.25rem
+}
+
+.flexRowContent--NombreProducto{
+  /* justify-content: center;   */
+}
+
+.flexRowContent--FormularioBoletinCT {
+  background-color: #151E3F;
+  margin: 20px auto;
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 20px;
+  max-width: 960px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexRow--FormularioBoletinCT {
+  /* background-color: rgba(0,0,0,0.03); */
+  padding: 20px 0;
+}
+
+.flexRow--SliderProductosSugeridosHome {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.flexCol--IconoValoresHome {
+  width: 270px;
+  border-radius: 20px;
+  margin: auto 20px;
+  padding: 20px 10px;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.05);
+}
+
+.flexRow--qualia-ubuntec-logos {
+  display: flex;
+  border-left: 1px solid #fff;
+  padding-left: 30px;
+}
+
+.flexRowContent--CantidadAgregar{
+  align-items: center;
+}
+
+.flexRowContent--CantidadAgregar :global(.vtex-button) {
+  border: 2px solid #F80F49;
+  background-color: #F80F49;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 0 !important;
+  height: 40px;
+  border-radius: 10px;
+  transition: 0.5s all ease;
+  margin-left: 5px;
+  color: #fff;
+}
+.flexRowContent--CantidadAgregar :global(.vtex-button):hover {
+  border: 2px solid #F80F49;
+  background-color: #F80F49;
+}
+
+/* add-to-cart-button#PDP */
+.flexRowContent--btnComprarProd :global(.vtex-button) {
+  background: #4ed7e5;
+  border-radius: 10px;
+  color: #fff;
   padding: 0;
+  min-height: initial;
+  transition: .5s all ease;
+  border: none;
+  font-weight: bold;
+  height: 40px;
+  text-transform: inherit;
+}
+.flexRowContent--btnComprarProd :global(.vtex-button):hover {
+  color: #fff;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: #F80F49;
+}
+
+.flexRow--btnHome{
+  padding: 10px 20px;
+}
+
+.flexRow--LinksHeader{
+  background-color: #F80F49;
+  padding: 0 20px;
+}
+.flexRow--HeaderLogo{
+  background-color: #fff;
+}
+.flexRow--LinksNovedades{
+  padding: 0 20px;
+}
+.flexRow--LinksFavoritos{
+  padding: 0 20px 0 10px;
+}
+
+.flexRow--footerDesktop{
+  background-color: #F80F49;
+  padding: 30px;
+}
+.flexCol--qualia-footer-container{
+  padding: 0 0 0 30px;
+}
+
+.flexRowContent--botonVerMas {
+  text-align: right;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -20px;
+  padding: 0 5px;
+}
+
+.flexCol--LinksMenuDespMobile{
+  border-top: 2px salmon solid;
+  border-bottom: 2px salmon solid;
+  margin-bottom: 15px;
+  padding: 10px 0px;
+}
+
+.flexRow--ResultadoContenido {
+  padding: 10px 20px;
 }

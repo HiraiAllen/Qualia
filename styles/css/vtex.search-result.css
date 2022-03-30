@@ -20,3 +20,77 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+.searchResultContainer--ResultLayoutDesktop {
+  max-width: 100%;
+  padding: 0;
+}
+
+.caretIcon--FiltrosSearch {
+  width: 10px;
+  padding: 0 0 0 10px;
+}
+.accordionFilterContainer--FiltrosSearch{
+  padding-left: 15px;
+}
+.filterAvailable--FiltrosSearch {
+  padding: 10px 0;
+  color: #89878c;
+}
+.filterTitleSpan--FiltrosSearch {
+  font-weight: bold;
+  font-size: .9em;
+  color: #89878c;
+}
+.filterSelected--FiltrosSearch {
+  padding: 10px 0;
+  margin: 0;
+}
+.filterTitle--FiltrosSearch {
+  text-transform: initial;
+}
+.filterTemplateOverflow--FiltrosSearch {
+  padding: 0;
+}
+.filterItem--FiltrosSearch {
+  padding: 10px 5px;
+}
+.filterMessage--FiltrosSearch {
+  padding: 15px 0 15px 40px;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+  color: #f80e48;
+  background-image: url(assets/img/iconos/iconoFiltros.svg);
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: center;
+  background-size: 25px;
+}
+.filter__container--FiltrosSearch--title {
+  border: none;
+}
+.filterItem :global(.vtex-checkbox__box-wrapper)
+{
+    border: solid 1px #4fd7e5 !important;
+    border-radius: 50%;
+}
+.filterItem :global(.vtex__icon-check)
+{
+    color: #4fd7e5;
+}
+.filterItem :global(.vtex-checkbox__label) {
+  font-size: .9em;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: #89878c;
+}
+.orderByButton {
+  border: 1px solid #4ed7e5;
+  padding: 8px 10px 8px 20px;
+  border-radius: 8px;
+}
+.totalProducts--layout {
+  padding: 8px 10px;
+}

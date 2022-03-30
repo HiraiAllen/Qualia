@@ -1,0 +1,63 @@
+{
+    "flex-layout.row#FormularioBoletinCT": {
+        "children": [
+            "rich-text#TextoSuscribete",
+            "newsletter-form"
+        ],
+        "props": {
+            "blockClass": "FormularioBoletinCT",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": false,
+            "preserveLayoutOnMobile": true,
+            "fullwidth": false,
+            "marginTop": 5
+        }
+    },
+    "newsletter-form": {
+        "children": [
+            "flex-layout.row#CamposFormFooter",
+            "newsletter-checkbox-confirmation"
+        ],
+        "props": {
+            "blockClass": "BoletinFooter",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": "Enviar",
+            "blockClass": "BoletinFooterEnviar"
+        }
+    },
+    "newsletter-input-email": {
+        "props": {
+            "blockClass": "CampoEmail",
+            "placeholderText": "Ingresa tu correo electrónico"
+        }
+    },
+    "newsletter-checkbox-confirmation": {
+        "props": {
+            "checkboxLabel": "Declaro haber leído y acepto el tratamiento de mis datos personales",
+            "blockClass": "BoletinConfirmacion"
+        }
+    },
+    "flex-layout.row#CamposFormFooter": {
+        "children": [
+            "newsletter-input-email",
+            "newsletter-submit"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "rich-text#TextoSuscribete": {
+        "props": {
+            "text": "![AltImagen](assets/img/suscribeteTitulo.png) \n Y podrás enterarte de las promociones \n y novedades que tenemos para ti",
+            "blockClass": "TextoSuscribete",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "width": "40%"
+        }
+    }
+}

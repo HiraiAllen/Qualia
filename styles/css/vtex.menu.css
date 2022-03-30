@@ -1,4 +1,32 @@
 .styledLinkContent{
-    color: #fff;
-    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.menuItem--LinkFooter{
+    padding: 0;
+    margin: 0;
+}
+.menuItem--LinkFooter--isOpen{
+    padding: 0;
+    margin: 0;
+}
+.menuItem--LinkFooter--isClosed{
+    padding: 0;
+    margin: 0;
+}
+
+.styledLinkContent--LinkFooter{
+    padding: 0;
+    margin: 0;
+}
+.styledLinkContainer--LinkFooter{
+    padding: 0;
+    margin: 2px 0;
+}
+.styledLink--LinkFooter{
+    font-size: .8em;
+}
+.styledLinkContainer--LinkFooterDestacado{
+    margin: 0 0 0 0px;
 }
