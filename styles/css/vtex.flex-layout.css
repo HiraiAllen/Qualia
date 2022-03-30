@@ -391,6 +391,9 @@
   max-width: 1280px;
 }
 
+.flexRow--ResultadoContenido {
+  padding: 10px 20px;
+
 @media (max-width: 1600px) {
     
   .flexCol--terminos-condiciones-text-container{

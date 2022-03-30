@@ -24,7 +24,7 @@
 
    "rich-text#terminos-condiciones-link": {
        "props": {
-                "text": "[Términos y Condiciones](/terminos-condiciones?target=_blank)",
+                "text": "[Términos y Condiciones](/terminos-condiciones)",
                 "blockClass": "legal-link",
                 "textAlignment": "LEFT",
                 "textPosition": "LEFT"

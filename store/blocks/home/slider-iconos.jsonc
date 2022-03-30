@@ -235,6 +235,7 @@
             "textPosition": "CENTER"
         }
     },
+
     "flex-layout.col#Icono6": {
         "children": [
             "image#Icono6",

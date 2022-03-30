@@ -5,7 +5,8 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
-      }
+      },
+      "fulllWidth": true
     }
   },
 
@@ -16,16 +17,6 @@
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 10,
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-
-  "store.search#department": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -52,26 +43,7 @@
     }
   },
 
-  "search-result-layout": {
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ]
-  },
 
-  "search-result-layout.desktop": {
-    "children": [
-      "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#result"
-    ],
-    "props": {
-      "pagination": "show-more",
-      "preventRouteChange": false,
-      "defaultGalleryLayout": "grid"
-    }
-  },
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],
     "props": {
@@ -108,8 +80,29 @@
     }
   },
   "flex-layout.row#searchinfo": {
-    "children": ["flex-layout.col#productCount", "flex-layout.row#orderByAndSwitcher"]
+    "children": ["flex-layout.col#productCount", "flex-layout.row#Orden"]
   },
+
+  "flex-layout.row#Orden": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "Orden",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "right",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "order-by.v2":{
+    "props":{
+      "blockClass": "Orden"
+    }
+  },
+
   "flex-layout.row#orderByAndSwitcher": {
     "children": ["order-by.v2", "gallery-layout-switcher"],
     "props": {
@@ -182,8 +175,8 @@
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
+      // "flex-layout.col#switcherMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
@@ -218,16 +211,6 @@
       "verticalAlign": "middle"
     }
   },
-  "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
-  },
-
-  "flex-layout.row#notfound": {
-    "children": ["not-found"],
-    "props": {
-      "fullWidth": true
-    }
-  },
 
   "breadcrumb": {
     "props": {
@@ -254,8 +237,8 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf#listLayout",
-      "GridSummary": "product-summary.shelf"
+      "ListSummary": "product-summary.shelf#Vitrina",
+      "GridSummary": "product-summary.shelf#Vitrina"
     }
   },
   "gallery-layout-switcher": {
@@ -272,29 +255,19 @@
     "props": {
       "name": "grid"
     },
-    "children": [
-      "icon-grid",
-      "responsive-layout.desktop#textOptionGrid"
-    ]
+    "children": ["icon-grid", "responsive-layout.desktop#textOptionGrid"]
   },
   "gallery-layout-option#list": {
     "props": {
       "name": "list"
     },
-    "children": [
-      "icon-inline-grid",
-      "responsive-layout.desktop#textOptionList"
-    ]
+    "children": ["icon-inline-grid", "responsive-layout.desktop#textOptionList"]
   },
   "responsive-layout.desktop#textOptionGrid": {
-    "children": [
-      "rich-text#option-grid"
-    ]
+    "children": ["rich-text#option-grid"]
   },
   "responsive-layout.desktop#textOptionList": {
-    "children": [
-      "rich-text#option-list"
-    ]
+    "children": ["rich-text#option-list"]
   },
   "rich-text#option-grid": {
     "props": {
@@ -308,6 +281,27 @@
       "text": "List",
       "textColor": "c-auto",
       "blockClass": "layout-option"
+    }
+  },
+
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  },
+
+  "filter-navigator.v3":{
+    "props":{
+      "maxItemsDepartment": 3,
+      "maxItemsCategory": 3,
+      "initiallyCollapsed": true,
+      "blockClass": "FiltrosSearch",
+      "priceRangeLayout":"slider",
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ]
     }
   }
 }

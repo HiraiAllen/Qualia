@@ -175,6 +175,7 @@
       "flex-layout.row#MarcaReferencia",
       "flex-layout.row#product-name",
       "product-rating-summary",
+      "condition-layout.product#DeptoTecno",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       // "product-installments",
