@@ -281,5 +281,21 @@
 
   "store.product-review-form": {
     "blocks": ["product-review-form"]
+  },
+
+  "filter-navigator.v3":{
+    "props":{
+      "maxItemsDepartment": 3,
+      "maxItemsCategory": 3,
+      "initiallyCollapsed": true,
+      "blockClass": "FiltrosSearch",
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ]
+    }
   }
 }

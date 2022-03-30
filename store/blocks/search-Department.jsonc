@@ -46,20 +46,20 @@
   ],
      "props": {
         "blockClass": "ResultadoContenido",
-        "fulwidth": false
+        "fulwidth": false,
+        "paddingBottom": 6
     }
   },
   "flex-layout.col#ResultadoContenido": {
      "children": [
       "flex-layout.row#searchbread",
-      "condition-layout.product#DeptoTecno",
-      "flex-layout.row#searchtitle",
+      // "condition-layout.product#DeptoTecno",
+      // "flex-layout.row#searchtitle",
       "flex-layout.row#result"
   ],
      "props": {
         "blockClass": "ResultadoContenido",
-        "fulwidth": false,
-        "paddingBottom": 10
+        "fulwidth": false
     }
   }
 }
