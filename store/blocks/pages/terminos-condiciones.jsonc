@@ -16,7 +16,7 @@
     },
     "responsive-layout.mobile#terminos-condiciones": {
         "children": [
-            "flex-layout.row#terminos-condiciones"
+            "flex-layout.row#terminos-condiciones-mobile"
         ]
     },
 
@@ -175,6 +175,43 @@
                  "blockClass": "solicitar-credito-text",
                  "textAlignment": "CENTER",
                  "textPosition": "CENTER"
+        }
+    },
+
+    //Mobile
+    "flex-layout.row#terminos-condiciones-mobile": {
+         "children": [
+            "flex-layout.col#links-content-terminos-condiciones-mobile"
+    ],
+         "props": {
+              "blockClass": "block",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+
+    "flex-layout.col#links-content-terminos-condiciones-mobile": {
+         "children": [
+            "flex-layout.row#banner-terminos-condiciones",
+            "flex-layout.col#legal-links",
+            "flex-layout.col#terminos-condiciones-text-container"
+    ],
+         "props": {
+              "blockClass": "links-content-terminos-condiciones-mobile",
+              "fulwidth": true,
+              "preventHorizontalStretch": false,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
         }
     }
 }

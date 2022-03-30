@@ -398,3 +398,14 @@
   }
 }
 
+@media (max-width: 500px){
+  .wrapper--legal-link{
+    height: fit-content;
+  }
+
+  .paragraph--legal-link{
+    width: 95vw;
+    border-radius: 30px;
+    padding: 5px;
+  }
+}

@@ -398,7 +398,15 @@
 
 .flexRow--ResultadoContenido {
   padding: 10px 20px;
+}
 
+.flexRowContent--main-header-mobile{
+  background-color: #fff;
+}
+
+.flexRowContent--BuscadorMobile{
+  background-color: #fff;
+}
 
 @media (max-width: 1600px) {
     
