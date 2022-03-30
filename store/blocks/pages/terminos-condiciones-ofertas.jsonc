@@ -1,28 +1,28 @@
 {
-    "store.custom#tratamiento-datos-personales": {
+    "store.custom#terminos-condiciones-ofertas": {
         "blocks": [
-            "responsive-layout.desktop#tratamiento-datos-personales",
-            "responsive-layout.mobile#tratamiento-datos-personales"
+            "responsive-layout.desktop#terminos-condiciones-ofertas",
+            "responsive-layout.mobile#terminos-condiciones-ofertas"
         ],
 
         "parent": {
             "footer": "footer#mini"
         }
     },
-    "responsive-layout.desktop#tratamiento-datos-personales": {
+    "responsive-layout.desktop#terminos-condiciones-ofertas": {
         "children": [
-            "flex-layout.row#tratamiento-datos-personales"
+            "flex-layout.row#terminos-condiciones-ofertas"
         ]
     },
-    "responsive-layout.mobile#tratamiento-datos-personales": {
+    "responsive-layout.mobile#terminos-condiciones-ofertas": {
         "children": [
-            "flex-layout.row#tratamiento-datos-personales"
+            "flex-layout.row#terminos-condiciones-ofertas"
         ]
     },
 
-    "flex-layout.row#tratamiento-datos-personales": {
+    "flex-layout.row#terminos-condiciones-ofertas": {
          "children": [
-            "flex-layout.col#tratamiento-datos-personales-content"
+            "flex-layout.col#terminos-condiciones-ofertas-content"
     ],
          "props": {
               "blockClass": "terminos-condiciones",
@@ -37,10 +37,10 @@
         }
     },
 
-    "flex-layout.col#tratamiento-datos-personales-content": {
+    "flex-layout.col#terminos-condiciones-ofertas-content": {
          "children": [
-            "flex-layout.row#banner-tratamiento-datos-personales",
-            "flex-layout.row#content-and-links-tratamiento-datos-personales",
+            "flex-layout.row#banner-terminos-condiciones-ofertas",
+            "flex-layout.row#content-and-links-terminos-condiciones-ofertas",
             "flex-layout.row#solicitar-credito"
     ],
          "props": {
@@ -56,9 +56,9 @@
         }
     },
     
-    "flex-layout.row#banner-tratamiento-datos-personales": {
+    "flex-layout.row#banner-terminos-condiciones-ofertas": {
          "children": [
-            "image#img-tratamiento-datos-personales"
+            "image#img-terminos-condiciones-ofertas"
     ],
          "props": {
               "blockClass": "banner-terminos-condiciones",
@@ -73,7 +73,7 @@
         }
     },
 
-    "image#img-tratamiento-datos-personales": {
+    "image#img-terminos-condiciones-ofertas": {
         "props": {
                  "src": "assets/img/banners/bannerTerminosCondiciones-min.png",
                  "alt": "alt",
@@ -87,10 +87,10 @@
         }
     },
 
-    "flex-layout.row#content-and-links-tratamiento-datos-personales": {
+    "flex-layout.row#content-and-links-terminos-condiciones-ofertas": {
          "children": [
             "flex-layout.col#legal-links",
-            "flex-layout.col#tratamiento-datos-personales-text-container"
+            "flex-layout.col#terminos-condiciones-ofertas-text-container"
     ],
          "props": {
               "blockClass": "block",
@@ -105,11 +105,11 @@
         }
     },
 
-    "flex-layout.col#tratamiento-datos-personales-text-container": {
+    "flex-layout.col#terminos-condiciones-ofertas-text-container": {
          "children": [
-            "rich-text#tratamiento-datos-personales-content-title",
-            "rich-text#tratamiento-datos-personales-content-subtitle",
-            "rich-text#tratamiento-datos-personales-content-text"
+            "rich-text#terminos-condiciones-ofertas-content-title",
+            "rich-text#terminos-condiciones-ofertas-content-subtitle",
+            "rich-text#terminos-condiciones-ofertas-content-text"
     ],
          "props": {
               "blockClass": "terminos-condiciones-text-container",
@@ -125,16 +125,16 @@
         }
     },
 
-    "rich-text#tratamiento-datos-personales-content-title": {
+    "rich-text#terminos-condiciones-ofertas-content-title": {
         "props": {
-                 "text": "# Tratamiento de datos personales",
+                 "text": "# Terminos y condiciones de ofertas",
                  "blockClass": "terminos-condiciones-content-title",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
         }
     },
 
-    "rich-text#tratamiento-datos-personales-content-subtitle": {
+    "rich-text#terminos-condiciones-ofertas-content-subtitle": {
         "props": {
                  "text": "lorem ipsum",
                  "blockClass": "terminos-condiciones-content-subtitle",
@@ -143,7 +143,7 @@
         }
     },
 
-    "rich-text#tratamiento-datos-personales-content-text": {
+    "rich-text#terminos-condiciones-ofertas-content-text": {
         "props": {
                  "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
                  "blockClass": "terminos-condiciones-content-text",
@@ -154,7 +154,7 @@
     //Mobile
     "flex-layout.row#terminos-condiciones-mobile": {
          "children": [
-            "flex-layout.col#links-content-tratamiento-datos-personales-mobile"
+            "flex-layout.col#links-content-terminos-condiciones-ofertas-mobile"
     ],
          "props": {
               "blockClass": "block",
@@ -169,11 +169,11 @@
         }
     },
 
-    "flex-layout.col#links-content-tratamiento-datos-personales-mobile": {
+    "flex-layout.col#links-content-terminos-condiciones-ofertas-mobile": {
          "children": [
-            "flex-layout.row#banner-tratamiento-datos-personales",
+            "flex-layout.row#banner-terminos-condiciones-ofertas",
             "flex-layout.col#legal-links",
-            "flex-layout.col#tratamiento-datos-personales-text-container"
+            "flex-layout.col#terminos-condiciones-ofertas-text-container"
     ],
          "props": {
               "blockClass": "links-content-terminos-condiciones-mobile",

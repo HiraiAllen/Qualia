@@ -1,28 +1,28 @@
 {
-    "store.custom#tratamiento-datos-personales": {
+    "store.custom#condiciones-metodos-pago": {
         "blocks": [
-            "responsive-layout.desktop#tratamiento-datos-personales",
-            "responsive-layout.mobile#tratamiento-datos-personales"
+            "responsive-layout.desktop#condiciones-metodos-pago",
+            "responsive-layout.mobile#condiciones-metodos-pago"
         ],
 
         "parent": {
             "footer": "footer#mini"
         }
     },
-    "responsive-layout.desktop#tratamiento-datos-personales": {
+    "responsive-layout.desktop#condiciones-metodos-pago": {
         "children": [
-            "flex-layout.row#tratamiento-datos-personales"
+            "flex-layout.row#condiciones-metodos-pago"
         ]
     },
-    "responsive-layout.mobile#tratamiento-datos-personales": {
+    "responsive-layout.mobile#condiciones-metodos-pago": {
         "children": [
-            "flex-layout.row#tratamiento-datos-personales"
+            "flex-layout.row#condiciones-metodos-pago"
         ]
     },
 
-    "flex-layout.row#tratamiento-datos-personales": {
+    "flex-layout.row#condiciones-metodos-pago": {
          "children": [
-            "flex-layout.col#tratamiento-datos-personales-content"
+            "flex-layout.col#condiciones-metodos-pago-content"
     ],
          "props": {
               "blockClass": "terminos-condiciones",
@@ -37,10 +37,10 @@
         }
     },
 
-    "flex-layout.col#tratamiento-datos-personales-content": {
+    "flex-layout.col#condiciones-metodos-pago-content": {
          "children": [
-            "flex-layout.row#banner-tratamiento-datos-personales",
-            "flex-layout.row#content-and-links-tratamiento-datos-personales",
+            "flex-layout.row#banner-condiciones-metodos-pago",
+            "flex-layout.row#content-and-links-condiciones-metodos-pago",
             "flex-layout.row#solicitar-credito"
     ],
          "props": {
@@ -56,9 +56,9 @@
         }
     },
     
-    "flex-layout.row#banner-tratamiento-datos-personales": {
+    "flex-layout.row#banner-condiciones-metodos-pago": {
          "children": [
-            "image#img-tratamiento-datos-personales"
+            "image#img-condiciones-metodos-pago"
     ],
          "props": {
               "blockClass": "banner-terminos-condiciones",
@@ -73,7 +73,7 @@
         }
     },
 
-    "image#img-tratamiento-datos-personales": {
+    "image#img-condiciones-metodos-pago": {
         "props": {
                  "src": "assets/img/banners/bannerTerminosCondiciones-min.png",
                  "alt": "alt",
@@ -87,10 +87,10 @@
         }
     },
 
-    "flex-layout.row#content-and-links-tratamiento-datos-personales": {
+    "flex-layout.row#content-and-links-condiciones-metodos-pago": {
          "children": [
             "flex-layout.col#legal-links",
-            "flex-layout.col#tratamiento-datos-personales-text-container"
+            "flex-layout.col#condiciones-metodos-pago-text-container"
     ],
          "props": {
               "blockClass": "block",
@@ -105,11 +105,11 @@
         }
     },
 
-    "flex-layout.col#tratamiento-datos-personales-text-container": {
+    "flex-layout.col#condiciones-metodos-pago-text-container": {
          "children": [
-            "rich-text#tratamiento-datos-personales-content-title",
-            "rich-text#tratamiento-datos-personales-content-subtitle",
-            "rich-text#tratamiento-datos-personales-content-text"
+            "rich-text#condiciones-metodos-pago-content-title",
+            "rich-text#condiciones-metodos-pago-content-subtitle",
+            "rich-text#condiciones-metodos-pago-content-text"
     ],
          "props": {
               "blockClass": "terminos-condiciones-text-container",
@@ -125,16 +125,16 @@
         }
     },
 
-    "rich-text#tratamiento-datos-personales-content-title": {
+    "rich-text#condiciones-metodos-pago-content-title": {
         "props": {
-                 "text": "# Tratamiento de datos personales",
+                 "text": "# Condiciones y métodos de pago",
                  "blockClass": "terminos-condiciones-content-title",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
         }
     },
 
-    "rich-text#tratamiento-datos-personales-content-subtitle": {
+    "rich-text#condiciones-metodos-pago-content-subtitle": {
         "props": {
                  "text": "lorem ipsum",
                  "blockClass": "terminos-condiciones-content-subtitle",
@@ -143,7 +143,7 @@
         }
     },
 
-    "rich-text#tratamiento-datos-personales-content-text": {
+    "rich-text#condiciones-metodos-pago-content-text": {
         "props": {
                  "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
                  "blockClass": "terminos-condiciones-content-text",
@@ -154,7 +154,7 @@
     //Mobile
     "flex-layout.row#terminos-condiciones-mobile": {
          "children": [
-            "flex-layout.col#links-content-tratamiento-datos-personales-mobile"
+            "flex-layout.col#links-content-condiciones-metodos-pago-mobile"
     ],
          "props": {
               "blockClass": "block",
@@ -169,11 +169,11 @@
         }
     },
 
-    "flex-layout.col#links-content-tratamiento-datos-personales-mobile": {
+    "flex-layout.col#links-content-condiciones-metodos-pago-mobile": {
          "children": [
-            "flex-layout.row#banner-tratamiento-datos-personales",
+            "flex-layout.row#banner-condiciones-metodos-pago",
             "flex-layout.col#legal-links",
-            "flex-layout.col#tratamiento-datos-personales-text-container"
+            "flex-layout.col#condiciones-metodos-pago-text-container"
     ],
          "props": {
               "blockClass": "links-content-terminos-condiciones-mobile",

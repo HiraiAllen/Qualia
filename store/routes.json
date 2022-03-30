@@ -15,5 +15,21 @@
 
   "store.custom#tratamiento-datos-personales": {
     "path": "/tratamiento-datos-personales"
+  },
+
+  "store.custom#terminos-condiciones-ofertas": {
+    "path": "/terminos-condiciones-ofertas"
+  },
+
+  "store.custom#condiciones-metodos-pago": {
+    "path": "/condiciones-metodos-pago"
+  },
+
+  "store.custom#politicas-envio": {
+    "path": "/politicas-envio"
+  },
+
+  "store.custom#politicas-devoluciones-garantias": {
+    "path": "/politicas-devoluciones-garantias"
   }
 }
