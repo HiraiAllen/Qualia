@@ -1,0 +1,13 @@
+{
+  "search-not-found-layout": {
+    "children": ["rich-text#BusquedaVacia"]
+  },
+  "rich-text#Busquedavacia": {
+    "props": {
+      "text": "Busquedavacia",
+      "blockClass": "Busquedavacia",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

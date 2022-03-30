@@ -57,15 +57,15 @@
     },
     "image#IconoAliado-1": {
         "props": {
-            "src": "assets/img/logos/LogoJuriscoop.png",
+            "src": "assets/img/logos/bannerAliado_juriscoop.svg",
             "alt": "Juriscoop",
             "title": "Juriscoop",
             "height": "200px",
             "blockClass": "IconoHomeAliado",
             "link": {
                 "url": "/",
-                "openNewTab": false,
-                "title": "Ficción"
+                "openNewTab": true,
+                "title": "Juriscoop"
             }
         }
     },
@@ -96,15 +96,15 @@
     },
     "image#IconoAliado-2": {
         "props": {
-            "src": "assets/img/logos/LogoCoovitel.png",
+            "src": "assets/img/logos/bannerAliado_coovitel.svg",
             "alt": "Coovitel",
             "title": "Coovitel",
             "height": "200px",
             "blockClass": "IconoHomeAliado",
             "link": {
                 "url": "/",
-                "openNewTab": false,
-                "title": "Hechos reales"
+                "openNewTab": true,
+                "title": "Cooperativa Coovitel"
             }
         }
     },
