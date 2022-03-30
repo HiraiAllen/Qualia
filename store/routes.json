@@ -11,5 +11,9 @@
 
   "store.custom#terminos-condiciones": {
     "path": "/terminos-condiciones"
+  },
+
+  "store.custom#tratamiento-datos-personales": {
+    "path": "/tratamiento-datos-personales"
   }
 }

@@ -1,0 +1,218 @@
+{
+    "store.custom#tratamiento-datos-personales": {
+        "blocks": [
+            "responsive-layout.desktop#tratamiento-datos-personales",
+            "responsive-layout.mobile#tratamiento-datos-personales"
+        ],
+
+        "parent": {
+            "footer": "footer#mini"
+        }
+    },
+    "responsive-layout.desktop#tratamiento-datos-personales": {
+        "children": [
+            "flex-layout.row#tratamiento-datos-personales"
+        ]
+    },
+    "responsive-layout.mobile#tratamiento-datos-personales": {
+        "children": [
+            "flex-layout.row#tratamiento-datos-personales"
+        ]
+    },
+
+    "flex-layout.row#tratamiento-datos-personales": {
+         "children": [
+            "flex-layout.col#terminos-condiciones-content"
+    ],
+         "props": {
+              "blockClass": "terminos-condiciones",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+
+    "flex-layout.col#tratamiento-datos-personales-content": {
+         "children": [
+            "flex-layout.row#banner-tratamiento-datos-personales",
+            "flex-layout.row#content-and-links-tratamiento-datos-personales",
+            "flex-layout.row#solicitar-credito"
+    ],
+         "props": {
+              "blockClass": "block",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+    
+    "flex-layout.row#banner-tratamiento-datos-personales": {
+         "children": [
+            "image#img-tratamiento-datos-personales"
+    ],
+         "props": {
+              "blockClass": "banner-terminos-condiciones",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+
+    "image#img-tratamiento-datos-personales": {
+        "props": {
+                 "src": "assets/img/banners/bannerTerminosCondiciones-min.png",
+                 "alt": "alt",
+                 "height": "hight",
+                 "blockClass": "img-terminos-condiciones",
+                 "link": {
+                          "url": "url",
+                          "openNewTab": false,
+                          "title": "title"
+            }
+        }
+    },
+
+    "flex-layout.row#content-and-links-tratamiento-datos-personales": {
+         "children": [
+            "flex-layout.col#legal-links",
+            "flex-layout.col#tratamiento-datos-personales-text-container"
+    ],
+         "props": {
+              "blockClass": "block",
+              "fulwidth": false,
+              "preventHorizontalStretch": false,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+
+    "flex-layout.col#tratamiento-datos-personales-text-container": {
+         "children": [
+            "rich-text#tratamiento-datos-personales-content-title",
+            "rich-text#tratamiento-datos-personales-content-subtitle",
+            "rich-text#tratamiento-datos-personales-content-text"
+    ],
+         "props": {
+              "blockClass": "terminos-condiciones-text-container",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "left",
+              "verticalAlign": "top",
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "width": "75%"
+        }
+    },
+
+    "rich-text#tratamiento-datos-personales-content-title": {
+        "props": {
+                 "text": "# Tratamiento de datos personales",
+                 "blockClass": "terminos-condiciones-content-title",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
+        }
+    },
+
+    "rich-text#tratamiento-datos-personales-content-subtitle": {
+        "props": {
+                 "text": "Hola",
+                 "blockClass": "terminos-condiciones-content-subtitle",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
+        }
+    },
+
+    "rich-text#tratamiento-datos-personales-content-text": {
+        "props": {
+                 "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+                 "blockClass": "terminos-condiciones-content-text",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
+        }
+    },
+
+
+    "flex-layout.row#solicitar-credito": {
+         "children": [
+            "rich-text#solicitar-credito-text"
+    ],
+         "props": {
+              "blockClass": "solicitar-credito",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+    
+    "rich-text#solicitar-credito-text": {
+        "props": {
+                 "text": "¡Solicita tu crédito dígital y haz realidad tus sueños!",
+                 "blockClass": "solicitar-credito-text",
+                 "textAlignment": "CENTER",
+                 "textPosition": "CENTER"
+        }
+    },
+
+    //Mobile
+    "flex-layout.row#terminos-condiciones-mobile": {
+         "children": [
+            "flex-layout.col#links-content-tratamiento-datos-personales-mobile"
+    ],
+         "props": {
+              "blockClass": "block",
+              "fulwidth": true,
+              "preventHorizontalStretch": true,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    },
+
+    "flex-layout.col#links-content-tratamiento-datos-personales-mobile": {
+         "children": [
+            "flex-layout.row#banner-tratamiento-datos-personales",
+            "flex-layout.col#legal-links",
+            "flex-layout.col#tratamiento-datos-personales-text-container"
+    ],
+         "props": {
+              "blockClass": "links-content-terminos-condiciones-mobile",
+              "fulwidth": true,
+              "preventHorizontalStretch": false,
+              "preventVerticalStretch": true,
+              "preserveLayoutOnMobile": true,
+              "horizontalAlign": "center",
+              "verticalAlign": "middle",
+              "paddingTop": 0,
+              "paddingBottom": 0
+        }
+    }
+}
