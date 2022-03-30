@@ -309,6 +309,19 @@
   margin: 0px;
 }
 
+.paragraph--solicitar-credito-text{
+  color: #fff;
+}
+
+.paragraph--links-mini-footer-text{
+  color: #fff;
+  font-weight: bold;
+}
+
+.container--links-mini-footer-text{
+  height: 30px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
