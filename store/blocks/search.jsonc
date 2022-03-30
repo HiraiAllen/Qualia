@@ -289,6 +289,7 @@
       "maxItemsCategory": 3,
       "initiallyCollapsed": true,
       "blockClass": "FiltrosSearch",
+      "priceRangeLayout":"slider",
       "facetOrdering": [
         {
           "key": "brand",

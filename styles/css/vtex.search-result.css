@@ -47,6 +47,9 @@
 .filterTitle--FiltrosSearch {
   text-transform: initial;
 }
+.filterTemplateOverflow--FiltrosSearch {
+  padding-bottom: 10px 0;
+}
 .filterMessage--FiltrosSearch {
   padding: 15px 0 15px 40px;
   font-size: 1.3em;
@@ -61,4 +64,19 @@
 }
 .filter__container--FiltrosSearch--title {
   border: none;
+}
+.filterItem :global(.vtex-checkbox__box-wrapper)
+{
+    border: solid 1px #4fd7e5 !important;
+    border-radius: 50%;
+}
+.filterItem :global(.vtex__icon-check)
+{
+    color: #4fd7e5;
+}
+.filterItem :global(.vtex-checkbox__label) {
+  font-size: .9em;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
 }
