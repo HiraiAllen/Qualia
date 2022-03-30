@@ -4,6 +4,7 @@
   },
   "footer-layout.desktop#mini": {
     "children": [
+      "flex-layout.row#mini-footer-logos",
       "flex-layout.row#Footer-Xtrategik"
     ]
   },
@@ -19,11 +20,236 @@
     }
   },
 
+  //Componentes del footer desktop
+  "flex-layout.row#mini-footer-logos": {
+    "children": [
+      "flex-layout.row#qualia-mini-footer-logo",
+      "flex-layout.row#ubuntec-mini-footer-logo",
+      "flex-layout.row#fintech-mini-footer-logo",
+      "flex-layout.row#camara-comercio-mini-footer-logo",
+      "flex-layout.row#dinsutria-mini-footer-logo",
+      "flex-layout.col#links-mini-footer"
+  ],
+    "props": {
+        "blockClass": "mini-footer-logos",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.row#qualia-mini-footer-logo": {
+     "children": [
+      "image#qualia-mini-footer-logo"
+  ],
+     "props": {
+        "blockClass": "qualia-mini-footer-logo",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+
+  "image#qualia-mini-footer-logo": {
+    "props": {
+         "src": "assets/img/logos/logo-Qualia.svg",
+         "alt": "alt",
+         "height": "30px",
+         "blockClass": "qualia-mini-footer-logo",
+         "link": {
+              "url": "url",
+              "openNewTab": false,
+              "title": "title"
+      }
+    }
+  },
+
+  "flex-layout.row#ubuntec-mini-footer-logo": {
+    "children": [
+     "image#ubuntec-mini-footer-logo"
+ ],
+    "props": {
+       "blockClass": "ubuntec-mini-footer-logo",
+       "fulwidth": true,
+       "preventHorizontalStretch": true,
+       "preventVerticalStretch": true,
+       "preserveLayoutOnMobile": true,
+       "horizontalAlign": "center",
+       "verticalAlign": "middle",
+       "paddingTop": 0,
+       "paddingBottom": 0
+   }
+ },
+
+ "image#ubuntec-mini-footer-logo": {
+   "props": {
+        "src": "assets/img/ubuntec-footer-logo.svg",
+        "alt": "alt",
+        "height": "40px",
+        "blockClass": "ubuntec-mini-footer-logo",
+        "link": {
+             "url": "url",
+             "openNewTab": false,
+             "title": "title"
+     }
+   }
+ },
+
+ "flex-layout.row#fintech-mini-footer-logo": {
+  "children": [
+   "image#fintech-mini-footer-logo"
+],
+  "props": {
+     "blockClass": "fintech-mini-footer-logo",
+     "fulwidth": true,
+     "preventHorizontalStretch": true,
+     "preventVerticalStretch": true,
+     "preserveLayoutOnMobile": true,
+     "horizontalAlign": "center",
+     "verticalAlign": "middle",
+     "paddingTop": 0,
+     "paddingBottom": 0
+ }
+},
+
+"image#fintech-mini-footer-logo": {
+ "props": {
+      "src": "assets/img/LogoColombiaFintech.png",
+      "alt": "alt",
+      "height": "60px",
+      "blockClass": "fintech-mini-footer-logo",
+      "link": {
+           "url": "url",
+           "openNewTab": false,
+           "title": "title"
+   }
+ }
+},
+
+"flex-layout.row#camara-comercio-mini-footer-logo": {
+  "children": [
+   "image#camara-comercio-mini-footer-logo"
+],
+  "props": {
+     "blockClass": "camara-comercio-mini-footer-logo",
+     "fulwidth": true,
+     "preventHorizontalStretch": true,
+     "preventVerticalStretch": true,
+     "preserveLayoutOnMobile": true,
+     "horizontalAlign": "center",
+     "verticalAlign": "middle",
+     "paddingTop": 0,
+     "paddingBottom": 0
+ }
+},
+
+"image#camara-comercio-mini-footer-logo": {
+ "props": {
+      "src": "assets/img/camara-comercio.png",
+      "alt": "alt",
+      "height": "60px",
+      "blockClass": "camara-comercio-mini-footer-logo",
+      "link": {
+           "url": "url",
+           "openNewTab": false,
+           "title": "title"
+   }
+ }
+},
+
+"flex-layout.row#dinsutria-mini-footer-logo": {
+  "children": [
+   "image#industria-mini-footer-logo"
+],
+  "props": {
+     "blockClass": "industria-mini-footer-logo",
+     "fulwidth": true,
+     "preventHorizontalStretch": true,
+     "preventVerticalStretch": true,
+     "preserveLayoutOnMobile": true,
+     "horizontalAlign": "center",
+     "verticalAlign": "middle",
+     "paddingTop": 0,
+     "paddingBottom": 0
+ }
+},
+
+"image#industria-mini-footer-logo": {
+ "props": {
+      "src": "assets/img/industria-comercio.png",
+      "alt": "alt",
+      "height": "40px",
+      "blockClass": "industria-mini-footer-logo",
+      "link": {
+           "url": "url",
+           "openNewTab": false,
+           "title": "title"
+   }
+ }
+},
+
 
   "footer-layout.mobile#mini": {
     "children": [
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
     ]
+  },
+
+  "flex-layout.col#links-mini-footer": {
+    "children": [
+      "rich-text#links-mini-footer-title",
+      "rich-text#link-mini-footer-terminos-legales",
+      "rich-text#link-mini-footer-la-tienda"
+ ],
+    "props": {
+       "blockClass": "links-mini-footer",
+       "fulwidth": true,
+       "preventHorizontalStretch": true,
+       "preventVerticalStretch": false,
+       "preserveLayoutOnMobile": true,
+       "horizontalAlign": "left",
+       "verticalAlign": "TOP",
+       "paddingTop": 0,
+       "paddingBottom": 0
+   }
+ },
+
+ "rich-text#links-mini-footer-title": {
+   "props": {
+        "text": "QUALIA",
+        "blockClass": "links-mini-footer-text",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT"
+   }
+ },
+
+ "rich-text#link-mini-footer-terminos-legales": {
+  "props": {
+       "text": "Términos legales",
+       "blockClass": "links-mini-footer-text",
+       "textAlignment": "LEFT",
+       "textPosition": "LEFT"
   }
+},
+
+"rich-text#link-mini-footer-la-tienda": {
+  "props": {
+       "text": "La Tienda",
+       "blockClass": "links-mini-footer-text",
+       "textAlignment": "LEFT",
+       "textPosition": "LEFT"
+  }
+}
+  
 }

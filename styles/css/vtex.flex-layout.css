@@ -361,6 +361,42 @@
   padding: 10px 0px;
 }
 
+.flexRow--solicitar-credito{
+  background: #4ed7e5;
+  width: 100vw;
+  padding: 15px 0px;
+}
+
+.flexRow--mini-footer-logos{
+  background: #F80F49;
+  padding: 40px 0px;
+}
+
+.flexRow--ubuntec-mini-footer-logo{
+  padding-right: 35px;
+  border-right: 2px #fff solid;
+}
+
+.flexRow--fintech-mini-footer-logo{
+  margin: 0px 35px;
+}
+
+.flexRow--industria-mini-footer-logo{
+  padding-right: 35px;
+  margin-left: 30px;
+  border-right: 2px #fff solid;
+}
+
+.flexCol--terminos-condiciones-text-container{
+  max-width: 1280px;
+}
+
 .flexRow--ResultadoContenido {
   padding: 10px 20px;
+
+@media (max-width: 1600px) {
+    
+  .flexCol--terminos-condiciones-text-container{
+    max-width: 1050px;
+  }
 }

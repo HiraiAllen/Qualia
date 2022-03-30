@@ -1,6 +1,13 @@
 .styledLinkContent{
-    color: #000;
+    color: #fff;
     font-weight: bold;
+}
+
+@media (max-width: 500px){
+    .styledLinkContent{
+        color: #000;
+        font-weight: bold;
+    }
 }
 
 .menuItem--LinkFooter{
@@ -29,4 +36,11 @@
 }
 .styledLinkContainer--LinkFooterDestacado{
     margin: 0 0 0 0px;
+}
+
+
+.menuContainerNav--drawerMobile {
+    max-width: 80%;
+    margin: auto;
+    width: 100%;
 }

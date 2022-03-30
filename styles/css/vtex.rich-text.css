@@ -309,6 +309,18 @@
   margin: 0px;
 }
 
+.paragraph--solicitar-credito-text{
+  color: #fff;
+}
+
+.paragraph--links-mini-footer-text{
+  color: #fff;
+  font-weight: bold;
+}
+
+.container--links-mini-footer-text{
+  height: 30px;
+}
 .container--Desarrollo{
   align-self: center;
   padding: 0;
