@@ -35,10 +35,12 @@
 }
 .filterAvailable--FiltrosSearch {
   padding: 10px 0;
+  color: #89878c;
 }
 .filterTitleSpan--FiltrosSearch {
   font-weight: bold;
   font-size: .9em;
+  color: #89878c;
 }
 .filterSelected--FiltrosSearch {
   padding: 10px 0;
@@ -48,7 +50,10 @@
   text-transform: initial;
 }
 .filterTemplateOverflow--FiltrosSearch {
-  padding-bottom: 10px 0;
+  padding: 0;
+}
+.filterItem--FiltrosSearch {
+  padding: 10px 5px;
 }
 .filterMessage--FiltrosSearch {
   padding: 15px 0 15px 40px;
@@ -79,4 +84,5 @@
   padding: 0;
   margin: 0;
   font-weight: bold;
+  color: #89878c;
 }
