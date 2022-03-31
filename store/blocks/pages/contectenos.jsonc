@@ -4,7 +4,10 @@
       "responsive-layout.desktop#Contactenos",
       "responsive-layout.tablet#Contactenos",
       "responsive-layout.mobile#Contactenos"
-    ]
+    ],
+    "parent": {
+      "footer": "footer#mini"
+    }
   },
   "responsive-layout.desktop#Contactenos": {
     "children": [
