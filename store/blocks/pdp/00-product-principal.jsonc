@@ -59,7 +59,7 @@
   "flex-layout.row#VPDetalleProductoFoto": {
     "children": ["stack-layout#Desktop"],
     "props": {
-      "width": "55%",
+      "width": "50%",
       "rowGap": 0
     }
   },
@@ -115,9 +115,10 @@
   },
   "flex-layout.col#VPDetalleProducto-b": {
     "children": [
-      "image#Regresar",
+      "irAtras",
+      // "image#Regresar",
       "flex-layout.row#summaryPercentageVPLateral",
-      "rich-text#BloqueX"
+      "flex-layout.col#AgregarFavorito"
     ],
     "props": {
       "blockClass": "VPDetalleProducto-b",
@@ -132,40 +133,48 @@
       "width": "10%"
     }
   },
-  "flex-layout.col#VPDetalleProducto-c": {
-     "children": [
-      "condition-layout.product#Cotizacion",
-      "condition-layout.product#Descuento",
-      "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
-      "sku-selector",
-      "product-assembly-options",
-      "product-gifts",
-      "flex-layout.row#CantidadAgregar",
-      "availability-subscriber",
-      "flex-layout.row#MediosPagoAsesor",
-      "condition-layout.product#LineaProceso"
-  ],
-     "props": {
-        "blockClass": "VPDetalleProducto-c",
-        "fulwidth": false,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": false,
-        "preserveLayoutOnMobile": true,
-        "verticalAlign": "top",
-        "paddingTop": 0,
-        "paddingBottom": 0
+  "flex-layout.col#AgregarFavorito": {
+    "children": ["add-to-list-btn"],
+    "props": {
+      "blockClass": "AgregarFavorito",
+      "fulwidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "add-to-list-btn": {
+    "props": {
+      "toastURL": "/favoritos",
+      "blockClass": "btnFavoritos"
     }
   },
 
+  "flex-layout.col#VPDetalleProducto-c": {
+    "children": [
+      "condition-layout.product#Cotizacion",
+      "condition-layout.product#Descuento",
+      "condition-layout.product#FisicoVirtual"
+    ],
+    "props": {
+      "blockClass": "VPDetalleProducto-c",
+      "fulwidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "verticalAlign": "top",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
 
-
-
-"flex-layout.row#summaryPercentageVPLateral": {
-   "children": [
-    "product-price-savings#summaryPercentageVPLateral"
-],
-   "props": {
+  "flex-layout.row#summaryPercentageVPLateral": {
+    "children": ["product-price-savings#summaryPercentageVPLateral"],
+    "props": {
       "blockClass": "summaryPercentageVPLateral",
       "fulwidth": true,
       "preventHorizontalStretch": true,
@@ -175,8 +184,8 @@
       "verticalAlign": "middle",
       "paddingTop": 0,
       "paddingBottom": 0
-  }
-},
+    }
+  },
 
   "rich-text#BloqueX": {
     "props": {
@@ -341,7 +350,7 @@
     }
   },
 
-  "product-description#DescripcionVP":{
+  "product-description#DescripcionVP": {
     "props": {
       "showTitle": false,
       "blockClass": "DescripcionVP"
@@ -504,23 +513,23 @@
   },
   "image#Regresar": {
     "props": {
-         "src": "assets/img/iconos/iconoRegresar.svg",
-         "alt": "Regresar",
-         "width": "40px",
-         "blockClass": "Regresar",
-         "link": {
-              "url": "javascript:history.back()",
-              "openNewTab": false,
-              "title": "regresar"
+      "src": "assets/img/iconos/iconoRegresar.svg",
+      "alt": "Regresar",
+      "width": "40px",
+      "blockClass": "Regresar",
+      "link": {
+        "url": "javascript:history.back()",
+        "openNewTab": false,
+        "title": "regresar"
       }
     }
   },
   "rich-text#ProductoDisponible": {
     "props": {
-         "text": "ProductoDisponible",
-         "blockClass": "ProductoDisponible",
-         "textAlignment": "LEFT",
-         "textPosition": "LEFT"
+      "text": "ProductoDisponible",
+      "blockClass": "ProductoDisponible",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
     }
   }
 }

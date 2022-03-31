@@ -1,0 +1,56 @@
+{
+  "condition-layout.product#FisicoVirtual": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Tipo",
+            "value": "Físico"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Tipo",
+            "value": "Virtual"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.col#FisicoVirtual"
+    }
+  },
+
+  "flex-layout.col#FisicoVirtual": {
+    "children": [
+      "rich-text#FisicoVirtual",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "sku-selector",
+      "product-assembly-options",
+      "product-gifts",
+      "flex-layout.row#CantidadAgregar",
+      "availability-subscriber",
+      "flex-layout.row#MediosPagoAsesor",
+      "condition-layout.product#LineaProceso"
+    ],
+    "props": {
+      "blockClass": "FisicoVirtual",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "rich-text#FisicoVirtual": {
+    "props": {
+      "text": "Esto es una LP2 - Producto: **Físico ó Virtual**",
+      "blockClass": "tipoProceso",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  }
+}

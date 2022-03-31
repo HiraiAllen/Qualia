@@ -1,16 +1,50 @@
 {
   "store.not-found#search": {
     "blocks": [
-        "image#bannerError404", 
-        "rich-text#Error404"
+        "image#bannerError404",
+        "flex-layout.row#Error404"
     ]
   },
   "store.not-found#product": {
     "blocks": [
         "image#bannerError404", 
-        "rich-text#Error404"
+        "flex-layout.row#Error404"
     ]
   },
+"flex-layout.row#Error404": {
+   "children": [
+    "flex-layout.col#Error404"
+],
+   "props": {
+      "blockClass": "Error404",
+      "fulwidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",      
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+  }
+},
+"flex-layout.col#Error404": {
+   "children": [
+    "rich-text#Error404",
+    "flex-layout.row#SliderIconos",
+    "flex-layout.row#SliderProductosSugeridosHome"
+],
+   "props": {
+      "blockClass": "Error404",
+      "fulwidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+  }
+},
+
   "image#bannerError404": {
     "props": {
       "src": "assets/img/banners/bannerError404.png",
@@ -26,10 +60,10 @@
   },
   "rich-text#Error404": {
     "props": {
-      "text": "Error 404",
+      "text": "**¡Pero no te preocupes!** \n Encuentra el producto que necesitas en las siguientes categorías.",
       "blockClass": "Error404",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
     }
   }
 }

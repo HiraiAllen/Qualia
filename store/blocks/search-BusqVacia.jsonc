@@ -1,9 +1,37 @@
 {
   "search-not-found-layout": {
+    "children": ["image#bannerBusquedaVacia", "flex-layout.row#BusquedaVacia"]
+  },
+
+  "flex-layout.row#BusquedaVacia": {
+    "children": ["flex-layout.col#BusquedaVacia"],
+    "props": {
+      "blockClass": "BusquedaVacia",
+      "fulwidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "flex-layout.col#BusquedaVacia": {
     "children": [
-        "image#bannerBusquedaVacia", 
-        "rich-text#BusquedaVacia"
-    ]
+      "rich-text#BusquedaVacia",
+      "flex-layout.row#SliderProductosSugeridosHome"
+    ],
+    "props": {
+      "blockClass": "BusquedaVacia",
+      "fulwidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
   },
 
   "image#bannerBusquedaVacia": {
@@ -19,13 +47,12 @@
       }
     }
   },
-
   "rich-text#BusquedaVacia": {
     "props": {
-      "text": "Busqueda Vacia",
-      "blockClass": "Busquedavacia",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "text": "**¡Pero no te preocupes!** \n Tenemos miles de productos que te puede interesar",
+      "blockClass": "Error404",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
     }
   }
 }

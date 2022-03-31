@@ -68,6 +68,8 @@
     "vtex.pwa-components": "0.x",
     "ubuntec.custom-producto": "0.x"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "vtex.wish-list": "1.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

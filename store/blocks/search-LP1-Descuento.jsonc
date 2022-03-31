@@ -16,7 +16,10 @@
   },
 
   "flex-layout.col#Descuento": {
-    "children": ["rich-text#Descuento", "Descuento"],
+    "children": [
+      "Descuento",
+      "rich-text#Descuento"
+    ],
     "props": {
       "blockClass": "Descuento",
       "preventVerticalStretch": true,

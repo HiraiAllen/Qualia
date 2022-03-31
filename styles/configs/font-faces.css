@@ -3,5 +3,9 @@
     src: 
         url(assets/fonts/Montserrat-Regular.ttf),
         url(assets/fonts/Montserrat-Medium.ttf),
-        url(assets/fonts/Montserrat-Bold.ttf)
+        url(assets/fonts/Montserrat-Bold.ttf),
+        url(assets/fonts/Montserrat-Black.ttf),
+        url(assets/fonts/Montserrat-ExtraBold.ttf),
+        url(assets/fonts/Montserrat-SemiBold.ttf);
+    font-weight: bold, 700, 800
 }

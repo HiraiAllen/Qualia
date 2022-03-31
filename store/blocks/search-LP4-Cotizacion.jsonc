@@ -1,25 +1,62 @@
 {
-    "condition-layout.product#Cotizacion":{
-        "props": {
-          "conditions": [
-            {
-              "subject": "specificationProperties",
-              "arguments": {
-                "name": "Tipo",
-                "value": "Cotización"
-              }
-            }
-          ],
-          "matchType": "any",
-          "Then": "rich-text#Cotizacion"
-        }
-      },
-      "rich-text#Cotizacion": {
-          "props": {
-                   "text": "Esto es una LP1 - Cotización",
-                   "blockClass": "tipoProceso",
-                   "textAlignment": "LEFT",
-                   "textPosition": "LEFT"
+  "condition-layout.product#Cotizacion": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Tipo",
+            "value": "Cotización"
           }
-      }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#Cotizacion"
+    }
+  },
+
+  "flex-layout.row#Cotizacion": {
+    "children": ["flex-layout.col#Cotizacion"],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "flex-layout.col#Cotizacion": {
+    "children": ["rich-text#Cotizar", "rich-text#Cotizacion"],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "rich-text#Cotizacion": {
+    "props": {
+      "text": "Esto es una LP1 - Producto bajo cotización",
+      "blockClass": "tipoProceso",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#Cotizar": {
+    "props": {
+      "text": "Cotizar",
+      "blockClass": "bloqueLorem",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
 }

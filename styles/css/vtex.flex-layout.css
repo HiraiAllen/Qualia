@@ -261,6 +261,12 @@
 .flexRow--SliderProductosSugeridosHome {
   margin: auto;
   max-width: 1200px;
+  width: 100%;
+}
+
+.flexRowContent--SliderHome{
+  margin: auto;
+  max-width: 1200px;
 }
 
 .flexCol--IconoValoresHome {
@@ -415,3 +421,13 @@
   align-items: center;
 }
 
+
+.flexCol--AgregarFavorito :global(.vtex-button) {
+  border: none;
+  margin-top: 3px;
+  background-color: transparent;
+}
+.flexCol--AgregarFavorito :global(.vtex-button):hover {
+  border: none;
+  background-color: transparent;
+}
