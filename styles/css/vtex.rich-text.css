@@ -316,6 +316,9 @@
 
 .paragraph--solicitar-credito-text{
   color: #fff;
+  margin: 5px auto;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .paragraph--links-mini-footer-text{
