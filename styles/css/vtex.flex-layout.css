@@ -16,6 +16,17 @@
   }
 }
 
+@media (max-width: 1600px) {
+  .flexCol--terminos-condiciones-text-container{
+    max-width: 1050px;
+  }
+}
+@media (max-width: 500px){
+  .flexCol--terminos-condiciones-text-container{
+    padding: 0px 20px;
+  }
+}
+
 .flexRowContent--menu-link {
   background-color: #03044e;
   color: #fff;
@@ -417,13 +428,6 @@
 .flexRowContent--BuscadorMobile{
   background-color: #fff;
 }
-
-@media (max-width: 1600px) {
-  .flexCol--terminos-condiciones-text-container{
-    max-width: 1050px;
-  }
-}
-
 .flexRowContent--MediosPagoAsesor{
   align-items: center;
 }
@@ -437,9 +441,4 @@
 .flexCol--AgregarFavorito :global(.vtex-button):hover {
   border: none;
   background-color: transparent;
-
-@media (max-width: 500px){
-  .flexCol--terminos-condiciones-text-container{
-    padding: 0px 20px;
-  }
 }
