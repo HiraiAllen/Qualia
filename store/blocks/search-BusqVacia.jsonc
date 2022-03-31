@@ -1,6 +1,9 @@
 {
   "search-not-found-layout": {
-    "children": ["image#bannerBusquedaVacia", "flex-layout.row#BusquedaVacia"]
+    "children": ["image#bannerBusquedaVacia", "flex-layout.row#BusquedaVacia"],
+    "parent": {
+      "footer": "footer#mini"
+    }
   },
 
   "flex-layout.row#BusquedaVacia": {

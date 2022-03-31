@@ -9,6 +9,9 @@
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
+    },
+    "parent": {
+      "footer": "footer#mini"
     }
   },
   "search-result-layout": {

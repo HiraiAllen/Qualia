@@ -232,7 +232,7 @@
       "height": "30px",
       "blockClass": "industria-mini-footer-logo",
       "link": {
-        "url": "http://www.sig.gov.co",
+        "url": "https://www.sic.gov.co",
         "openNewTab": true,
         "title": "Superintendencia de Industria y Comercio"
       }
@@ -241,9 +241,13 @@
 
   "flex-layout.col#links-mini-footer": {
     "children": [
-      "menu-item#Direccion",
-      "menu-item#Telefonos",
-      "menu-item#Lorem"
+      "menu-item#MiPerfil",
+      "menu-item#MisPedidos",
+      "menu-item#PreguntasFrecuentes",
+      "menu-item#SoporteYPQR",
+      "menu-item#ComoCumplirMisSueños",
+      "menu-item#TerminosYCondiciones",
+      "menu-item#BlogLink"
     ],
     "props": {
       "blockClass": "links-mini-footer",
