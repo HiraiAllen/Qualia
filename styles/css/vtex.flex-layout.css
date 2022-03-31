@@ -378,9 +378,13 @@
   padding: 10px 0px;
 }
 
+.flexColChild--terminos-condiciones-content {
+  width: 100%;
+}
+
 .flexRow--solicitar-credito{
   background: #4ed7e5;
-  width: 100vw;
+  width: 100%;
   padding: 10px 0px;
 }
 

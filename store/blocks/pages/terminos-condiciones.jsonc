@@ -38,7 +38,7 @@
       "flex-layout.row#solicitar-credito"
     ],
     "props": {
-      "blockClass": "block",
+      "blockClass": "terminos-condiciones-content",
       "fulwidth": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
@@ -122,7 +122,7 @@
 
   "rich-text#terminos-condiciones-content-title": {
     "props": {
-      "text": "# Términos y Condiciones",
+      "text": "# Términos y condiciones",
       "blockClass": "terminos-condiciones-content-title",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
@@ -151,8 +151,8 @@
     "children": ["rich-text#solicitar-credito-text"],
     "props": {
       "blockClass": "solicitar-credito",
-      "fulwidth": true,
-      "preventHorizontalStretch": true,
+      "fulwidth": false,
+      "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
       "preserveLayoutOnMobile": true,
       "horizontalAlign": "center",

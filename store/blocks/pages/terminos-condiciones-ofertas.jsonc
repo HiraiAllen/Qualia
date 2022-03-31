@@ -44,7 +44,7 @@
             "flex-layout.row#solicitar-credito"
     ],
          "props": {
-              "blockClass": "block",
+              "blockClass": "terminos-condiciones-content",
               "fulwidth": true,
               "preventHorizontalStretch": true,
               "preventVerticalStretch": true,
@@ -76,14 +76,9 @@
     "image#img-terminos-condiciones-ofertas": {
         "props": {
                  "src": "assets/img/banners/bannerTerminosCondiciones-min.png",
-                 "alt": "alt",
-                 "height": "hight",
-                 "blockClass": "img-terminos-condiciones",
-                 "link": {
-                          "url": "url",
-                          "openNewTab": false,
-                          "title": "title"
-            }
+                 "alt": "Términos y condiciones",
+                 "width": "100%",
+                 "blockClass": "img-terminos-condiciones"
         }
     },
 
