@@ -291,7 +291,6 @@
 .flexRow--qualia-ubuntec-logos {
   display: flex;
   border-left: 1px solid #fff;
-  padding-left: 30px;
 }
 
 .flexRowContent--CantidadAgregar{
@@ -394,7 +393,7 @@
 }
 
 .flexRow--ubuntec-mini-footer-logo{
-  padding-right: 35px;
+  padding: 0 30px;
   border-right: 2px #fff solid;
 }
 
@@ -536,9 +535,15 @@
 }
 
 @media (max-width: 500px){
-  .flexRow--ubuntec-mini-footer-logo, .flexRow--industria-mini-footer-logo, .flexCol--numero-mini-footer{
+  .flexRow--ubuntec-mini-footer-logo, 
+  .flexRow--industria-mini-footer-logo, 
+  .flexCol--numero-mini-footer{
     border: none;
     margin: 0px !important;
     padding: 0px !important;
   }
+}
+
+.flexRowContent--logosFooter-a{
+  align-items: center;
 }

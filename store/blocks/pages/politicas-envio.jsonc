@@ -11,7 +11,9 @@
     },
     "responsive-layout.desktop#politicas-envio": {
         "children": [
-            "flex-layout.row#politicas-envio"
+            "image#img-politicas-envio",
+            "flex-layout.row#politicas-envio",
+            "flex-layout.row#solicitar-credito"
         ]
     },
     "responsive-layout.mobile#politicas-envio": {
@@ -39,9 +41,7 @@
 
     "flex-layout.col#politicas-envio-content": {
          "children": [
-            "flex-layout.row#banner-politicas-envio",
-            "flex-layout.row#content-and-links-politicas-envio",
-            "flex-layout.row#solicitar-credito"
+            "flex-layout.row#content-and-links-politicas-envio"
     ],
          "props": {
               "blockClass": "terminos-condiciones-content",

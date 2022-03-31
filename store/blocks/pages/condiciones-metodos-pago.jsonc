@@ -1,190 +1,182 @@
 {
-    "store.custom#condiciones-metodos-pago": {
-        "blocks": [
-            "responsive-layout.desktop#condiciones-metodos-pago",
-            "responsive-layout.mobile#condiciones-metodos-pago"
-        ],
-
-        "parent": {
-            "footer": "footer#mini"
-        }
-    },
-    "responsive-layout.desktop#condiciones-metodos-pago": {
-        "children": [
-            "flex-layout.row#condiciones-metodos-pago"
-        ]
-    },
-    "responsive-layout.mobile#condiciones-metodos-pago": {
-        "children": [
-            "flex-layout.row#condiciones-metodos-pago-mobile"
-        ]
-    },
-
-    "flex-layout.row#condiciones-metodos-pago": {
-         "children": [
-            "flex-layout.col#condiciones-metodos-pago-content"
+  "store.custom#condiciones-metodos-pago": {
+    "blocks": [
+      "responsive-layout.desktop#condiciones-metodos-pago",
+      "responsive-layout.mobile#condiciones-metodos-pago"
     ],
-         "props": {
-              "blockClass": "terminos-condiciones",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
 
-    "flex-layout.col#condiciones-metodos-pago-content": {
-         "children": [
-            "flex-layout.row#banner-condiciones-metodos-pago",
-            "flex-layout.row#content-and-links-condiciones-metodos-pago",
-            "flex-layout.row#solicitar-credito"
-    ],
-         "props": {
-              "blockClass": "terminos-condiciones-content",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-    
-    "flex-layout.row#banner-condiciones-metodos-pago": {
-         "children": [
-            "image#img-condiciones-metodos-pago"
-    ],
-         "props": {
-              "blockClass": "banner-terminos-condiciones",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "image#img-condiciones-metodos-pago": {
-        "props": {
-                 "src": "assets/img/banners/bannerTerminosCondiciones-min.png",
-                 "alt": "alt",
-                 "height": "hight",
-                 "blockClass": "img-terminos-condiciones",
-                 "link": {
-                          "url": "url",
-                          "openNewTab": false,
-                          "title": "title"
-            }
-        }
-    },
-
-    "flex-layout.row#content-and-links-condiciones-metodos-pago": {
-         "children": [
-            "flex-layout.col#legal-links",
-            "flex-layout.col#condiciones-metodos-pago-text-container"
-    ],
-         "props": {
-              "blockClass": "block",
-              "fulwidth": false,
-              "preventHorizontalStretch": false,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "flex-layout.col#condiciones-metodos-pago-text-container": {
-         "children": [
-            "rich-text#condiciones-metodos-pago-content-title",
-            "rich-text#condiciones-metodos-pago-content-subtitle",
-            "rich-text#condiciones-metodos-pago-content-text"
-    ],
-         "props": {
-              "blockClass": "terminos-condiciones-text-container",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "left",
-              "verticalAlign": "top",
-              "paddingTop": 0,
-              "paddingBottom": 0,
-              "width": "75%"
-        }
-    },
-
-    "rich-text#condiciones-metodos-pago-content-title": {
-        "props": {
-                 "text": "# Condiciones y métodos de pago",
-                 "blockClass": "terminos-condiciones-content-title",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-        }
-    },
-
-    "rich-text#condiciones-metodos-pago-content-subtitle": {
-        "props": {
-                 "text": "lorem ipsum",
-                 "blockClass": "terminos-condiciones-content-subtitle",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-        }
-    },
-
-    "rich-text#condiciones-metodos-pago-content-text": {
-        "props": {
-                 "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
-                 "blockClass": "terminos-condiciones-content-text",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-        }
-    },
-    //Mobile
-    "flex-layout.row#condiciones-metodos-pago-mobile": {
-         "children": [
-            "flex-layout.col#links-content-condiciones-metodos-pago-mobile"
-    ],
-         "props": {
-              "blockClass": "block",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "flex-layout.col#links-content-condiciones-metodos-pago-mobile": {
-         "children": [
-            "flex-layout.row#banner-condiciones-metodos-pago",
-            "flex-layout.col#legal-links",
-            "flex-layout.col#condiciones-metodos-pago-text-container"
-    ],
-         "props": {
-              "blockClass": "links-content-terminos-condiciones-mobile",
-              "fulwidth": true,
-              "preventHorizontalStretch": false,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
+    "parent": {
+      "footer": "footer#mini"
     }
+  },
+  "responsive-layout.desktop#condiciones-metodos-pago": {
+    "children": [
+      "image#img-condiciones-metodos-pago",
+      "flex-layout.row#condiciones-metodos-pago",
+      "flex-layout.row#solicitar-credito"
+    ]
+  },
+  "responsive-layout.mobile#condiciones-metodos-pago": {
+    "children": ["flex-layout.row#condiciones-metodos-pago-mobile"]
+  },
+
+  "flex-layout.row#condiciones-metodos-pago": {
+    "children": ["flex-layout.col#condiciones-metodos-pago-content"],
+    "props": {
+      "blockClass": "terminos-condiciones",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.col#condiciones-metodos-pago-content": {
+    "children": ["flex-layout.row#content-and-links-condiciones-metodos-pago"],
+    "props": {
+      "blockClass": "terminos-condiciones-content",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.row#banner-condiciones-metodos-pago": {
+    "children": ["image#img-condiciones-metodos-pago"],
+    "props": {
+      "blockClass": "banner-terminos-condiciones",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "image#img-condiciones-metodos-pago": {
+    "props": {
+      "src": "assets/img/banners/bannerTerminosCondiciones-min.png",
+      "alt": "alt",
+      "height": "hight",
+      "blockClass": "img-terminos-condiciones",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
+      }
+    }
+  },
+
+  "flex-layout.row#content-and-links-condiciones-metodos-pago": {
+    "children": [
+      "flex-layout.col#legal-links",
+      "flex-layout.col#condiciones-metodos-pago-text-container"
+    ],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.col#condiciones-metodos-pago-text-container": {
+    "children": [
+      "rich-text#condiciones-metodos-pago-content-title",
+      "rich-text#condiciones-metodos-pago-content-subtitle",
+      "rich-text#condiciones-metodos-pago-content-text"
+    ],
+    "props": {
+      "blockClass": "terminos-condiciones-text-container",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "left",
+      "verticalAlign": "top",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "width": "75%"
+    }
+  },
+
+  "rich-text#condiciones-metodos-pago-content-title": {
+    "props": {
+      "text": "# Condiciones y métodos de pago",
+      "blockClass": "terminos-condiciones-content-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#condiciones-metodos-pago-content-subtitle": {
+    "props": {
+      "text": "lorem ipsum",
+      "blockClass": "terminos-condiciones-content-subtitle",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#condiciones-metodos-pago-content-text": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "blockClass": "terminos-condiciones-content-text",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  //Mobile
+  "flex-layout.row#condiciones-metodos-pago-mobile": {
+    "children": [
+      "flex-layout.col#links-content-condiciones-metodos-pago-mobile"
+    ],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.col#links-content-condiciones-metodos-pago-mobile": {
+    "children": [
+      "flex-layout.row#banner-condiciones-metodos-pago",
+      "flex-layout.col#legal-links",
+      "flex-layout.col#condiciones-metodos-pago-text-container"
+    ],
+    "props": {
+      "blockClass": "links-content-terminos-condiciones-mobile",
+      "fulwidth": true,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  }
 }

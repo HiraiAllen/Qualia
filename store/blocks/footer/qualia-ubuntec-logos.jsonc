@@ -19,7 +19,10 @@
   },
 
   "flex-layout.col#ubuntec-container": {
-    "children": ["image#ubuntec-footer-logo"],
+    "children": [
+      "flex-layout.row#logosFooter-a",
+      "flex-layout.row#logosFooter-b"
+    ],
     "props": {
       "blockClass": "qualia-ubuntec-footer-container",
       "fulwidth": true,
@@ -33,6 +36,92 @@
     }
   },
 
+  "flex-layout.row#logosFooter-a": {
+     "children": [
+      "image#logoFooterUbuntec",
+      "image#logoFooterFintech"
+    ],
+    "props": {
+      "blockClass": "logosFooter-a",
+      "fulwidth": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "flex-layout.row#logosFooter-b": {
+    "children": [
+      "image#logoFooterSuperintendencia",
+      "image#logoFooterCamaraComercio"
+  ],
+     "props": {
+        "blockClass": "logosFooter-a",
+        "fulwidth": false,
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+  "image#logoFooterUbuntec": {
+    "props": {
+      "src": "assets/img/logos/logoFooter_logoUbuntec.svg",
+      "alt": "Operado por Ubuntec",
+      "width": "180px",
+      "blockClass": "logoFooter",
+      "link": {
+        "url": "http://www.ubuntec.com",
+        "openNewTab": true,
+        "title": "Ubuntec"
+      }
+    }
+  },
+  "image#logoFooterFintech": {
+    "props": {
+      "src": "assets/img/LogoColombiaFintechBlanco.png",
+      "alt": "Fintech",
+      "width": "100px",
+      "blockClass": "logoFooter",
+      "link": {
+        "url": "https://colombiafintech.co",
+        "openNewTab": true,
+        "title": "Fintech"
+      }
+    }
+  },
+  "image#logoFooterSuperintendencia": {
+    "props": {
+      "src": "assets/img/logos/logoFooter_logoSuperintendencia.svg",
+      "alt": "Superintendencia de Industria y Comercio",
+      "width": "140px",
+      "blockClass": "logoFooter",
+      "link": {
+        "url": "http://www.sic.gov.co",
+        "openNewTab": true,
+        "title": "Superintendencia de Industria y Comercio"
+      }
+    }
+  },
+  "image#logoFooterCamaraComercio": {
+    "props": {
+      "src": "assets/img/logos/logoFooter_logoCamaraComercioElectronico.svg",
+      "alt": "Cámara de Comercio Electrónica de Bogotá",
+      "width": "100px",
+      "blockClass": "logoFooter",
+      "link": {
+        "url": "https://www.ccce.org.co/",
+        "openNewTab": true,
+        "title": "CCCE"
+      }
+    }
+  },
   "image#ubuntec-footer-logo": {
     "props": {
       "src": "assets/img/logos/logosFooter.png",

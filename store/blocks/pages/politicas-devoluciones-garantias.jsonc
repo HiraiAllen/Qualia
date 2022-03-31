@@ -1,190 +1,186 @@
 {
-    "store.custom#politicas-devoluciones-garantias": {
-        "blocks": [
-            "responsive-layout.desktop#politicas-devoluciones-garantias",
-            "responsive-layout.mobile#politicas-devoluciones-garantias"
-        ],
-
-        "parent": {
-            "footer": "footer#mini"
-        }
-    },
-    "responsive-layout.desktop#politicas-devoluciones-garantias": {
-        "children": [
-            "flex-layout.row#politicas-devoluciones-garantias"
-        ]
-    },
-    "responsive-layout.mobile#politicas-devoluciones-garantias": {
-        "children": [
-            "flex-layout.row#politicas-devoluciones-garantias-mobile"
-        ]
-    },
-
-    "flex-layout.row#politicas-devoluciones-garantias": {
-         "children": [
-            "flex-layout.col#politicas-devoluciones-garantias-content"
+  "store.custom#politicas-devoluciones-garantias": {
+    "blocks": [
+      "responsive-layout.desktop#politicas-devoluciones-garantias",
+      "responsive-layout.mobile#politicas-devoluciones-garantias"
     ],
-         "props": {
-              "blockClass": "terminos-condiciones",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
 
-    "flex-layout.col#politicas-devoluciones-garantias-content": {
-         "children": [
-            "flex-layout.row#banner-politicas-devoluciones-garantias",
-            "flex-layout.row#content-and-links-politicas-devoluciones-garantias",
-            "flex-layout.row#solicitar-credito"
-    ],
-         "props": {
-              "blockClass": "terminos-condiciones-content",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-    
-    "flex-layout.row#banner-politicas-devoluciones-garantias": {
-         "children": [
-            "image#img-politicas-devoluciones-garantias"
-    ],
-         "props": {
-              "blockClass": "banner-terminos-condiciones",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "image#img-politicas-devoluciones-garantias": {
-        "props": {
-                 "src": "assets/img/banners/bannerTerminosCondiciones-min.png",
-                 "alt": "alt",
-                 "height": "hight",
-                 "blockClass": "img-terminos-condiciones",
-                 "link": {
-                          "url": "url",
-                          "openNewTab": false,
-                          "title": "title"
-            }
-        }
-    },
-
-    "flex-layout.row#content-and-links-politicas-devoluciones-garantias": {
-         "children": [
-            "flex-layout.col#legal-links",
-            "flex-layout.col#politicas-devoluciones-garantias-text-container"
-    ],
-         "props": {
-              "blockClass": "block",
-              "fulwidth": false,
-              "preventHorizontalStretch": false,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "flex-layout.col#politicas-devoluciones-garantias-text-container": {
-         "children": [
-            "rich-text#politicas-devoluciones-garantias-content-title",
-            "rich-text#politicas-devoluciones-garantias-content-subtitle",
-            "rich-text#politicas-devoluciones-garantias-content-text"
-    ],
-         "props": {
-              "blockClass": "terminos-condiciones-text-container",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "left",
-              "verticalAlign": "top",
-              "paddingTop": 0,
-              "paddingBottom": 0,
-              "width": "75%"
-        }
-    },
-
-    "rich-text#politicas-devoluciones-garantias-content-title": {
-        "props": {
-                 "text": "# Políticas de devoluciones y garantías",
-                 "blockClass": "terminos-condiciones-content-title",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-        }
-    },
-
-    "rich-text#politicas-devoluciones-garantias-content-subtitle": {
-        "props": {
-                 "text": "lorem ipsum",
-                 "blockClass": "terminos-condiciones-content-subtitle",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-        }
-    },
-
-    "rich-text#politicas-devoluciones-garantias-content-text": {
-        "props": {
-                 "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
-                 "blockClass": "terminos-condiciones-content-text",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-        }
-    },
-    //Mobile
-    "flex-layout.row#politicas-devoluciones-garantias-mobile": {
-         "children": [
-            "flex-layout.col#links-content-politicas-devoluciones-garantias-mobile"
-    ],
-         "props": {
-              "blockClass": "block",
-              "fulwidth": true,
-              "preventHorizontalStretch": true,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
-    },
-
-    "flex-layout.col#links-content-politicas-devoluciones-garantias-mobile": {
-         "children": [
-            "flex-layout.row#banner-politicas-devoluciones-garantias",
-            "flex-layout.col#legal-links",
-            "flex-layout.col#politicas-devoluciones-garantias-text-container"
-    ],
-         "props": {
-              "blockClass": "links-content-terminos-condiciones-mobile",
-              "fulwidth": true,
-              "preventHorizontalStretch": false,
-              "preventVerticalStretch": true,
-              "preserveLayoutOnMobile": true,
-              "horizontalAlign": "center",
-              "verticalAlign": "middle",
-              "paddingTop": 0,
-              "paddingBottom": 0
-        }
+    "parent": {
+      "footer": "footer#mini"
     }
+  },
+  "responsive-layout.desktop#politicas-devoluciones-garantias": {
+    "children": [
+      "image#img-politicas-devoluciones-garantias",
+      "flex-layout.row#politicas-devoluciones-garantias",
+      "flex-layout.row#solicitar-credito"
+    ]
+  },
+  "responsive-layout.mobile#politicas-devoluciones-garantias": {
+    "children": ["flex-layout.row#politicas-devoluciones-garantias-mobile"]
+  },
+
+  "flex-layout.row#politicas-devoluciones-garantias": {
+    "children": ["flex-layout.col#politicas-devoluciones-garantias-content"],
+    "props": {
+      "blockClass": "terminos-condiciones",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.col#politicas-devoluciones-garantias-content": {
+    "children": [
+      "flex-layout.row#content-and-links-politicas-devoluciones-garantias"
+    ],
+    "props": {
+      "blockClass": "terminos-condiciones-content",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.row#banner-politicas-devoluciones-garantias": {
+    "children": ["image#img-politicas-devoluciones-garantias"],
+    "props": {
+      "blockClass": "banner-terminos-condiciones",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "image#img-politicas-devoluciones-garantias": {
+    "props": {
+      "src": "assets/img/banners/bannerTerminosCondiciones-min.png",
+      "alt": "alt",
+      "height": "hight",
+      "blockClass": "img-terminos-condiciones",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
+      }
+    }
+  },
+
+  "flex-layout.row#content-and-links-politicas-devoluciones-garantias": {
+    "children": [
+      "flex-layout.col#legal-links",
+      "flex-layout.col#politicas-devoluciones-garantias-text-container"
+    ],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.col#politicas-devoluciones-garantias-text-container": {
+    "children": [
+      "rich-text#politicas-devoluciones-garantias-content-title",
+      "rich-text#politicas-devoluciones-garantias-content-subtitle",
+      "rich-text#politicas-devoluciones-garantias-content-text",
+      "rich-text#politicas-devoluciones-garantias-content-text",
+      "rich-text#politicas-devoluciones-garantias-content-text"
+    ],
+    "props": {
+      "blockClass": "terminos-condiciones-text-container",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "left",
+      "verticalAlign": "top",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "width": "75%"
+    }
+  },
+
+  "rich-text#politicas-devoluciones-garantias-content-title": {
+    "props": {
+      "text": "# Políticas de devoluciones y garantías",
+      "blockClass": "terminos-condiciones-content-title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#politicas-devoluciones-garantias-content-subtitle": {
+    "props": {
+      "text": "lorem ipsum",
+      "blockClass": "terminos-condiciones-content-subtitle",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#politicas-devoluciones-garantias-content-text": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "blockClass": "terminos-condiciones-content-text",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  //Mobile
+  "flex-layout.row#politicas-devoluciones-garantias-mobile": {
+    "children": [
+      "flex-layout.col#links-content-politicas-devoluciones-garantias-mobile"
+    ],
+    "props": {
+      "blockClass": "block",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.col#links-content-politicas-devoluciones-garantias-mobile": {
+    "children": [
+      "flex-layout.row#banner-politicas-devoluciones-garantias",
+      "flex-layout.col#legal-links",
+      "flex-layout.col#politicas-devoluciones-garantias-text-container"
+    ],
+    "props": {
+      "blockClass": "links-content-terminos-condiciones-mobile",
+      "fulwidth": true,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  }
 }

@@ -253,3 +253,7 @@
   text-align: justify;
   line-height: 1.3;
 }
+
+.imageElementLink--logoFooter {
+  margin: 5px 10px;
+}

@@ -10,7 +10,11 @@
     }
   },
   "responsive-layout.desktop#terminos-condiciones": {
-    "children": ["flex-layout.row#terminos-condiciones"]
+    "children": [
+      "image#img-terminos-condiciones",
+      "flex-layout.row#terminos-condiciones",
+      "flex-layout.row#solicitar-credito"
+    ]
   },
   "responsive-layout.mobile#terminos-condiciones": {
     "children": ["flex-layout.row#terminos-condiciones-mobile"]
@@ -20,7 +24,7 @@
     "children": ["flex-layout.col#terminos-condiciones-content"],
     "props": {
       "blockClass": "terminos-condiciones",
-      "fulwidth": false,
+      "fulwidth": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": false,
       "preserveLayoutOnMobile": true,
@@ -33,9 +37,7 @@
 
   "flex-layout.col#terminos-condiciones-content": {
     "children": [
-      "flex-layout.row#banner-terminos-condiciones",
-      "flex-layout.row#content-and-links",
-      "flex-layout.row#solicitar-credito"
+      "flex-layout.row#content-and-links"
     ],
     "props": {
       "blockClass": "terminos-condiciones-content",
