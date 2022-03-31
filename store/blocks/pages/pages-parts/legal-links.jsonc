@@ -33,7 +33,7 @@
 
    "rich-text#tratamiento-datos-personales-link": {
     "props": {
-             "text": "[Tratamiento de datos personales](/?target=_blank)",
+             "text": "[Tratamiento de datos personales](/tratamiento-datos-personales)",
              "blockClass": "legal-link",
              "textAlignment": "LEFT",
              "textPosition": "LEFT"
@@ -42,7 +42,7 @@
 
     "rich-text#terminos-condiciones-ofertas-link": {
         "props": {
-                 "text": "[Términos y Condiciones de Ofertas](/?target=_blank)",
+                 "text": "[Términos y Condiciones de Ofertas](/terminos-condiciones-ofertas)",
                  "blockClass": "legal-link",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
@@ -51,7 +51,7 @@
 
     "rich-text#condiciones-metodos-pago-link": {
         "props": {
-                 "text": "[Condiciones y Métodos de Pago](/?target=_blank)",
+                 "text": "[Condiciones y Métodos de Pago](/condiciones-metodos-pago)",
                  "blockClass": "legal-link",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
@@ -60,7 +60,7 @@
 
     "rich-text#politicas-envio-link": {
         "props": {
-                 "text": "[Políticas de Envío](/?target=_blank)",
+                 "text": "[Políticas de Envío](/politicas-envio)",
                  "blockClass": "legal-link",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
@@ -69,7 +69,7 @@
 
     "rich-text#politicas-devoluciones-garantias-link": {
         "props": {
-                 "text": "[Políticas de Devoluciones y Garantías](/?target=_blank)",
+                 "text": "[Políticas de Devoluciones y Garantías](/politicas-devoluciones-garantias)",
                  "blockClass": "legal-link",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
