@@ -1,78 +1,78 @@
 {
-   "flex-layout.col#legal-links": {
-        "children": [
-            "rich-text#terminos-condiciones-link",
-            "rich-text#tratamiento-datos-personales-link",
-            "rich-text#terminos-condiciones-ofertas-link",
-            "rich-text#condiciones-metodos-pago-link",
-            "rich-text#politicas-envio-link",
-            "rich-text#politicas-devoluciones-garantias-link"
-   ],
-        "props": {
-             "blockClass": "legal-links",
-             "fulwidth": true,
-             "preventHorizontalStretch": true,
-             "preventVerticalStretch": false,
-             "preserveLayoutOnMobile": true,
-             "horizontalAlign": "left",
-             "verticalAlign": "TOP",
-             "paddingTop": 0,
-             "paddingBottom": 0,
-             "width": "25%"
-       }
-   },
-
-   "rich-text#terminos-condiciones-link": {
-       "props": {
-                "text": "[Términos y Condiciones](/terminos-condiciones)",
-                "blockClass": "legal-link",
-                "textAlignment": "LEFT",
-                "textPosition": "LEFT"
-       }
-   },
-
-   "rich-text#tratamiento-datos-personales-link": {
+  "flex-layout.col#legal-links": {
+    "children": [
+      "rich-text#terminos-condiciones-link",
+      "rich-text#tratamiento-datos-personales-link",
+      "rich-text#terminos-condiciones-ofertas-link",
+      "rich-text#condiciones-metodos-pago-link",
+      "rich-text#politicas-envio-link",
+      "rich-text#politicas-devoluciones-garantias-link"
+    ],
     "props": {
-             "text": "[Tratamiento de datos personales](/tratamiento-datos-personales)",
-             "blockClass": "legal-link",
-             "textAlignment": "LEFT",
-             "textPosition": "LEFT"
-        }
-    }, 
-
-    "rich-text#terminos-condiciones-ofertas-link": {
-        "props": {
-                 "text": "[Términos y Condiciones de Ofertas](/terminos-condiciones-ofertas)",
-                 "blockClass": "legal-link",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-            }
-    },
-
-    "rich-text#condiciones-metodos-pago-link": {
-        "props": {
-                 "text": "[Condiciones y Métodos de Pago](/condiciones-metodos-pago)",
-                 "blockClass": "legal-link",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-            }
-    },
-
-    "rich-text#politicas-envio-link": {
-        "props": {
-                 "text": "[Políticas de Envío](/politicas-envio)",
-                 "blockClass": "legal-link",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-            }
-    },
-
-    "rich-text#politicas-devoluciones-garantias-link": {
-        "props": {
-                 "text": "[Políticas de Devoluciones y Garantías](/politicas-devoluciones-garantias)",
-                 "blockClass": "legal-link",
-                 "textAlignment": "LEFT",
-                 "textPosition": "LEFT"
-            }
+      "blockClass": "legal-links",
+      "fulwidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "left",
+      "verticalAlign": "TOP",
+      "paddingTop": 10,
+      "paddingBottom": 5,
+      "width": "20%"
     }
+  },
+
+  "rich-text#terminos-condiciones-link": {
+    "props": {
+      "text": "[Términos y condiciones](/terminos-condiciones)",
+      "blockClass": "legal-link",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#tratamiento-datos-personales-link": {
+    "props": {
+      "text": "[Tratamiento de datos personales](/tratamiento-datos-personales)",
+      "blockClass": "legal-link",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#terminos-condiciones-ofertas-link": {
+    "props": {
+      "text": "[Términos y condiciones de ofertas](/terminos-condiciones-ofertas)",
+      "blockClass": "legal-link",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#condiciones-metodos-pago-link": {
+    "props": {
+      "text": "[Condiciones y métodos de pago](/condiciones-metodos-pago)",
+      "blockClass": "legal-link",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#politicas-envio-link": {
+    "props": {
+      "text": "[Políticas de envío](/politicas-envio)",
+      "blockClass": "legal-link",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#politicas-devoluciones-garantias-link": {
+    "props": {
+      "text": "[Políticas de devoluciones y garantías](/politicas-devoluciones-garantias)",
+      "blockClass": "legal-link",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  }
 }

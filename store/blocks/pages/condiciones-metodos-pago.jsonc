@@ -44,7 +44,7 @@
             "flex-layout.row#solicitar-credito"
     ],
          "props": {
-              "blockClass": "block",
+              "blockClass": "terminos-condiciones-content",
               "fulwidth": true,
               "preventHorizontalStretch": true,
               "preventVerticalStretch": true,

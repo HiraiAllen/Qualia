@@ -16,6 +16,17 @@
   }
 }
 
+@media (max-width: 1600px) {
+  .flexCol--terminos-condiciones-text-container{
+    max-width: 1050px;
+  }
+}
+@media (max-width: 500px){
+  .flexCol--terminos-condiciones-text-container{
+    padding: 0px 20px;
+  }
+}
+
 .flexRowContent--menu-link {
   background-color: #03044e;
   color: #fff;
@@ -367,10 +378,14 @@
   padding: 10px 0px;
 }
 
+.flexColChild--terminos-condiciones-content {
+  width: 100%;
+}
+
 .flexRow--solicitar-credito{
   background: #4ed7e5;
-  width: 100vw;
-  padding: 15px 0px;
+  width: 100%;
+  padding: 10px 0px;
 }
 
 .flexRow--mini-footer-logos{
@@ -395,6 +410,7 @@
 
 .flexCol--terminos-condiciones-text-container{
   max-width: 1280px;
+  padding: 10px 20px;
 }
 
 
@@ -417,13 +433,6 @@
 .flexRowContent--BuscadorMobile{
   background-color: #fff;
 }
-
-@media (max-width: 1600px) {
-  .flexCol--terminos-condiciones-text-container{
-    max-width: 1050px;
-  }
-}
-
 .flexRowContent--MediosPagoAsesor{
   align-items: center;
 }
@@ -437,9 +446,8 @@
 .flexCol--AgregarFavorito :global(.vtex-button):hover {
   border: none;
   background-color: transparent;
+}
 
-@media (max-width: 500px){
-  .flexCol--terminos-condiciones-text-container{
-    padding: 0px 20px;
-  }
+.flexCol--legal-links {
+  padding: 15px 0;
 }
