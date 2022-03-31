@@ -3,7 +3,10 @@
     "blocks": [
         "image#bannerError404",
         "flex-layout.row#Error404"
-    ]
+    ],
+    "parent": {
+      "footer": "footer#mini"
+    }
   },
   "store.not-found#product": {
     "blocks": [

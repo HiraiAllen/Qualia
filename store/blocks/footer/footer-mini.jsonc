@@ -21,26 +21,22 @@
   },
 
   "footer-layout.mobile#mini": {
-    "children": [
-      "flex-layout.row#mini-footer-mobile"
-    ]
+    "children": ["flex-layout.row#mini-footer-mobile"]
   },
   "flex-layout.row#mini-footer-mobile": {
-     "children": [
-      "flex-layout.col#mini-footer-mobile-col"
-  ],
-     "props": {
-        "blockClass": "mini-footer-mobile",
-        "fulwidth": true,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "horizontalAlign": "center",
-        "verticalAlign": "middle",
-        "paddingTop": 0,
-        "paddingBottom": 0
+    "children": ["flex-layout.col#mini-footer-mobile-col"],
+    "props": {
+      "blockClass": "mini-footer-mobile",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
     }
-  },  
+  },
 
   "flex-layout.col#mini-footer-mobile-col": {
     "children": [
@@ -60,21 +56,21 @@
   },
 
   "flex-layout.row#mini-footer-mobile-comercio-fintech-industrial-logos": {
-     "children": [
+    "children": [
       "flex-layout.row#fintech-mini-footer-logo",
       "flex-layout.row#camara-comercio-mini-footer-logo",
       "flex-layout.row#dinsutria-mini-footer-logo"
-  ],
-     "props": {
-        "blockClass": "mini-footer-mobile-comercio-fintech-industrial-logos",
-        "fulwidth": true,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "horizontalAlign": "center",
-        "verticalAlign": "middle",
-        "paddingTop": 0,
-        "paddingBottom": 0
+    ],
+    "props": {
+      "blockClass": "mini-footer-mobile-comercio-fintech-industrial-logos",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
     }
   },
 
@@ -89,276 +85,260 @@
       "flex-layout.col#links-mini-footer",
       "flex-layout.col#numero-mini-footer",
       "flex-layout.col#mini-footer-whatsapp-logo"
-  ],
+    ],
     "props": {
-        "blockClass": "mini-footer-logos",
-        "fulwidth": true,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "horizontalAlign": "center",
-        "verticalAlign": "middle",
-        "paddingTop": 0,
-        "paddingBottom": 0
+      "blockClass": "mini-footer-logos",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
     }
   },
 
   "flex-layout.row#qualia-mini-footer-logo": {
-     "children": [
-      "image#qualia-mini-footer-logo"
-  ],
-     "props": {
-        "blockClass": "qualia-mini-footer-logo",
-        "fulwidth": true,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "horizontalAlign": "center",
-        "verticalAlign": "middle",
-        "paddingTop": 0,
-        "paddingBottom": 0
+    "children": ["image#qualia-mini-footer-logo"],
+    "props": {
+      "blockClass": "qualia-mini-footer-logo",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
     }
   },
 
   "image#qualia-mini-footer-logo": {
     "props": {
-         "src": "assets/img/logos/logo-Qualia.svg",
-         "alt": "alt",
-         "height": "30px",
-         "blockClass": "qualia-mini-footer-logo",
-         "link": {
-              "url": "url",
-              "openNewTab": false,
-              "title": "title"
+      "src": "assets/img/logos/logo-Qualia.svg",
+      "alt": "Tienda Qualia",
+      "height": "40px",
+      "blockClass": "qualia-mini-footer-logo",
+      "link": {
+        "url": "/",
+        "openNewTab": false,
+        "title": "Volver al home Qualia"
       }
     }
   },
 
   "flex-layout.row#ubuntec-mini-footer-logo": {
-    "children": [
-     "image#ubuntec-mini-footer-logo"
- ],
+    "children": ["image#ubuntec-mini-footer-logo"],
     "props": {
-       "blockClass": "ubuntec-mini-footer-logo",
-       "fulwidth": true,
-       "preventHorizontalStretch": true,
-       "preventVerticalStretch": true,
-       "preserveLayoutOnMobile": true,
-       "horizontalAlign": "center",
-       "verticalAlign": "middle",
-       "paddingTop": 0,
-       "paddingBottom": 0
-   }
- },
+      "blockClass": "ubuntec-mini-footer-logo",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
 
- "image#ubuntec-mini-footer-logo": {
-   "props": {
-        "src": "assets/img/ubuntec-footer-logo.svg",
-        "alt": "alt",
-        "height": "40px",
-        "blockClass": "ubuntec-mini-footer-logo",
-        "link": {
-             "url": "url",
-             "openNewTab": false,
-             "title": "title"
-     }
-   }
- },
-
- "flex-layout.row#fintech-mini-footer-logo": {
-  "children": [
-   "image#fintech-mini-footer-logo"
-],
-  "props": {
-     "blockClass": "fintech-mini-footer-logo",
-     "fulwidth": true,
-     "preventHorizontalStretch": true,
-     "preventVerticalStretch": true,
-     "preserveLayoutOnMobile": true,
-     "horizontalAlign": "center",
-     "verticalAlign": "middle",
-     "paddingTop": 0,
-     "paddingBottom": 0
- }
-},
-
-"image#fintech-mini-footer-logo": {
- "props": {
-      "src": "assets/img/LogoColombiaFintech.png",
-      "alt": "alt",
-      "height": "60px",
-      "blockClass": "fintech-mini-footer-logo",
+  "image#ubuntec-mini-footer-logo": {
+    "props": {
+      "src": "assets/img/logos/logoFooter_logoUbuntec.svg",
+      "alt": "Operado por Ubuntec",
+      "height": "40px",
+      "blockClass": "ubuntec-mini-footer-logo",
       "link": {
-           "url": "url",
-           "openNewTab": false,
-           "title": "title"
-   }
- }
-},
+        "url": "http://www.ubuntec.net",
+        "openNewTab": true,
+        "title": "Tienda operada por Ubuntec"
+      }
+    }
+  },
 
-"flex-layout.row#camara-comercio-mini-footer-logo": {
-  "children": [
-   "image#camara-comercio-mini-footer-logo"
-],
-  "props": {
-     "blockClass": "camara-comercio-mini-footer-logo",
-     "fulwidth": true,
-     "preventHorizontalStretch": true,
-     "preventVerticalStretch": true,
-     "preserveLayoutOnMobile": true,
-     "horizontalAlign": "center",
-     "verticalAlign": "middle",
-     "paddingTop": 0,
-     "paddingBottom": 0
- }
-},
+  "flex-layout.row#fintech-mini-footer-logo": {
+    "children": ["image#fintech-mini-footer-logo"],
+    "props": {
+      "blockClass": "fintech-mini-footer-logo",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
 
-"image#camara-comercio-mini-footer-logo": {
- "props": {
+  "image#fintech-mini-footer-logo": {
+    "props": {
+      "src": "assets/img/LogoColombiaFintechBlanco.png",
+      "alt": "Fintech",
+      "height": "80px",
+      "blockClass": "fintech-mini-footer-logo"
+    }
+  },
+
+  "flex-layout.row#camara-comercio-mini-footer-logo": {
+    "children": ["image#camara-comercio-mini-footer-logo"],
+    "props": {
+      "blockClass": "camara-comercio-mini-footer-logo",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "image#camara-comercio-mini-footer-logo": {
+    "props": {
       "src": "assets/img/LogoCamaraComercioElectronicoBogota.svg",
       "alt": "alt",
       "height": "40px",
       "blockClass": "camara-comercio-mini-footer-logo",
       "link": {
-           "url": "url",
-           "openNewTab": false,
-           "title": "title"
-   }
- }
-},
+        "url": "https://www.ccce.org.co/",
+        "openNewTab": true,
+        "title": "CCCE"
+      }
+    }
+  },
 
-"flex-layout.row#dinsutria-mini-footer-logo": {
-  "children": [
-   "image#industria-mini-footer-logo"
-],
-  "props": {
-     "blockClass": "industria-mini-footer-logo",
-     "fulwidth": true,
-     "preventHorizontalStretch": true,
-     "preventVerticalStretch": true,
-     "preserveLayoutOnMobile": true,
-     "horizontalAlign": "center",
-     "verticalAlign": "middle",
-     "paddingTop": 0,
-     "paddingBottom": 0
- }
-},
+  "flex-layout.row#dinsutria-mini-footer-logo": {
+    "children": ["image#industria-mini-footer-logo"],
+    "props": {
+      "blockClass": "industria-mini-footer-logo",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
 
-"image#industria-mini-footer-logo": {
- "props": {
+  "image#industria-mini-footer-logo": {
+    "props": {
       "src": "assets/img/LogoSuperintendencia.svg",
       "alt": "alt",
       "height": "30px",
       "blockClass": "industria-mini-footer-logo",
       "link": {
-           "url": "url",
-           "openNewTab": false,
-           "title": "title"
-   }
- }
-},
+        "url": "https://www.sic.gov.co",
+        "openNewTab": true,
+        "title": "Superintendencia de Industria y Comercio"
+      }
+    }
+  },
 
   "flex-layout.col#links-mini-footer": {
     "children": [
-      "rich-text#links-mini-footer-title",
-      "rich-text#link-mini-footer-terminos-legales",
-      "rich-text#link-mini-footer-la-tienda"
- ],
+      "menu-item#MiPerfil",
+      "menu-item#MisPedidos",
+      "menu-item#PreguntasFrecuentes",
+      "menu-item#SoporteYPQR",
+      "menu-item#ComoCumplirMisSueños",
+      "menu-item#TerminosYCondiciones",
+      "menu-item#BlogLink"
+    ],
     "props": {
-       "blockClass": "links-mini-footer",
-       "fulwidth": true,
-       "preventHorizontalStretch": true,
-       "preventVerticalStretch": false,
-       "preserveLayoutOnMobile": true,
-       "horizontalAlign": "left",
-       "verticalAlign": "TOP",
-       "paddingTop": 0,
-       "paddingBottom": 0
-   }
- },
+      "blockClass": "links-mini-footer",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "left",
+      "verticalAlign": "TOP",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
 
- "rich-text#links-mini-footer-title": {
-   "props": {
-        "text": "QUALIA",
-        "blockClass": "links-mini-footer-text",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT"
-   }
- },
-
- "rich-text#link-mini-footer-terminos-legales": {
-  "props": {
-       "text": "Términos legales",
-       "blockClass": "links-mini-footer-text",
-       "textAlignment": "LEFT",
-       "textPosition": "LEFT"
-  }
-},
-
-"rich-text#link-mini-footer-la-tienda": {
-  "props": {
-       "text": "La Tienda",
-       "blockClass": "links-mini-footer-text",
-       "textAlignment": "LEFT",
-       "textPosition": "LEFT"
-  }
-}, 
-
- "flex-layout.col#numero-mini-footer": {
-    "children": [
-      "rich-text#numero-mini-footer"
- ],
+  "rich-text#links-mini-footer-title": {
     "props": {
-       "blockClass": "numero-mini-footer",
-       "fulwidth": true,
-       "preventHorizontalStretch": true,
-       "preventVerticalStretch": true,
-       "preserveLayoutOnMobile": true,
-       "horizontalAlign": "center",
-       "verticalAlign": "middle",
-       "paddingTop": 0,
-       "paddingBottom": 0
-   }
- },
+      "text": "QUALIA",
+      "blockClass": "links-mini-footer-text",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#link-mini-footer-terminos-legales": {
+    "props": {
+      "text": "Términos legales",
+      "blockClass": "links-mini-footer-text",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#link-mini-footer-la-tienda": {
+    "props": {
+      "text": "La Tienda",
+      "blockClass": "links-mini-footer-text",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "flex-layout.col#numero-mini-footer": {
+    "children": ["rich-text#numero-mini-footer"],
+    "props": {
+      "blockClass": "numero-mini-footer",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
 
   "rich-text#numero-mini-footer": {
     "props": {
-         "text": "+00 00000000",
-         "blockClass": "numero-mini-footer",
-         "textAlignment": "CENTER",
-         "textPosition": "CENTER"
+      "text": "**+00 00000000**",
+      "blockClass": "numero-mini-footer",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
 
   "flex-layout.col#mini-footer-whatsapp-logo": {
-     "children": [
-      "image#mini-footer-whatsapp-logo"
-  ],
-     "props": {
-        "blockClass": "mini-footer-whatsapp-logo",
-        "fulwidth": true,
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "horizontalAlign": "center",
-        "verticalAlign": "middle",
-        "paddingTop": 0,
-        "paddingBottom": 0
+    "children": ["image#mini-footer-whatsapp-logo"],
+    "props": {
+      "blockClass": "mini-footer-whatsapp-logo",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
     }
   },
 
   "image#mini-footer-whatsapp-logo": {
     "props": {
-         "src": "assets/img/whatsapp-footer-logo.svg",
-         "alt": "alt",
-         "height": "40px",
-         "blockClass": "mini-footer-whatsapp-logo",
-         "link": {
-              "url": "url",
-              "openNewTab": false,
-              "title": "title"
+      "src": "assets/img/whatsapp-footer-logo.svg",
+      "alt": "alt",
+      "height": "40px",
+      "blockClass": "mini-footer-whatsapp-logo",
+      "link": {
+        "url": "url",
+        "openNewTab": false,
+        "title": "title"
       }
     }
   }
-  
 }

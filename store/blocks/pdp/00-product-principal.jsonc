@@ -4,7 +4,10 @@
       "responsive-layout.desktop#VistaProducto",
       "responsive-layout.tablet#VistaProducto",
       "responsive-layout.mobile#VistaProducto"
-    ]
+    ],
+    "parent": {
+      "footer": "footer#mini"
+    }  
   },
   "responsive-layout.desktop#VistaProducto": {
     "children": ["flex-layout.row#vistaProducto"]
