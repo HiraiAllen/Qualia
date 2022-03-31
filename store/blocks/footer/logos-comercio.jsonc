@@ -4,7 +4,8 @@
             "flex-layout.col#qualia-q-footer",
             "flex-layout.col#colombia-fintech-footer",
             "flex-layout.col#camara-comercio-footer",
-            "flex-layout.col#industria-comercio-footer"
+            "flex-layout.col#industria-comercio-footer",
+            "rich-text#Hola"
         ],
         "props": {
             "blockClass": "block",
@@ -132,6 +133,15 @@
                 "openNewTab": false,
                 "title": "title"
             }
+        }
+    },
+
+    "rich-text#Hola": {
+        "props": {
+                 "text": "Hola",
+                 "blockClass": "Hola",
+                 "textAlignment": "CENTER",
+                 "textPosition": "CENTER"
         }
     }
 }
