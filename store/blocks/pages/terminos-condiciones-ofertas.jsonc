@@ -109,6 +109,7 @@
          "children": [
             "rich-text#terminos-condiciones-ofertas-content-title",
             "rich-text#terminos-condiciones-ofertas-content-subtitle",
+            "rich-text#terminos-condiciones-ofertas-content-text",
             "rich-text#terminos-condiciones-ofertas-content-text"
     ],
          "props": {
@@ -127,7 +128,7 @@
 
     "rich-text#terminos-condiciones-ofertas-content-title": {
         "props": {
-                 "text": "# Terminos y condiciones de ofertas",
+                 "text": "# Términos y condiciones de ofertas",
                  "blockClass": "terminos-condiciones-content-title",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"

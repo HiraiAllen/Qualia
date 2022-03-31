@@ -10,21 +10,21 @@
    ],
         "props": {
              "blockClass": "legal-links",
-             "fulwidth": true,
+             "fulwidth": false,
              "preventHorizontalStretch": true,
-             "preventVerticalStretch": false,
+             "preventVerticalStretch": true,
              "preserveLayoutOnMobile": true,
              "horizontalAlign": "left",
              "verticalAlign": "TOP",
-             "paddingTop": 0,
-             "paddingBottom": 0,
-             "width": "25%"
+             "paddingTop": 10,
+             "paddingBottom": 5,
+             "width": "20%"
        }
    },
 
    "rich-text#terminos-condiciones-link": {
        "props": {
-                "text": "[Términos y Condiciones](/terminos-condiciones)",
+                "text": "[Términos y condiciones](/terminos-condiciones)",
                 "blockClass": "legal-link",
                 "textAlignment": "LEFT",
                 "textPosition": "LEFT"
@@ -42,7 +42,7 @@
 
     "rich-text#terminos-condiciones-ofertas-link": {
         "props": {
-                 "text": "[Términos y Condiciones de Ofertas](/terminos-condiciones-ofertas)",
+                 "text": "[Términos y condiciones de ofertas](/terminos-condiciones-ofertas)",
                  "blockClass": "legal-link",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
@@ -51,7 +51,7 @@
 
     "rich-text#condiciones-metodos-pago-link": {
         "props": {
-                 "text": "[Condiciones y Métodos de Pago](/condiciones-metodos-pago)",
+                 "text": "[Condiciones y métodos de pago](/condiciones-metodos-pago)",
                  "blockClass": "legal-link",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
@@ -60,7 +60,7 @@
 
     "rich-text#politicas-envio-link": {
         "props": {
-                 "text": "[Políticas de Envío](/politicas-envio)",
+                 "text": "[Políticas de envío](/politicas-envio)",
                  "blockClass": "legal-link",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"
@@ -69,7 +69,7 @@
 
     "rich-text#politicas-devoluciones-garantias-link": {
         "props": {
-                 "text": "[Políticas de Devoluciones y Garantías](/politicas-devoluciones-garantias)",
+                 "text": "[Políticas de devoluciones y Garantías](/politicas-devoluciones-garantias)",
                  "blockClass": "legal-link",
                  "textAlignment": "LEFT",
                  "textPosition": "LEFT"

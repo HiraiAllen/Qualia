@@ -406,6 +406,7 @@
 
 .flexCol--terminos-condiciones-text-container{
   max-width: 1280px;
+  padding: 10px 20px;
 }
 
 
@@ -441,4 +442,8 @@
 .flexCol--AgregarFavorito :global(.vtex-button):hover {
   border: none;
   background-color: transparent;
+}
+
+.flexCol--legal-links {
+  padding: 15px 0;
 }
