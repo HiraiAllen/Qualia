@@ -7,3 +7,12 @@
   top: 0;
   left: auto;
 }
+
+.stackItem--ImagenProducto--summaryPercentageVP {
+  right: 0;
+  text-align: end;
+  font-size: 1.2em;
+}
+.stackItem--product--summaryPercentageVP {
+  text-align: end;
+}

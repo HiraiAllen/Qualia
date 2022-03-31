@@ -190,6 +190,7 @@
   padding: 0;
   background-image: url(assets/img/backgrounds/fondoMensaje.png);
   border-radius: 10px;
+  margin: 10px 0px;
 }
 .wrapper--InfoCredito{
   padding: 0;
@@ -398,12 +399,137 @@
   }
 }
 
+
+.container--ContactaAsesor{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--ContactaAsesor{
+  padding: 0;
+  margin: 0;
+  background-color: #c2edf3;
+  padding: 10px 15px;
+  border-radius: 8px;
+  min-width: 230px;
+}
+.paragraph--ContactaAsesor{
+  padding: 0;
+  margin: 0;
+  color: #14a0b0;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strong--ContactaAsesor{
+  font-size: 1em;
+}
+.link--ContactaAsesor{
+  text-decoration: none;
+  color: #14a0b0;
+  font-size: 1em;
+}
+.image--ContactaAsesor{
+  height: 20px;
+  margin-left: 5px;
+}
+
+.container--tipoProceso{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--tipoProceso{
+  padding: 0;
+  margin: 0;
+}
+.paragraph--tipoProceso{
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+}
+.strong--tipoProceso{
+  font-size: 1em;
+}
+.link--tipoProceso{
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+}
+.headingLevel1--tipoProceso{
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+}
+.headingLevel2--tipoProceso{
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9em;
+}
+.container--bloqueLorem{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--bloqueLorem{
+  padding: 0;
+  width: 600px;
+  height: 200px;
+  background-color: #4fd7e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 auto 20px;
+}
+.paragraph--bloqueLorem{
+  padding: 0;
+  margin: 0;
+  color: #333333;
+  text-align: center;
+}
+.strong--bloqueLorem{
+  font-size: 1.2em;
+}
+.container--Error404{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--Error404{
+  padding: 20px 20px 10px;
+  margin: 0;
+}
+.paragraph--Error404{
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.strong--Error404{
+  font-size: 2em;
+  font-weight: bold;
+  color: #4ED7E5;
+}
+.link--Error404{
+  text-decoration: none;
+  color: #000;
+}
+.headingLevel1--Error404{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+.headingLevel2--Error404{
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9em;
+}
 @media (max-width: 500px){
   .wrapper--legal-link {
     height: fit-content;
     width: 100%;
 }
-
   .paragraph--legal-link {
     width: 100%;
     padding: 5px 10px;

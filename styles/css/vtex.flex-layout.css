@@ -261,6 +261,12 @@
 .flexRow--SliderProductosSugeridosHome {
   margin: auto;
   max-width: 1200px;
+  width: 100%;
+}
+
+.flexRowContent--SliderHome{
+  margin: auto;
+  max-width: 1200px;
 }
 
 .flexCol--IconoValoresHome {
@@ -400,6 +406,10 @@
   padding: 10px 20px;
 }
 
+
+.flexRow--vistaProducto {
+  padding: 0 20px;
+}
 .flexRowContent--main-header-mobile{
   background-color: #fff;
 }
@@ -409,11 +419,24 @@
 }
 
 @media (max-width: 1600px) {
-    
   .flexCol--terminos-condiciones-text-container{
     max-width: 1050px;
   }
 }
+
+.flexRowContent--MediosPagoAsesor{
+  align-items: center;
+}
+
+
+.flexCol--AgregarFavorito :global(.vtex-button) {
+  border: none;
+  margin-top: 3px;
+  background-color: transparent;
+}
+.flexCol--AgregarFavorito :global(.vtex-button):hover {
+  border: none;
+  background-color: transparent;
 
 @media (max-width: 500px){
   .flexCol--terminos-condiciones-text-container{

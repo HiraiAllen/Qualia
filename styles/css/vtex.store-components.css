@@ -109,7 +109,7 @@
 .productNameContainer {
   color: #3f3f40;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 10px 0 0;
 }
 
@@ -243,4 +243,10 @@
   .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     width: 100%;
   }
+}
+
+.productDescriptionContainer {
+  font-size: .8em;
+  text-align: justify;
+  line-height: 1.3;
 }

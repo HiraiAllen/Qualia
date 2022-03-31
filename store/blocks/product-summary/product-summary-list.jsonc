@@ -24,6 +24,7 @@
       "blockClass": "summaryPercentage"
     }
   },
+
   "flex-layout.row#savingsSummaryListDesktop": {
     "props": {
       "colSizing": "auto",

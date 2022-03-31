@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text#Desarrollo",
+      // "rich-text#Desarrollo",
       "flex-layout.row#ValoresHome",
       "list-context.image-list#SliderPpal",
       // "list-context.image-list#demo",
