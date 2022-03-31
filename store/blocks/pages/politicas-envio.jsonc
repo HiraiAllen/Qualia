@@ -16,7 +16,7 @@
     },
     "responsive-layout.mobile#politicas-envio": {
         "children": [
-            "flex-layout.row#politicas-envio"
+            "flex-layout.row#politicas-envio-mobile"
         ]
     },
 
@@ -152,7 +152,7 @@
         }
     },
     //Mobile
-    "flex-layout.row#terminos-condiciones-mobile": {
+    "flex-layout.row#politicas-envio-mobile": {
          "children": [
             "flex-layout.col#links-content-politicas-envio-mobile"
     ],

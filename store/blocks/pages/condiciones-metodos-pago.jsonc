@@ -16,7 +16,7 @@
     },
     "responsive-layout.mobile#condiciones-metodos-pago": {
         "children": [
-            "flex-layout.row#condiciones-metodos-pago"
+            "flex-layout.row#condiciones-metodos-pago-mobile"
         ]
     },
 
@@ -152,7 +152,7 @@
         }
     },
     //Mobile
-    "flex-layout.row#terminos-condiciones-mobile": {
+    "flex-layout.row#condiciones-metodos-pago-mobile": {
          "children": [
             "flex-layout.col#links-content-condiciones-metodos-pago-mobile"
     ],

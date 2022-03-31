@@ -535,6 +535,10 @@
   color: #000;
   font-size: 0.9em;
 }
+
+.paragraph--numero-mini-footer{
+  color: #fff;
+}
 @media (max-width: 500px){
   .wrapper--legal-link {
     height: fit-content;
@@ -550,7 +554,6 @@
 }
 .heading--terminos-condiciones-content-title{
   color:#4ED7E5;
-  text-align: left;
   margin: 30px 0px 5px 0px;
   font-size: 28px;
   text-align: center;
