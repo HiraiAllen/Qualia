@@ -451,3 +451,33 @@
 .flexCol--legal-links {
   padding: 15px 0;
 }
+
+.flexRowContent--mini-footer-logos{
+  align-items: center;
+}
+
+.flexCol--links-mini-footer{
+  margin-left: 30px;
+}
+
+.flexRowContent--mini-footer-mobile{
+  background-color: #F80F49;
+  padding: 20px 0px;
+}
+
+.flexCol--mini-footer-mobile{
+  align-items: center;
+}
+
+.flexRowContent--mini-footer-mobile-comercio-fintech-industrial-logos{
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 500px){
+  .flexRow--ubuntec-mini-footer-logo, .flexRow--industria-mini-footer-logo, .flexCol--numero-mini-footer{
+    border: none;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+}

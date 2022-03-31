@@ -16,7 +16,7 @@
     },
     "responsive-layout.mobile#terminos-condiciones-ofertas": {
         "children": [
-            "flex-layout.row#terminos-condiciones-ofertas"
+            "flex-layout.row#terminos-condiciones-ofertas-mobile"
         ]
     },
 
@@ -148,7 +148,7 @@
         }
     },
     //Mobile
-    "flex-layout.row#terminos-condiciones-mobile": {
+    "flex-layout.row#terminos-condiciones-ofertas-mobile": {
          "children": [
             "flex-layout.col#links-content-terminos-condiciones-ofertas-mobile"
     ],

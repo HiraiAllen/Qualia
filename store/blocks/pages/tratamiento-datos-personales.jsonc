@@ -152,7 +152,7 @@
         }
     },
     //Mobile
-    "flex-layout.row#terminos-condiciones-mobile": {
+    "flex-layout.row#tratamiento-datos-personales-mobile": {
          "children": [
             "flex-layout.col#links-content-tratamiento-datos-personales-mobile"
     ],
