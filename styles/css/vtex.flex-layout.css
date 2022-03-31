@@ -455,6 +455,13 @@
 .flexCol--FormularioContactenos {
   max-width: 500px;
 }
+.flexColChild--FormularioContactenos {
+  padding: 30px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
 .flexRowContent--FormularioContactenos :global(.vtex-input-prefix__group),
 .flexRowContent--FormularioContactenosMobile :global(.vtex-input-prefix__group) {
   border: 2px solid #4ed7e5;
@@ -498,4 +505,10 @@
   width: 20px;
   height: 20px;
   color: #4ed7e5;
+}
+
+.flexRowContent--ContactenosIconos {
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px 0;
 }
