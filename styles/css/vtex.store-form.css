@@ -1,0 +1,19 @@
+.formSubmitContainer--BotonEnviar {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.formSubmitButton--BotonEnviar :global(.vtex-button){
+    border: none !important;
+    border-radius: 5px;
+    background-color: #4ed7e5;
+    padding: 3px 10px;
+    color: #fff;
+    transition: .5s all ease;
+    font-weight: bold;
+    width: 100%;
+}
+.formSubmitButton--BotonEnviar:hover :global(.vtex-button){
+    background-color: #4ed7e5;
+    color: #FFF;
+}

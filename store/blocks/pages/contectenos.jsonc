@@ -7,7 +7,13 @@
     ]
   },
   "responsive-layout.desktop#Contactenos": {
-    "children": ["image#bannerContactenos", "rich-text#Contactenos", "form"]
+    "children": [
+      "image#bannerContactenos", 
+      "flex-layout.row#FormularioContactenos",
+      "flex-layout.row#ContactenosIconos",
+      "flex-layout.row#FormularioBoletinCT",
+      "flex-layout.row#solicitar-credito"
+    ]
   },
   "responsive-layout.tablet#Contactenos": {
     "children": ["image#bannerContactenos", "rich-text#Contactenos"]
@@ -15,6 +21,52 @@
   "responsive-layout.mobile#Contactenos": {
     "children": ["image#bannerContactenos", "rich-text#Contactenos"]
   },
+
+
+
+  "flex-layout.row#FormularioContactenos": {
+    "children": [
+      "flex-layout.col#FormularioContactenos"
+    ],
+    "props": {
+      "blockClass": "FormularioContactenos",
+      "fulwidth": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 8,
+      "paddingBottom": 4,
+      "colGap": 4
+    }
+  },
+  "flex-layout.col#FormularioContactenos": {
+    "children": [
+      "form#contactenos"
+    ],
+    "props": {
+      "blockClass": "FormularioContactenos",
+      "fulwidth": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "left",
+      "verticalAlign": "top",
+      "paddingTop": 5,
+      "paddingBottom": 0
+    }
+  },
+
+
+
+
+
+
+
+
+
+
   "image#bannerContactenos": {
     "props": {
       "src": "assets/img/banners/bannerContactenos.png",
@@ -32,7 +84,7 @@
     }
   },
 
-  "form": {
+  "form#contactenos": {
     "props": {
       "entity": "contactenos",
       "schema": "contacto",
@@ -42,8 +94,11 @@
       "form-input.text#name",
       "form-input.text#phone",
       "form-input.text#email",
+      "form-input.text#type",
       "form-input.textarea#comments",
-      "flex-layout.row#Aceptacion"
+      "flex-layout.row#Aceptacion-tc",
+      "flex-layout.row#Aceptacion-dp",
+      "flex-layout.row#contactenosBotonEnviar"
     ],
     "blocks": ["form-success"]
   },
@@ -69,6 +124,14 @@
       "blockClass": "CampoFormulario"
     }
   },
+  "form-input.text#type": {
+    "props": {
+      "pointer": "#/properties/type",
+      "placeholder": "Tipo de caso",
+      "label": false,
+      "blockClass": "CampoFormulario"
+    }
+  },
   "form-input.text#document": {
     "props": {
       "pointer": "#/properties/document",
@@ -83,12 +146,20 @@
       "label": false
     }
   },
-  "form-input.checkbox#agreement": {
+  "form-input.checkbox#agreement-tc": {
     "props": {
-      "pointer": "#/properties/agreement",
-      "label": "He leído y acepto la política de tratamiento de datos personales",
+      "pointer": "#/properties/agreement-tc",
+      "label": "Acepto términos y condiciones de uso.",
       "blockClass": "textoAceptoPoliticas",
-      "marginTop": 10
+      "marginTop": 2
+    }
+  },
+  "form-input.checkbox#agreement-dp": {
+    "props": {
+      "pointer": "#/properties/agreement-dp",
+      "label": "Autorizo el tratamiento de Datos Personales.",
+      "blockClass": "textoAceptoPoliticas",
+      "marginTop": 2
     }
   },
   "form-input.text#phone": {
@@ -99,31 +170,138 @@
       "blockClass": "CampoFormulario"
     }
   },
+  "flex-layout.row#contactenosBotonEnviar": {
+     "children": [
+        "flex-layout.col#contactenosBotonEnviar"
+  ],
+     "props": {
+        "blockClass": "contactenosBotonEnviar",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+  "flex-layout.col#contactenosBotonEnviar": {
+     "children": [
+      "form-submit"
+  ],
+     "props": {
+        "blockClass": "contactenosBotonEnviar",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+
   "form-submit": {
     "props": {
-      "label": "Enviar",
+      "label": "Contactar",
       "blockClass": "BotonEnviar"
     }
   },
-  "flex-layout.row#Aceptacion": {
-    "children": ["form-input.checkbox#agreement", "form-submit"],
+  "flex-layout.row#Aceptacion-tc": {
+    "children": ["form-input.checkbox#agreement-tc"],
     "props": {
       "blockClass": "Aceptacion",
       "fulwidth": false,
       "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
       "preserveLayoutOnMobile": true,
-      "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "paddingTop": 4,
+      "paddingTop": 2,
+      "paddingBottom": 0
+    }
+  },
+  "flex-layout.row#Aceptacion-dp": {
+    "children": ["form-input.checkbox#agreement-dp"],
+    "props": {
+      "blockClass": "Aceptacion",
+      "fulwidth": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "verticalAlign": "middle",
+      "paddingTop": 2,
       "paddingBottom": 0
     }
   },
   "rich-text#successSubmit": {
     "props": {
-      "text": "¡Gracias por escribirnos a **Qualia** daremos respuesta a tu \n solicitud lo más pronto posible.",
+      "text": "¡Gracias por escribirnos! \n En **Qualia** daremos respuesta a tu \n solicitud lo más pronto posible.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
+    }
+  },
+
+
+  "flex-layout.row#ContactenosIconos": {
+     "children": [
+       "rich-text#ContactenosIconoGrisCorreo",
+       "rich-text#ContactenosIconoGrisTelefono",
+       "rich-text#ContactenosIconoGrisFacebook",
+       "rich-text#ContactenosIconoGrisInstagram"
+  ],
+     "props": {
+        "blockClass": "ContactenosIconos",
+        "fulwidth": false,
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+  "rich-text#ContactenosIconoGris": {
+    "props": {
+         "text": "ContactenosIconoGris",
+         "blockClass": "ContactenosIconoGris",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#ContactenosIconoGrisCorreo": {
+    "props": {
+         "text": "![Escríbenos](assets/img/iconos/iconoGris_Correo.svg) [correo@qualia.com](mailto:correo@qualia.com)",
+         "blockClass": "ContactenosIconoGris",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER"
+    }
+  },
+  "rich-text#ContactenosIconoGrisTelefono": {
+    "props": {
+         "text": "![Llámanos](assets/img/iconos/iconoGris_Telefono.svg) [+000 0000000](tel:0000000000)",
+         "blockClass": "ContactenosIconoGris",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER"
+    }
+  },
+  "rich-text#ContactenosIconoGrisFacebook": {
+    "props": {
+         "text": "![Facebook Qualia](assets/img/iconos/iconoGris_Facebook.svg) [Facebook.com/qualia](https://www.facebook.com/qualia?target=_blank)",
+         "blockClass": "ContactenosIconoGris",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER"
+    }
+  },
+  "rich-text#ContactenosIconoGrisInstagram": {
+    "props": {
+         "text": "![Instagram Qualia](assets/img/iconos/iconoGris_Instagram.svg) [@qualia](https://www.instagram.com/qualia?target=_blank)",
+         "blockClass": "ContactenosIconoGris",
+         "textAlignment": "CENTER",
+         "textPosition": "CENTER"
     }
   }
 }

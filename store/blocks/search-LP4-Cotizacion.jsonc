@@ -18,7 +18,7 @@
   "flex-layout.row#Cotizacion": {
     "children": ["flex-layout.col#Cotizacion"],
     "props": {
-      "blockClass": "block",
+      "blockClass": "Cotizacion",
       "fulwidth": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
@@ -30,9 +30,11 @@
     }
   },
   "flex-layout.col#Cotizacion": {
-    "children": ["rich-text#Cotizar", "rich-text#Cotizacion"],
+    "children": [
+      "flex-layout.row#FormularioContactenos",
+      "rich-text#Cotizacion"],
     "props": {
-      "blockClass": "block",
+      "blockClass": "Cotizacion",
       "fulwidth": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
