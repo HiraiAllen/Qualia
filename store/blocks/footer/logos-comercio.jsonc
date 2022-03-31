@@ -94,7 +94,7 @@
     },
     "image#camara-comercio-logo": {
         "props": {
-            "src": "assets/img/camara-comercio.png",
+            "src": "assets/img/LogoCamaraComercioElectronicoBogota.svg",
             "alt": "Colombia Fintech",
             "height": "60px",
             "blockClass": "industria-camara-comercio",
@@ -123,7 +123,7 @@
     },
     "image#industria-comercio-logo": {
         "props": {
-            "src": "assets/img/industria-comercio.png",
+            "src": "assets/img/LogoSuperintendencia.svg",
             "alt": "Colombia Fintech",
             "height": "45px",
             "blockClass": "industria-camara-comercio",

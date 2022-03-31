@@ -16,7 +16,7 @@
     },
     "responsive-layout.mobile#politicas-devoluciones-garantias": {
         "children": [
-            "flex-layout.row#politicas-devoluciones-garantias"
+            "flex-layout.row#politicas-devoluciones-garantias-mobile"
         ]
     },
 
@@ -152,7 +152,7 @@
         }
     },
     //Mobile
-    "flex-layout.row#terminos-condiciones-mobile": {
+    "flex-layout.row#politicas-devoluciones-garantias-mobile": {
          "children": [
             "flex-layout.col#links-content-politicas-devoluciones-garantias-mobile"
     ],

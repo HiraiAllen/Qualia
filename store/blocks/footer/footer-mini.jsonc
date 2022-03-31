@@ -20,6 +20,64 @@
     }
   },
 
+  "footer-layout.mobile#mini": {
+    "children": [
+      "flex-layout.row#mini-footer-mobile"
+    ]
+  },
+  "flex-layout.row#mini-footer-mobile": {
+     "children": [
+      "flex-layout.col#mini-footer-mobile-col"
+  ],
+     "props": {
+        "blockClass": "mini-footer-mobile",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },  
+
+  "flex-layout.col#mini-footer-mobile-col": {
+    "children": [
+      "flex-layout.row#qualia-mini-footer-logo",
+      "flex-layout.row#ubuntec-mini-footer-logo",
+      "flex-layout.row#mini-footer-mobile-comercio-fintech-industrial-logos",
+      "flex-layout.col#links-mini-footer",
+      "flex-layout.col#numero-mini-footer",
+      "flex-layout.col#mini-footer-whatsapp-logo"
+    ],
+    "props": {
+      "blockClass": "mini-footer-mobile",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#mini-footer-mobile-comercio-fintech-industrial-logos": {
+     "children": [
+      "flex-layout.row#fintech-mini-footer-logo",
+      "flex-layout.row#camara-comercio-mini-footer-logo",
+      "flex-layout.row#dinsutria-mini-footer-logo"
+  ],
+     "props": {
+        "blockClass": "mini-footer-mobile-comercio-fintech-industrial-logos",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+    }
+  },
+
   //Componentes del footer desktop
   "flex-layout.row#mini-footer-logos": {
     "children": [
@@ -157,9 +215,9 @@
 
 "image#camara-comercio-mini-footer-logo": {
  "props": {
-      "src": "assets/img/camara-comercio.png",
+      "src": "assets/img/LogoCamaraComercioElectronicoBogota.svg",
       "alt": "alt",
-      "height": "60px",
+      "height": "40px",
       "blockClass": "camara-comercio-mini-footer-logo",
       "link": {
            "url": "url",
@@ -188,9 +246,9 @@
 
 "image#industria-mini-footer-logo": {
  "props": {
-      "src": "assets/img/industria-comercio.png",
+      "src": "assets/img/LogoSuperintendencia.svg",
       "alt": "alt",
-      "height": "40px",
+      "height": "30px",
       "blockClass": "industria-mini-footer-logo",
       "link": {
            "url": "url",
@@ -199,14 +257,6 @@
    }
  }
 },
-
-
-  "footer-layout.mobile#mini": {
-    "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
-    ]
-  },
 
   "flex-layout.col#links-mini-footer": {
     "children": [
