@@ -399,6 +399,7 @@
   }
 }
 
+
 .container--ContactaAsesor{
   align-self: center;
   padding: 0;
@@ -523,4 +524,34 @@
   text-decoration: none;
   color: #000;
   font-size: 0.9em;
+}
+@media (max-width: 500px){
+  .wrapper--legal-link {
+    height: fit-content;
+    width: 100%;
+}
+  .paragraph--legal-link {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #eee;
+    border: 1px solid #eee;
+}
+.heading--terminos-condiciones-content-title{
+  color:#4ED7E5;
+  text-align: left;
+  margin: 30px 0px 5px 0px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.container--terminos-condiciones-content-subtitle{
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--terminos-condiciones-content-text{
+  text-align: justify;
+}
 }

@@ -66,7 +66,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/account",
+        "href": "/tratamiento-datos-personales",
         "noFollow": false,
         "tagTitle": "Tratamiento de datos personales",
         "text": "Tratamiento de datos personales"
@@ -82,7 +82,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/account",
+        "href": "/terminos-condiciones-ofertas",
         "noFollow": false,
         "tagTitle": "Términos y condiciones de ofertas",
         "text": "Términos y condiciones de ofertas"
@@ -98,7 +98,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/account",
+        "href": "/condiciones-metodos-pago",
         "noFollow": false,
         "tagTitle": "Condiciones y métodos de pago",
         "text": "Condiciones y métodos de pago"
@@ -114,7 +114,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/account",
+        "href": "/politicas-envio",
         "noFollow": false,
         "tagTitle": "Póliticas de envío",
         "text": "Póliticas de envío"
@@ -130,7 +130,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/account",
+        "href": "/politicas-devoluciones-garantia",
         "noFollow": false,
         "tagTitle": "Póliticas de devoluciones y garantías",
         "text": "Póliticas de devoluciones y garantías"
