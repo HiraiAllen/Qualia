@@ -1,0 +1,25 @@
+{
+    "condition-layout.product#Cotizacion":{
+        "props": {
+          "conditions": [
+            {
+              "subject": "specificationProperties",
+              "arguments": {
+                "name": "Tipo",
+                "value": "Cotización"
+              }
+            }
+          ],
+          "matchType": "any",
+          "Then": "rich-text#Cotizacion"
+        }
+      },
+      "rich-text#Cotizacion": {
+          "props": {
+                   "text": "Esto es una LP1 - Cotización",
+                   "blockClass": "tipoProceso",
+                   "textAlignment": "LEFT",
+                   "textPosition": "LEFT"
+          }
+      }
+}

@@ -1,0 +1,38 @@
+{
+  "condition-layout.product#Descuento": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Tipo",
+            "value": "Descuento"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.col#Descuento"
+    }
+  },
+
+  "flex-layout.col#Descuento": {
+    "children": ["rich-text#Descuento", "Descuento"],
+    "props": {
+      "blockClass": "Descuento",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "rich-text#Descuento": {
+    "props": {
+      "text": "Esto es una LP2 - Descuento",
+      "blockClass": "tipoProceso",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  }
+}

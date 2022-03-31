@@ -11,8 +11,7 @@
             }
           ],
           "matchType": "any",
-          "Then": "rich-text#CondicionVerdadera",
-          "Else": "rich-text#CondicionFalsa"
+          "Then": "rich-text#CondicionVerdadera"
         }
       },
       "rich-text#CondicionVerdadera": {

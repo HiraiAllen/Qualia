@@ -6,7 +6,7 @@
 
 .sellingPrice {
   color: #3f3f40;
-  font-size: 1.25rem;
+  font-size: 1.25em;
 }
 
 .sellingPriceValue {
@@ -95,4 +95,36 @@
   color: #B0AFB5;  
   font-size: 12px;
   font-weight: bold;
+}
+.savings--summaryPercentageVP {
+  background: #f80e48;
+  padding: 5px;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.savingsPercentage--summaryPercentageVP {
+  font-size: 1em;
+  font-weight: bold;
+  color: #FFF;
+  letter-spacing: -1px;
+}
+
+.savings--summaryPercentageVPLateral {
+  background-image: url(assets/img/backgrounds/fondoDescuento.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.savingsPercentage--summaryPercentageVPLateral {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: -1px;
 }

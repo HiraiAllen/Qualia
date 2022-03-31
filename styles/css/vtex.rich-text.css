@@ -190,6 +190,7 @@
   padding: 0;
   background-image: url(assets/img/backgrounds/fondoMensaje.png);
   border-radius: 10px;
+  margin: 10px 0px;
 }
 .wrapper--InfoCredito{
   padding: 0;
@@ -396,5 +397,41 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+}
+
+.container--ContactaAsesor{
+  align-self: center;
+  padding: 0;
+}
+.wrapper--ContactaAsesor{
+  padding: 0;
+  margin: 0;
+  background-color: #c2edf3;
+  padding: 10px 15px;
+  border-radius: 8px;
+  min-width: 230px;
+}
+.paragraph--ContactaAsesor{
+  padding: 0;
+  margin: 0;
+  color: #14a0b0;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strong--ContactaAsesor{
+  font-size: 1em;
+}
+.link--ContactaAsesor{
+  text-decoration: none;
+  color: #14a0b0;
+  font-size: 1em;
+}
+.image--ContactaAsesor{
+  height: 20px;
+  margin-left: 5px;
 }
 
