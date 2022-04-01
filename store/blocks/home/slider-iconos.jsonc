@@ -143,9 +143,9 @@
             "height": "90px",
             "blockClass": "IconoHome",
             "link": {
-                "url": "/",
+                "url": "/movilidad",
                 "openNewTab": false,
-                "title": "Cómics"
+                "title": "Movilidad"
             }
         }
     },
